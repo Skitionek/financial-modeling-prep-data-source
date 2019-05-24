@@ -1,4 +1,3 @@
-'use strict';
 
 import AlphaVantageMock from "../mocks/alphaVantageMock";
 import { matchesSnapshot } from "../jest.extensions";

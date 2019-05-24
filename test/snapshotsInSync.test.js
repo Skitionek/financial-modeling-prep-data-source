@@ -9,11 +9,6 @@ import merge from 'lodash.merge';
 const jsonic = require('jsonic');
 
 function SNAPtoJS(snap) {
-	const par =
-		snap
-			.replace(/Object {/g, '{')
-			.replace(/Array \[/g, '[');
-	console.log(par);
 	return jsonic(
 		snap
 			.replace(/Object {/g, '{')
@@ -35,11 +30,11 @@ Object.keys(tmp).forEach(key => {
 describe.each(Object.keys(integrationSnapshots))("%s", groupKey => {
 	const integrationSnapshot = integrationSnapshots[groupKey];
 	const unitSnapshot = {};
-	const tmp = require('./unit/__snapshots__/' + groupKey + '.unit.test.js.snap');
-	Object.keys(tmp).forEach(key => {
+	const tmp_unitSnapshot = require(`./unit/__snapshots__/${  groupKey  }.unit.test.js.snap`);
+	Object.keys(tmp_unitSnapshot).forEach(key => {
 		const [k1] = key.split(' ');
 		merge(unitSnapshot, {
-			[k1]: SNAPtoJS(tmp[key])
+			[k1]: SNAPtoJS(tmp_unitSnapshot[key])
 		})
 	});
 	it('contains same groups', ()=>expect(Object.keys(unitSnapshot)).toEqual(Object.keys(integrationSnapshot)));

@@ -1,4 +1,3 @@
-'use strict';
 
 /* DOCUMENT INFORMATION
 	- Author:   Dominik Maszczyk
@@ -664,5 +663,4 @@ it(`the url builder with undefined params yields the base url`, () => {
 // 			expect(error).toEqual('An AlphaVantage error occurred. {}');
 // 		});
 // });
-
 

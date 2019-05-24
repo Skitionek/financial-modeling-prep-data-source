@@ -1,5 +1,3 @@
-'use strict';
-
 
 const series = fn => function ({ from_symbol, to_symbol, interval, outputsize }) {
 	return this.util.fn(
@@ -15,7 +13,7 @@ module.exports = AlphaVantageAPI => ({
 	weekly: series('FX_WEEKLY'),
 	monthly: series('FX_MONTHLY'),
 
-	exchangeTimeSeries: function ({ from_symbol, to_symbol, interval, outputsize }) {
+	exchangeTimeSeries ({ from_symbol, to_symbol, interval, outputsize }) {
 		const intraday = interval.match(/\d+min/);
 		if (intraday)
 			return this.util.fn('FX_INTRADAY',

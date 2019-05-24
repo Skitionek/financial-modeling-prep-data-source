@@ -12,8 +12,8 @@
   },
   "Technical Analysis: MACD": {
     "2019-05-24 16:00:01": {
-      "MACD_Hist": null,
       "MACD_Signal": null,
+      "MACD_Hist": null,
       "MACD": null
     }
   }

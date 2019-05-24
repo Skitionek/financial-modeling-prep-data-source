@@ -1,4 +1,3 @@
-'use strict';
 
 /**
  * Util function to get the timeseries data.
@@ -46,7 +45,6 @@ const search = (fn) => function ({ keywords }) {
 	});
 };
 
-
 const polish_global_quote = data => {
 	data = data.global_quote;
 	delete data.global_quote;
@@ -69,7 +67,7 @@ module.exports = {
 	quote: series('GLOBAL_QUOTE', polish_global_quote),
 	search: search('SYMBOL_SEARCH'),
 
-	exchangeTimeSeries: function ({ symbol, interval, outputsize }) {
+	exchangeTimeSeries ({ symbol, interval, outputsize }) {
 		const intraday = interval.match(/\d+min/);
 		if (intraday)
 			return this.util.fn('TIME_SERIES_INTRADAY',
@@ -80,7 +78,7 @@ module.exports = {
 		).call(this, { symbol, outputsize });
 	},
 
-	exchangeTimeSeries_adjusted: function ({ symbol, interval, outputsize }) {
+	exchangeTimeSeries_adjusted ({ symbol, interval, outputsize }) {
 		return this.util.fn(`TIME_SERIES_${interval.toUpperCase()}_ADJUSTED`,
 			'time_series'
 		).call(this, { symbol, outputsize });

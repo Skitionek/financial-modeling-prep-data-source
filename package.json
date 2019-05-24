@@ -1,8 +1,8 @@
 {
-  "name": "alpha-vantage",
+  "name": "alpha-vantage-data-source",
   "version": "0.1.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
@@ -29,22 +29,33 @@
     "Zack Urben <zackurben@gmail.com> (http://zackurben.com)"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/biosustain-gem/alpha-vantage",
+  "homepage": "https://github.com/biosustain-gem/alpha-vantage-data-source",
   "bugs": {
-    "web": "https://github.com/biosustain-gem/alpha-vantage/issues"
+    "web": "https://github.com/biosustain-gem/alpha-vantage-data-source/issues"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "scripts": {
     "start": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
-    "test": "jest",
     "prebuild": "npm run clean",
-    "build": "babel src --out-dir ./dist --source-maps --copy-files",
-    "clean": "rimraf scripts/dist/",
     "debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "clean": "rimraf lib",
+    "test": "npm run lint && npm run cover",
+    "test:prod": "cross-env BABEL_ENV=production npm run test",
+    "test:only": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:examples": "node examples/",
+    "cover": "jest --coverage",
+    "lint": "eslint src test",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib --source-maps --copy-files",
+    "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
@@ -57,6 +68,14 @@
     "@graphql-modules/di": "^0.7.1",
     "apollo-server": "^2.4.8",
     "apollo-server-testing": "^2.4.8",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-uber-es2015": "^3.1.2",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-prettier": "^3.1.0",
     "gql-generator-node": "^1.0.10",
     "graphql-import-node": "0.0.4",
     "jest": "^24.7.1",
@@ -158,7 +177,8 @@
       "indent": [
         "error",
         "tab"
-      ]
+      ],
+      "func-names": "off"
     }
   },
   "jest": {
@@ -182,6 +202,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Skitionek/alpha-vantage.git"
+    "url": "https://github.com/Skitionek/alpha-vantage-data-source.git"
   }
 }

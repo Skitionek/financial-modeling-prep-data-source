@@ -1,7 +1,6 @@
-'use strict';
 
 module.exports = {
-	sector: function() {
+	sector() {
 		return this.util.fn('SECTOR').call(this,{})
 	}
 };

@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = AlphaVantageAPI => {
 
 	const formatKey = key => {
@@ -24,9 +22,12 @@ module.exports = AlphaVantageAPI => {
 			return obj.map(polishKeys)
 		} else if (obj instanceof Object) {
 			const result = {};
-			Object.entries(obj).forEach(([k, v]) => result[formatKey(k)] = polishKeys(v));
+			Object.entries(obj).forEach(([k, v]) => {
+				result[formatKey(k)] = polishKeys(v)
+			});
 			return result
-		} else return obj;
+		}
+		return obj;
 	};
 
 	const polish = () => {
@@ -54,12 +55,12 @@ module.exports = AlphaVantageAPI => {
 		return data;
 	}
 
-	const url = function(type,params={}) {
+	const url = function (type, params = {}) {
 		const paramsWithFunction = [
 			['function', type],
 			...Object.entries(params).filter(([k, v]) => v),
 			['apikey', this.apikey]
-		].filter(([k,v])=>!(v===undefined||k===undefined));
+		].filter(([k, v]) => !(v === undefined || k === undefined));
 		return `${this.baseURL}?${paramsWithFunction.map(([key, value]) => `${key}=${value}`).join('&')}`;
 	};
 
@@ -74,9 +75,9 @@ module.exports = AlphaVantageAPI => {
 	 */
 	const fn = function (type, ...additionalPolishers) {
 		return function (params) {
-			let url = this.util.url(type,params);
+			const compiled_url = this.util.url(type, params);
 			let result = this
-				.get(url)
+				.get(compiled_url)
 				.then(data => {
 					if (
 						data['Meta Data'] === undefined &&
@@ -84,25 +85,24 @@ module.exports = AlphaVantageAPI => {
 						data['Global Quote'] === undefined &&
 						data.bestMatches === undefined
 					) {
-						throw Error(`An AlphaVantage error occurred while querying ${url} . ${data.Information || JSON.stringify(data)}`);
+						throw Error(`An AlphaVantage error occurred while querying ${compiled_url} . ${data.Information || JSON.stringify(data)}`);
 					}
-
 
 					return data;
 				});
-			if(!this.getRaw) {
+			if (!this.getRaw) {
 				additionalPolishers.unshift(polishKeys);
-				additionalPolishers.forEach(polisher =>
+				additionalPolishers.forEach(polisher => {
 					result = result.then(
 						typeof polisher === 'function' ? polisher
 							: polish[polisher])
-				);
+				});
 			}
 			return result
 		}
 	};
 
-	Object.assign(AlphaVantageAPI, { fn }); //assign static method
+	Object.assign(AlphaVantageAPI, { fn }); // assign static method
 	return {
 		polish,
 		fn,

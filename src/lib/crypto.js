@@ -1,5 +1,3 @@
-'use strict';
-
 
 module.exports = AlphaVantageAPI => {
 	/**
@@ -24,7 +22,7 @@ module.exports = AlphaVantageAPI => {
 	const polish_realtime_currency_exchange_rate = data => data.realtime_currency_exchange_rate;
 
 	return {
-		exchangeRates: function ({ from_currency, to_currency }) {
+		exchangeRates ({ from_currency, to_currency }) {
 			return this.util.fn('CURRENCY_EXCHANGE_RATE', polish_realtime_currency_exchange_rate).call(this, {
 				from_currency,
 				to_currency
@@ -34,7 +32,7 @@ module.exports = AlphaVantageAPI => {
 		weekly: series('DIGITAL_CURRENCY_WEEKLY'),
 		monthly: series('DIGITAL_CURRENCY_MONTHLY'),
 
-		exchangeTimeSeries: function ({ symbol, market, interval }) {
+		exchangeTimeSeries ({ symbol, market, interval }) {
 			return this.util.fn(`DIGITAL_CURRENCY_${interval.toUpperCase()}`,
 				'time_series'
 			).call(this, { symbol, market });

@@ -33,7 +33,7 @@ const monthly = { symbol: "MSFT" };
 const timeSeries = [
 	...daily.map(d => ({ ...d, interval: 'daily' })),
 	{ ...weekly, interval: 'weekly' },
-	{ ...monthly, interval: 'monthly' },
+	{ ...monthly, interval: 'monthly' }
 ];
 export const data = {
 	intraday,

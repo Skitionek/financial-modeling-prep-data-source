@@ -27,12 +27,12 @@ function limitArrays(obj) {
 	} else if (obj instanceof Object) {
 		const r = {};
 		let entries = Object.entries(obj);
-		const [k, v] = entries[0];
+		const [k] = entries[0];
 		if (k.match(/[0-9]{4}-[0-9]{2}-[0-9]{2}/))
 			entries = [entries[0]];
 		entries
-			.forEach(([k, v]) => {
-				r[k] = limitArrays(v)
+			.forEach(([ki, v]) => {
+				r[ki] = limitArrays(v)
 			});
 		return r;
 	}
@@ -48,7 +48,7 @@ describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", gro
 		const response = await alpha[groupKey][key](varSet);
 		const structure = obtainStructure(limitArrays(response));
 
-		const json = JSON.stringify(structure,undefined,2);
+		const json = JSON.stringify(structure, undefined, 2);
 		const relative_path = `./${groupKey}/${key}.generated.json`;
 		fs.writeFile(path.join(__dirname, relative_path), json, function (err) {
 			if (err) throw err;

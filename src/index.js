@@ -21,7 +21,7 @@ class AlphaVantageAPI extends RESTDataSource {
 		config = Object.assign({}, { key: process.env[apiKey] }, config);
 
 		// Check for config errors.
-		let errors = [];
+		const errors = [];
 		['key'].forEach(prop => {
 			if (config[prop] === undefined) {
 				errors.push(prop);

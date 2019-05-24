@@ -11,7 +11,7 @@ export function importFunctions(absolute_path, PREFIX) {
 	const generated = {};
 	const handcrafted = {};
 	fs.readdirSync(absolute_path).forEach(file => {
-		const [name,ext, ext2] = file.split('.');
+		const [name,ext] = file.split('.');
 		if (ext==='generated') {
 			generated[PREFIX + name.toUpperCase()] = require(path.join(absolute_path, file));
 		} else if (ext==='json') {

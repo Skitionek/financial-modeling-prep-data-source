@@ -9,5 +9,5 @@ import { importFunctions } from "../util";
 const PREFIX = '';
 
 export default {
-	...importFunctions(__dirname,PREFIX),
+	...importFunctions(__dirname,PREFIX)
 }
