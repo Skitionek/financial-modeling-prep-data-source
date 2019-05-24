@@ -1,0 +1,133 @@
+{
+  "Meta Data": {
+    "Information": null,
+    "Last Refreshed": null
+  },
+  "Rank A: Real-Time Performance": {
+    "Financials": null,
+    "Materials": null,
+    "Energy": null,
+    "Real Estate": null,
+    "Consumer Discretionary": null,
+    "Health Care": null,
+    "Information Technology": null,
+    "Industrials": null,
+    "Communication Services": null,
+    "Utilities": null,
+    "Consumer Staples": null
+  },
+  "Rank B: 1 Day Performance": {
+    "Utilities": null,
+    "Real Estate": null,
+    "Consumer Staples": null,
+    "Health Care": null,
+    "Communication Services": null,
+    "Consumer Discretionary": null,
+    "Financials": null,
+    "Materials": null,
+    "Industrials": null,
+    "Information Technology": null,
+    "Energy": null
+  },
+  "Rank C: 5 Day Performance": {
+    "Utilities": null,
+    "Health Care": null,
+    "Real Estate": null,
+    "Consumer Staples": null,
+    "Financials": null,
+    "Communication Services": null,
+    "Industrials": null,
+    "Materials": null,
+    "Consumer Discretionary": null,
+    "Information Technology": null,
+    "Energy": null
+  },
+  "Rank D: 1 Month Performance": {
+    "Utilities": null,
+    "Real Estate": null,
+    "Health Care": null,
+    "Consumer Staples": null,
+    "Financials": null,
+    "Communication Services": null,
+    "Consumer Discretionary": null,
+    "Industrials": null,
+    "Information Technology": null,
+    "Materials": null,
+    "Energy": null
+  },
+  "Rank E: 3 Month Performance": {
+    "Consumer Staples": null,
+    "Communication Services": null,
+    "Utilities": null,
+    "Real Estate": null,
+    "Information Technology": null,
+    "Consumer Discretionary": null,
+    "Financials": null,
+    "Industrials": null,
+    "Health Care": null,
+    "Materials": null,
+    "Energy": null
+  },
+  "Rank F: Year-to-Date (YTD) Performance": {
+    "Information Technology": null,
+    "Real Estate": null,
+    "Communication Services": null,
+    "Consumer Discretionary": null,
+    "Industrials": null,
+    "Consumer Staples": null,
+    "Utilities": null,
+    "Financials": null,
+    "Energy": null,
+    "Materials": null,
+    "Health Care": null
+  },
+  "Rank G: 1 Year Performance": {
+    "Utilities": null,
+    "Real Estate": null,
+    "Consumer Staples": null,
+    "Communication Services": null,
+    "Consumer Discretionary": null,
+    "Health Care": null,
+    "Information Technology": null,
+    "Industrials": null,
+    "Financials": null,
+    "Materials": null,
+    "Energy": null
+  },
+  "Rank H: 3 Year Performance": {
+    "Information Technology": null,
+    "Consumer Discretionary": null,
+    "Financials": null,
+    "Industrials": null,
+    "Health Care": null,
+    "Utilities": null,
+    "Materials": null,
+    "Consumer Staples": null,
+    "Communication Services": null,
+    "Energy": null
+  },
+  "Rank I: 5 Year Performance": {
+    "Information Technology": null,
+    "Consumer Discretionary": null,
+    "Health Care": null,
+    "Financials": null,
+    "Utilities": null,
+    "Industrials": null,
+    "Consumer Staples": null,
+    "Materials": null,
+    "Communication Services": null,
+    "Energy": null
+  },
+  "Rank J: 10 Year Performance": {
+    "Consumer Discretionary": null,
+    "Information Technology": null,
+    "Health Care": null,
+    "Industrials": null,
+    "Financials": null,
+    "Consumer Staples": null,
+    "Utilities": null,
+    "Materials": null,
+    "Communication Services": null,
+    "Energy": null
+  }
+}

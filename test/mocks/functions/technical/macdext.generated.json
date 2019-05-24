@@ -1,0 +1,23 @@
+{
+  "Meta Data": {
+    "1: Symbol": null,
+    "2: Indicator": null,
+    "3: Last Refreshed": null,
+    "4: Interval": null,
+    "5.1: Fast Period": null,
+    "5.2: Slow Period": null,
+    "5.3: Signal Period": null,
+    "5.4: Fast MA Type": null,
+    "5.5: Slow MA Type": null,
+    "5.6: Signal MA Type": null,
+    "6: Series Type": null,
+    "7: Time Zone": null
+  },
+  "Technical Analysis: MACDEXT": {
+    "2019-05-24 16:00:01": {
+      "MACD_Signal": null,
+      "MACD_Hist": null,
+      "MACD": null
+    }
+  }
+}

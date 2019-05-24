@@ -1,0 +1,19 @@
+{
+  "Meta Data": {
+    "1. Information": null,
+    "2. Symbol": null,
+    "3. Last Refreshed": null,
+    "4. Interval": null,
+    "5. Output Size": null,
+    "6. Time Zone": null
+  },
+  "Time Series (5min)": {
+    "2019-05-24 16:00:00": {
+      "1. open": null,
+      "2. high": null,
+      "3. low": null,
+      "4. close": null,
+      "5. volume": null
+    }
+  }
+}

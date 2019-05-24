@@ -1,0 +1,20 @@
+{
+  "Meta Data": {
+    "1: Symbol": null,
+    "2: Indicator": null,
+    "3: Last Refreshed": null,
+    "4: Interval": null,
+    "5.1: FastK Period": null,
+    "5.2: SlowK Period": null,
+    "5.3: SlowK MA Type": null,
+    "5.4: SlowD Period": null,
+    "5.5: SlowD MA Type": null,
+    "6: Time Zone": null
+  },
+  "Technical Analysis: STOCH": {
+    "2019-05-24 16:00:01": {
+      "SlowK": null,
+      "SlowD": null
+    }
+  }
+}

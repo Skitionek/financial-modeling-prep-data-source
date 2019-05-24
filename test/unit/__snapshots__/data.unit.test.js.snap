@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`daily data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`daily_adjusted data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "split_coefficient": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`exchangeTimeSeries data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`exchangeTimeSeries_adjusted data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "split_coefficient": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`intraday data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`monthly data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`monthly_adjusted data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`quote quote data works 1`] = `
+Object {
+  "change": null,
+  "change_percent": null,
+  "close": null,
+  "date": null,
+  "high": null,
+  "low": null,
+  "open": null,
+  "previous_close": null,
+  "price": null,
+  "symbol": null,
+  "volume": null,
+}
+`;
+
+exports[`search search works 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "marketclose": null,
+    "marketopen": null,
+    "matchscore": null,
+    "name": null,
+    "region": null,
+    "symbol": null,
+    "timezone": null,
+    "type": null,
+  },
+]
+`;
+
+exports[`weekly data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`weekly_adjusted data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`weekly_adjusted data works 2`] = `
+Object {
+  "data": Array [
+    Object {
+      "adjusted_close": null,
+      "close": null,
+      "date": null,
+      "dividend_amount": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "volume": null,
+    },
+  ],
+  "information": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;

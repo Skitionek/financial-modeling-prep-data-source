@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`daily data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
+}
+`;
+
+exports[`exchangeRates data works 1`] = `
+Object {
+  "ask_price": null,
+  "bid_price": null,
+  "exchange_rate": null,
+  "from_currency_code": null,
+  "from_currency_name": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_currency_code": null,
+  "to_currency_name": null,
+}
+`;
+
+exports[`exchangeTimeSeries data works 5min 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "from_symbol": null,
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
+}
+`;
+
+exports[`intraday data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "from_symbol": null,
+  "information": null,
+  "interval": null,
+  "last_refreshed": null,
+  "output_size": null,
+  "time_zone": null,
+  "to_symbol": null,
+}
+`;
+
+exports[`monthly data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_symbol": null,
+}
+`;
+
+exports[`weekly data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "close": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "from_symbol": null,
+  "information": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_symbol": null,
+}
+`;

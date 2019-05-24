@@ -1,0 +1,13 @@
+{
+  "Realtime Currency Exchange Rate": {
+    "1. From_Currency Code": null,
+    "2. From_Currency Name": null,
+    "3. To_Currency Code": null,
+    "4. To_Currency Name": null,
+    "5. Exchange Rate": null,
+    "6. Last Refreshed": null,
+    "7. Time Zone": null,
+    "8. Bid Price": null,
+    "9. Ask Price": null
+  }
+}

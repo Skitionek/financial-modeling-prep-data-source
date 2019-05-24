@@ -1,0 +1,21 @@
+{
+  "Meta Data": {
+    "1: Symbol": null,
+    "2: Indicator": null,
+    "3: Last Refreshed": null,
+    "4: Interval": null,
+    "5: Time Period": null,
+    "6.1: Deviation multiplier for upper band": null,
+    "6.2: Deviation multiplier for lower band": null,
+    "6.3: MA Type": null,
+    "7: Series Type": null,
+    "8: Time Zone": null
+  },
+  "Technical Analysis: BBANDS": {
+    "2019-05-24 16:00:01": {
+      "Real Middle Band": null,
+      "Real Lower Band": null,
+      "Real Upper Band": null
+    }
+  }
+}

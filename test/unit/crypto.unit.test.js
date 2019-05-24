@@ -1,37 +1,38 @@
 'use strict';
 
-jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
-jest.unmock('request-promise-native');
-const alpha = require('../../src/dataSource')({key:'demo'});
-const delay = require('delay');
-const TIME = 1000;
+import AlphaVantageMock from "../mocks/alphaVantageMock";
+import { matchesSnapshot } from "../jest.extensions";
 
-test(`daily data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.crypto.daily('btc', 'usd'))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Time Series (Digital Currency Daily)']).toBeDefined();
-    });
+let alpha;
+beforeAll(() => {
+	alpha = new AlphaVantageMock();
 });
 
-test(`weekly data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.crypto.weekly('btc', 'usd'))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Time Series (Digital Currency Weekly)']).toBeDefined();
-    });
+it(`daily data works`, () => {
+	return alpha.crypto.daily('btc', 'usd')
+		.then(matchesSnapshot);
 });
 
-test(`monthly data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.crypto.monthly('btc', 'usd'))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Time Series (Digital Currency Monthly)']).toBeDefined();
-    });
+it(`exchangeRates data works`, () => {
+	return alpha.crypto.exchangeRates('btc', 'usd')
+		.then(matchesSnapshot);
+});
+
+it(`exchangeTimeSeries data works`, () => {
+	return alpha.crypto.exchangeTimeSeries({
+		from_symbol: 'btc',
+		to_symbol: 'usd',
+		interval: 'daily'
+	})
+		.then(matchesSnapshot);
+});
+
+it(`weekly data works`, () => {
+	return alpha.crypto.weekly('btc', 'usd')
+		.then(matchesSnapshot);
+});
+
+it(`monthly data works`, () => {
+	return alpha.crypto.monthly('btc', 'usd')
+		.then(matchesSnapshot);
 });

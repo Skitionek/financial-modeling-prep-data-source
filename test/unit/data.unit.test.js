@@ -1,131 +1,75 @@
 'use strict';
 
-jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
-jest.unmock('request-promise-native');
-const alpha = require('../../src/dataSource')({key:'demo'});
-const delay = require('delay');
-const TIME = 1000;
+import AlphaVantageMock from "../mocks/alphaVantageMock";
+import { matchesSnapshot } from "../jest.extensions";
+
+let alpha;
+beforeAll(() => {
+	alpha = new AlphaVantageMock();
+});
 
 test(`intraday data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.intraday(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Time Series (1min)']).toBeDefined();
-    });
+	return alpha.data.intraday(`msft`)
+		.then(matchesSnapshot);
 });
 
 test(`daily data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.daily(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Time Series (Daily)']).toBeDefined();
-    });
+	return alpha.data.daily(`msft`)
+		.then(matchesSnapshot);
 });
 
-test(`daily adjusted data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.daily_adjusted(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Time Series (Daily)']).toBeDefined();
-    });
+test(`daily_adjusted data works`, () => {
+	return alpha.data.daily_adjusted(`msft`)
+		.then(matchesSnapshot);
+});
+
+test(`exchangeTimeSeries data works`, () => {
+	return alpha.data.exchangeTimeSeries({
+		symbol: `msft`,
+		interval: '5min'
+	})
+		.then(matchesSnapshot);
+});
+
+test(`exchangeTimeSeries_adjusted data works`, () => {
+	return alpha.data.exchangeTimeSeries_adjusted({
+		symbol: `msft`,
+		interval: 'daily'
+	})
+		.then(matchesSnapshot);
 });
 
 test(`weekly data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.weekly(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Weekly Time Series']).toBeDefined();
-    });
+	return alpha.data.weekly(`msft`)
+		.then(matchesSnapshot);
 });
 
-test(`weekly adjusted data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.weekly_adjusted(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Weekly Adjusted Time Series']).toBeDefined();
-    });
+test(`weekly_adjusted data works`, () => {
+	return alpha.data.weekly_adjusted(`msft`)
+		.then(matchesSnapshot);
 });
 
 test(`monthly data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.monthly(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Monthly Time Series']).toBeDefined();
-    });
+	return alpha.data.monthly(`msft`)
+		.then(matchesSnapshot);
 });
 
-test(`weekly adjusted data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.monthly_adjusted(`msft`))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Monthly Adjusted Time Series']).toBeDefined();
-    });
+test(`monthly_adjusted data works`, () => {
+	return alpha.data.monthly_adjusted(`msft`)
+		.then(matchesSnapshot);
 });
 
-test(`global quote data works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.quote(`msft`))
-    .then(data => {
-      expect(data['Global Quote']).toBeDefined();
-      expect(data['Global Quote']['01. symbol']).toEqual('MSFT');
-    });
+test(`weekly_adjusted data works`, () => {
+	return alpha.data.monthly_adjusted(`msft`)
+		.then(matchesSnapshot);
 });
 
-test(`symbol search works`, () => {
-  expect.assertions(2);
-  return delay(TIME)
-    .then(() => alpha.data.search(`Advanced Micro`))
-    .then(data => {
-      expect(data['bestMatches']).toBeDefined();
-      expect(data['bestMatches'][0]['1. symbol']).toEqual('AMD');
-    });
+test(`quote quote data works`, () => {
+	return alpha.data.quote(`msft`)
+		.then(matchesSnapshot);
 });
 
-test(`batch data works`, () => {
-  expect.assertions(9);
-  return delay(TIME)
-    .then(() => alpha.data.batch('MSFT,FB,AAPL'))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Stock Quotes']).toBeDefined();
-      expect(data['Stock Quotes'].length).toEqual(3);
-      data['Stock Quotes'].forEach(quote => {
-        expect(quote['1. symbol']).toBeDefined();
-      });
-      expect(data['Stock Quotes'][0]['1. symbol']).toEqual('MSFT');
-      expect(data['Stock Quotes'][1]['1. symbol']).toEqual('FB');
-      expect(data['Stock Quotes'][2]['1. symbol']).toEqual('AAPL');
-    });
-});
-
-test(`batch data works with array input`, () => {
-  expect.assertions(9);
-  return delay(TIME)
-    .then(() => alpha.data.batch(['MSFT', 'FB', 'AAPL']))
-    .then(data => {
-      expect(data['Meta Data']).toBeDefined();
-      expect(data['Stock Quotes']).toBeDefined();
-      expect(data['Stock Quotes'].length).toEqual(3);
-      data['Stock Quotes'].forEach(quote => {
-        expect(quote['1. symbol']).toBeDefined();
-      });
-      expect(data['Stock Quotes'][0]['1. symbol']).toEqual('MSFT');
-      expect(data['Stock Quotes'][1]['1. symbol']).toEqual('FB');
-      expect(data['Stock Quotes'][2]['1. symbol']).toEqual('AAPL');
-    });
+test(`search search works`, () => {
+	return alpha.data.search(`Advanced Micro`)
+		.then(matchesSnapshot);
 });

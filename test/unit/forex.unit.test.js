@@ -1,18 +1,45 @@
 'use strict';
 
-jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
-jest.unmock('request-promise-native');
-const alpha = require('../../src/dataSource')({key:'demo'});
-const delay = require('delay');
-const TIME = 1000;
+import AlphaVantageMock from "../mocks/alphaVantageMock";
+import { matchesSnapshot } from "../jest.extensions";
 
-test(`forex data works`, () => {
-  expect.assertions(3);
-  return delay(TIME)
-    .then(() => alpha.forex.rate('btc', 'usd'))
-    .then(data => {
-      expect(data['Realtime Currency Exchange Rate']).toBeDefined();
-      expect(data['Realtime Currency Exchange Rate']['1. From_Currency Code']).toEqual('BTC');
-      expect(data['Realtime Currency Exchange Rate']['3. To_Currency Code']).toEqual('USD');
-    });
+let alpha;
+beforeAll(() => {
+	alpha = new AlphaVantageMock();
+});
+
+it(`daily data works`, () => {
+	return alpha.forex.daily('btc', 'usd')
+		.then(matchesSnapshot);
+});
+
+it(`exchangeRates data works`, () => {
+	return alpha.forex.exchangeRates('btc', 'usd')
+		.then(matchesSnapshot);
+});
+
+describe(`exchangeTimeSeries data works`, () => {
+	it('5min', () =>
+		alpha.forex.exchangeTimeSeries({
+			from_symbol:'btc',
+			to_symbol: 'usd',
+			interval: '5min'
+		})
+			.then(matchesSnapshot)
+	);
+});
+
+it(`intraday data works`, () => {
+	return alpha.forex.intraday('btc', 'usd')
+		.then(matchesSnapshot);
+});
+
+it(`monthly data works`, () => {
+	return alpha.forex.monthly('btc', 'usd')
+		.then(matchesSnapshot);
+});
+
+it(`weekly data works`, () => {
+	return alpha.forex.weekly('btc', 'usd')
+		.then(matchesSnapshot);
 });

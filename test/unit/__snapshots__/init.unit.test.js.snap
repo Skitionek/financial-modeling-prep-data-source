@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialization without a config throws an error 1`] = `"Missing Alpha Vantage config settings: key"`;
+
+exports[`initialization without an api key throws an error 1`] = `"Missing Alpha Vantage config settings: key"`;

@@ -1,34 +1,24 @@
 'use strict';
 
-const env = process.env;
-const Alpha = require('../../src/dataSource');
+import AlphaVantage from "../../src";
 
+const env = process.env;
 // Clear the current environment variables for testing.
 process.env = {};
 
-test(`initialization without a config throws an error`, () => {
-  expect.assertions(1);
-  try {
-    const alpha = Alpha();
-  } catch (e) {
-    expect(e.message).toEqual(`Missing Alpha Vantage config settings: key`);
-  }
+it(`initialization without a config throws an error`, () => {
+  expect(()=>new AlphaVantage()).toThrowErrorMatchingSnapshot();
 });
 
-test(`initialization without an api key throws an error`, () => {
-  expect.assertions(1);
-  try {
-    const alpha = Alpha({});
-  } catch (e) {
-    expect(e.message).toEqual(`Missing Alpha Vantage config settings: key`);
-  }
+it(`initialization without an api key throws an error`, () => {
+  expect(()=>new AlphaVantage()).toThrowErrorMatchingSnapshot();
 });
 
-test(`initialization without an api key, but with env key works`, () => {
+it(`initialization without an api key, but with env key works`, () => {
   expect.assertions(1);
   try {
-    process.env = env;
-    const alpha = Alpha();
+    process.env = Object.assign(env,{AV_KEY:'demo'});
+    const alpha = new AlphaVantage();
     expect(alpha).toBeDefined();
   } catch (e) {
     expect(e).toBeUndefined();

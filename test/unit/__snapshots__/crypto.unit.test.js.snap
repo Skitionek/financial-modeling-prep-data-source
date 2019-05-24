@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`daily data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "a_close_cny": null,
+      "a_high_cny": null,
+      "a_low_cny": null,
+      "a_open_cny": null,
+      "b_close_usd": null,
+      "b_high_usd": null,
+      "b_low_usd": null,
+      "b_open_usd": null,
+      "date": null,
+      "market_cap_usd": null,
+      "volume": null,
+    },
+  ],
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
+}
+`;
+
+exports[`exchangeRates data works 1`] = `
+Object {
+  "ask_price": null,
+  "bid_price": null,
+  "exchange_rate": null,
+  "from_currency_code": null,
+  "from_currency_name": null,
+  "last_refreshed": null,
+  "time_zone": null,
+  "to_currency_code": null,
+  "to_currency_name": null,
+}
+`;
+
+exports[`exchangeTimeSeries data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "a_close_cny": null,
+      "a_high_cny": null,
+      "a_low_cny": null,
+      "a_open_cny": null,
+      "b_close_usd": null,
+      "b_high_usd": null,
+      "b_low_usd": null,
+      "b_open_usd": null,
+      "date": null,
+      "market_cap_usd": null,
+      "volume": null,
+    },
+  ],
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
+}
+`;
+
+exports[`monthly data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "a_close_cny": null,
+      "a_high_cny": null,
+      "a_low_cny": null,
+      "a_open_cny": null,
+      "b_close_usd": null,
+      "b_high_usd": null,
+      "b_low_usd": null,
+      "b_open_usd": null,
+      "date": null,
+      "market_cap_usd": null,
+      "volume": null,
+    },
+  ],
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
+}
+`;
+
+exports[`weekly data works 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "a_close_cny": null,
+      "a_high_cny": null,
+      "a_low_cny": null,
+      "a_open_cny": null,
+      "b_close_usd": null,
+      "b_high_usd": null,
+      "b_low_usd": null,
+      "b_open_usd": null,
+      "date": null,
+      "market_cap_usd": null,
+      "volume": null,
+    },
+  ],
+  "digital_currency_code": null,
+  "digital_currency_name": null,
+  "information": null,
+  "last_refreshed": null,
+  "market_code": null,
+  "market_name": null,
+  "time_zone": null,
+}
+`;

@@ -1,0 +1,25 @@
+{
+  "Meta Data": {
+    "1. Information": null,
+    "2. Digital Currency Code": null,
+    "3. Digital Currency Name": null,
+    "4. Market Code": null,
+    "5. Market Name": null,
+    "6. Last Refreshed": null,
+    "7. Time Zone": null
+  },
+  "Time Series (Digital Currency Weekly)": {
+    "2019-05-23": {
+      "1a. open (CNY)": null,
+      "1b. open (USD)": null,
+      "2a. high (CNY)": null,
+      "2b. high (USD)": null,
+      "3a. low (CNY)": null,
+      "3b. low (USD)": null,
+      "4a. close (CNY)": null,
+      "4b. close (USD)": null,
+      "5. volume": null,
+      "6. market cap (USD)": null
+    }
+  }
+}
