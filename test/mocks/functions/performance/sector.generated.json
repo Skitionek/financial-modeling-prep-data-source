@@ -6,8 +6,8 @@
   "Rank A: Real-Time Performance": {
     "Financials": null,
     "Materials": null,
-    "Energy": null,
     "Real Estate": null,
+    "Energy": null,
     "Consumer Discretionary": null,
     "Health Care": null,
     "Industrials": null,
@@ -17,24 +17,24 @@
     "Consumer Staples": null
   },
   "Rank B: 1 Day Performance": {
-    "Utilities": null,
-    "Real Estate": null,
-    "Consumer Staples": null,
-    "Health Care": null,
-    "Communication Services": null,
-    "Consumer Discretionary": null,
     "Financials": null,
     "Materials": null,
+    "Real Estate": null,
+    "Energy": null,
+    "Consumer Discretionary": null,
+    "Health Care": null,
     "Industrials": null,
     "Information Technology": null,
-    "Energy": null
+    "Communication Services": null,
+    "Utilities": null,
+    "Consumer Staples": null
   },
   "Rank C: 5 Day Performance": {
     "Utilities": null,
     "Health Care": null,
     "Real Estate": null,
-    "Consumer Staples": null,
     "Financials": null,
+    "Consumer Staples": null,
     "Communication Services": null,
     "Industrials": null,
     "Materials": null,
@@ -51,8 +51,8 @@
     "Communication Services": null,
     "Consumer Discretionary": null,
     "Industrials": null,
-    "Information Technology": null,
     "Materials": null,
+    "Information Technology": null,
     "Energy": null
   },
   "Rank E: 3 Month Performance": {
@@ -69,8 +69,8 @@
     "Energy": null
   },
   "Rank F: Year-to-Date (YTD) Performance": {
-    "Information Technology": null,
     "Real Estate": null,
+    "Information Technology": null,
     "Communication Services": null,
     "Consumer Discretionary": null,
     "Industrials": null,
@@ -86,8 +86,8 @@
     "Real Estate": null,
     "Consumer Staples": null,
     "Communication Services": null,
-    "Consumer Discretionary": null,
     "Health Care": null,
+    "Consumer Discretionary": null,
     "Information Technology": null,
     "Industrials": null,
     "Financials": null,

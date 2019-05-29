@@ -1,8 +1,10 @@
 {
   "env": {
-    "jest": true
+    "jest": true,
+    "node": true
   },
   "rules": {
-    "no-magic-numbers": "off"
+    "no-magic-numbers": "off",
+    "no-console": "off"
   }
 }

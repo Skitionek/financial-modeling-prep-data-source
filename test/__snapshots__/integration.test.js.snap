@@ -1273,6 +1273,23 @@ Object {
 }
 `;
 
+exports[`technical atr {"symbol":"MSFT","interval":"daily","time_period":14} 2`] = `
+Object {
+  "data": Array [
+    Object {
+      "date": null,
+      "value": null,
+    },
+  ],
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "symbol": null,
+  "time_period": null,
+  "time_zone": null,
+}
+`;
+
 exports[`technical bbands {"symbol":"MSFT","interval":"weekly","time_period":5,"series_type":"close","nbdevup":3,"nbdevdn":3} 1`] = `
 Object {
   "data": Array [
@@ -1871,6 +1888,28 @@ Object {
 `;
 
 exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "date": null,
+      "slowd": null,
+      "slowk": null,
+    },
+  ],
+  "fastk_period": null,
+  "indicator": null,
+  "interval": null,
+  "last_refreshed": null,
+  "slowd_ma_type": null,
+  "slowd_period": null,
+  "slowk_ma_type": null,
+  "slowk_period": null,
+  "symbol": null,
+  "time_zone": null,
+}
+`;
+
+exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 2`] = `
 Object {
   "data": Array [
     Object {

@@ -644,13 +644,17 @@ it(`the url builder with undefined params yields the base url`, () => {
 // 	expect(polished['bestMatches'][first]['match_score']).toBeDefined();
 // });
 //
+
+
+
+
 // it(`non 200 request responses are thrown to a catch`, () => {
 // 	expect.assertions(1);
 //
 // 	return alpha.util
 // 		.fn('123')()
 // 		.catch(error => {
-// 			expect(error).toEqual('An AlphaVantage error occurred. 123: {}');
+// 			expect(error).toMatchErrorSnapshot();
 // 		});
 // });
 //
@@ -660,7 +664,13 @@ it(`the url builder with undefined params yields the base url`, () => {
 // 	return alpha.util
 // 		.fn('200')()
 // 		.catch(error => {
-// 			expect(error).toEqual('An AlphaVantage error occurred. {}');
+// 			expect(error).toMatchErrorSnapshot();
 // 		});
 // });
+
+it(`dummy function dummy test`, () => {
+	expect.assertions(1);
+
+	return expect(typeof alpha.util.polish()).toEqual('undefined');
+});
 

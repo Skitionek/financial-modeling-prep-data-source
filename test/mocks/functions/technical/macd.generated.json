@@ -11,10 +11,10 @@
     "7: Time Zone": null
   },
   "Technical Analysis: MACD": {
-    "2019-05-24 16:00:01": {
+    "2019-05-24": {
+      "MACD": null,
       "MACD_Signal": null,
-      "MACD_Hist": null,
-      "MACD": null
+      "MACD_Hist": null
     }
   }
 }
