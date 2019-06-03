@@ -5,39 +5,14 @@
 */
 
 import { obtainStructure } from "./jest.extensions";
-import merge from 'lodash.merge';
-const jsonic = require('jsonic');
-
-function SNAPtoJS(snap) {
-	return jsonic(
-		snap
-			.replace(/Object {/g, '{')
-			.replace(/Array \[/g, '[')
-	);
-}
-
-const tmp = require('./__snapshots__/integration.test.js.snap');
-const integrationSnapshots = {};
-Object.keys(tmp).forEach(key => {
-	const [k1, k2] = key.split(' ');
-	merge(integrationSnapshots, {
-		[k1]: {
-			[k2]: SNAPtoJS(tmp[key])
-		}
-	})
-});
+import { integrationSnapshots, unitSnapshots } from "./dataStructure";
 
 describe.each(Object.keys(integrationSnapshots))("%s", groupKey => {
 	const integrationSnapshot = integrationSnapshots[groupKey];
-	const unitSnapshot = {};
-	const tmp_unitSnapshot = require(`./unit/__snapshots__/${  groupKey  }.unit.test.js.snap`);
-	Object.keys(tmp_unitSnapshot).forEach(key => {
-		const [k1] = key.split(' ');
-		merge(unitSnapshot, {
-			[k1]: SNAPtoJS(tmp_unitSnapshot[key])
-		})
-	});
-	it('contains same groups', ()=>expect(Object.keys(unitSnapshot)).toEqual(Object.keys(integrationSnapshot)));
+	const unitSnapshot = unitSnapshots[groupKey];
+	it('contains same groups', ()=>
+		expect(Object.keys(unitSnapshot))
+			.toEqual(Object.keys(integrationSnapshot)));
 	Object.keys(integrationSnapshot).forEach(key => {
 		it(key, () => {
 			expect(obtainStructure(unitSnapshot[key])).toEqual(integrationSnapshot[key]);

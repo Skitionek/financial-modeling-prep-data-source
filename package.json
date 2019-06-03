@@ -50,6 +50,8 @@
     "cover": "jest --coverage",
     "lint": "eslint src test",
     "build": "cross-env BABEL_ENV=production babel src --out-dir lib --source-maps --copy-files",
+    "postbuild": "npm run build-test",
+    "build-test": "cross-env BABEL_ENV=production babel test --out-dir lib/test --source-maps --copy-files --ignore '**/*.test.js'",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
   },
   "files": [
@@ -87,6 +89,8 @@
     "reflect-metadata": "^0.1.13"
   },
   "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
     "@babel/polyfill": "^7.4.4",
     "apollo-datasource-rest": "^0.3.2",
     "auto-bind": "^2.1.0",
@@ -125,7 +129,9 @@
         {
           "loose": true
         }
-      ]
+      ],
+      "@babel/plugin-proposal-export-default-from",
+      "@babel/plugin-proposal-export-namespace-from"
     ]
   },
   "eslintConfig": {
