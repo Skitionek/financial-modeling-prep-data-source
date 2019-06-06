@@ -2,6 +2,8 @@
 import AlphaVantageMock from "../mocks/alphaVantageMock";
 import { matchesSnapshot } from "../jest.extensions";
 
+jest.setTimeout(30000);
+
 let alpha;
 beforeAll(() => {
 	alpha = new AlphaVantageMock();

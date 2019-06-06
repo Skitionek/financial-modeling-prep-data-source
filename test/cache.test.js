@@ -9,6 +9,8 @@
 import AlphaVantageAPI from "../src";
 import * as variables from "./mocks/variableMocks";
 
+jest.setTimeout(30000);
+
 const alphaStructure = AlphaVantageAPI.prototype;
 
 describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", groupKey => {
@@ -22,8 +24,7 @@ describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", gro
 			const response1time = performance.now();
 			await alpha[groupKey][key](varSet);
 			const response2time = performance.now();
-			console.log((response2time - response1time), '<', (response1time - start));
-			expect(2 * (response1time - start)).toBeGreaterThan(response2time - response1time)
+			expect(response1time - start + 1).toBeGreaterThan(response2time - response1time)
 		});
 	})
 });

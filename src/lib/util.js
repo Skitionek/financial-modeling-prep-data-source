@@ -49,11 +49,15 @@ module.exports = AlphaVantageAPI => {
 
 			}
 		});
+
+		return polish.meta_data(data);
+	};
+	polish.meta_data = data => {
 		Object.assign(data, data.meta_data);
 		delete data.meta_data;
 
 		return data;
-	}
+	};
 
 	const url = function (type, params = {}) {
 		const paramsWithFunction = [

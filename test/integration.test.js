@@ -8,6 +8,8 @@ import AlphaVantageAPI from "../src";
 import * as variables from "./mocks/variableMocks";
 import { obtainStructure } from "./jest.extensions";
 
+jest.setTimeout(30000);
+
 let alpha;
 beforeAll(() => {
 	alpha = new AlphaVantageAPI({ key: 'demo' })

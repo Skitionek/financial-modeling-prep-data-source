@@ -1,5 +1,10 @@
-
 module.exports = AlphaVantageAPI => {
+
+	function formatKey(key) {
+		let [f, s, t] = key.split('_');
+		return `${f === 'a' ? 'from' : f === 'b' ? 'to' : f}${s?`_${s}`:''}`;
+	}
+
 	/**
 	 * Util function to get the crypto data.
 	 *
@@ -12,7 +17,18 @@ module.exports = AlphaVantageAPI => {
 	const series = fn => function ({ symbol, market }) {
 		return this.util.fn(
 			fn,
-			'time_series'
+			'time_series',
+			d => {
+				d.data = d.data.map(value => {
+					const keys = Object.keys(value);
+					const result = {};
+					keys.forEach(key => {
+						result[formatKey(key)] = value[key];
+					});
+					return result;
+				});
+				return d;
+			}
 		).call(this, {
 			symbol,
 			market
@@ -22,7 +38,7 @@ module.exports = AlphaVantageAPI => {
 	const polish_realtime_currency_exchange_rate = data => data.realtime_currency_exchange_rate;
 
 	return {
-		exchangeRates ({ from_currency, to_currency }) {
+		exchangeRates({ from_currency, to_currency }) {
 			return this.util.fn('CURRENCY_EXCHANGE_RATE', polish_realtime_currency_exchange_rate).call(this, {
 				from_currency,
 				to_currency
@@ -32,7 +48,7 @@ module.exports = AlphaVantageAPI => {
 		weekly: series('DIGITAL_CURRENCY_WEEKLY'),
 		monthly: series('DIGITAL_CURRENCY_MONTHLY'),
 
-		exchangeTimeSeries ({ symbol, market, interval }) {
+		exchangeTimeSeries({ symbol, market, interval }) {
 			return this.util.fn(`DIGITAL_CURRENCY_${interval.toUpperCase()}`,
 				'time_series'
 			).call(this, { symbol, market });

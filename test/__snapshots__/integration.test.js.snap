@@ -4,16 +4,16 @@ exports[`crypto daily {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "a_close_cny": null,
-      "a_high_cny": null,
-      "a_low_cny": null,
-      "a_open_cny": null,
-      "b_close_usd": null,
-      "b_high_usd": null,
-      "b_low_usd": null,
-      "b_open_usd": null,
       "date": null,
-      "market_cap_usd": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
       "volume": null,
     },
   ],
@@ -167,16 +167,16 @@ exports[`crypto monthly {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "a_close_cny": null,
-      "a_high_cny": null,
-      "a_low_cny": null,
-      "a_open_cny": null,
-      "b_close_usd": null,
-      "b_high_usd": null,
-      "b_low_usd": null,
-      "b_open_usd": null,
       "date": null,
-      "market_cap_usd": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
       "volume": null,
     },
   ],
@@ -194,16 +194,16 @@ exports[`crypto weekly {"symbol":"BTC","market":"CNY"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "a_close_cny": null,
-      "a_high_cny": null,
-      "a_low_cny": null,
-      "a_open_cny": null,
-      "b_close_usd": null,
-      "b_high_usd": null,
-      "b_low_usd": null,
-      "b_open_usd": null,
       "date": null,
-      "market_cap_usd": null,
+      "from_close": null,
+      "from_high": null,
+      "from_low": null,
+      "from_open": null,
+      "market_cap": null,
+      "to_close": null,
+      "to_high": null,
+      "to_low": null,
+      "to_open": null,
       "volume": null,
     },
   ],
@@ -1273,23 +1273,6 @@ Object {
 }
 `;
 
-exports[`technical atr {"symbol":"MSFT","interval":"daily","time_period":14} 2`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": null,
-      "value": null,
-    },
-  ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
-}
-`;
-
 exports[`technical bbands {"symbol":"MSFT","interval":"weekly","time_period":5,"series_type":"close","nbdevup":3,"nbdevdn":3} 1`] = `
 Object {
   "data": Array [
@@ -1888,28 +1871,6 @@ Object {
 `;
 
 exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 1`] = `
-Object {
-  "data": Array [
-    Object {
-      "date": null,
-      "slowd": null,
-      "slowk": null,
-    },
-  ],
-  "fastk_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "slowd_ma_type": null,
-  "slowd_period": null,
-  "slowk_ma_type": null,
-  "slowk_period": null,
-  "symbol": null,
-  "time_zone": null,
-}
-`;
-
-exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 2`] = `
 Object {
   "data": Array [
     Object {

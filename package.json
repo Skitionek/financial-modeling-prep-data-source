@@ -1,213 +1,216 @@
 {
-  "name": "alpha-vantage-data-source",
-  "version": "0.2.0",
-  "description": "",
-  "main": "lib/index.js",
-  "directories": {
-    "test": "test"
+  "name"            : "alpha-vantage-data-source",
+  "version"         : "0.2.0",
+  "description"     : "",
+  "main"            : "lib/index.js",
+  "directories"     : {
+	"test": "test"
   },
-  "keywords": [
-    "alpha vantage",
-    "vantage",
-    "alpha",
-    "alphavantage",
-    "stocks",
-    "stock market",
-    "api"
+  "keywords"        : [
+	"alpha vantage",
+	"vantage",
+	"alpha",
+	"alphavantage",
+	"stocks",
+	"stock market",
+	"api"
   ],
-  "author": {
-    "name": "Dominik Maszczyk",
-    "email": "Skitionek@gmail.com",
-    "web": "https://www.linkedin.com/in/dominik-maszczyk/"
+  "author"          : {
+	"name" : "Dominik Maszczyk",
+	"email": "Skitionek@gmail.com",
+	"web"  : "https://www.linkedin.com/in/dominik-maszczyk/"
   },
-  "maintainers": [
-    {
-      "name": "Dominik Maszczyk <Skitionek@gmail.com> (https://www.linkedin.com/in/dominik-maszczyk/)"
-    }
+  "maintainers"     : [
+	{
+	  "name": "Dominik Maszczyk <Skitionek@gmail.com> (https://www.linkedin.com/in/dominik-maszczyk/)"
+	}
   ],
-  "contributors": [
-    "Zack Urben <zackurben@gmail.com> (http://zackurben.com)"
+  "contributors"    : [
+	"Zack Urben <zackurben@gmail.com> (http://zackurben.com)"
   ],
-  "license": "MIT",
-  "homepage": "https://github.com/biosustain-gem/alpha-vantage-data-source",
-  "bugs": {
-    "web": "https://github.com/biosustain-gem/alpha-vantage-data-source/issues"
+  "license"         : "MIT",
+  "homepage"        : "https://github.com/biosustain-gem/alpha-vantage-data-source",
+  "bugs"            : {
+	"web": "https://github.com/biosustain-gem/alpha-vantage-data-source/issues"
   },
-  "engines": {
-    "node": ">=6.0.0"
+  "engines"         : {
+	"node": ">=6.0.0"
   },
-  "scripts": {
-    "start": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
-    "prebuild": "npm run clean",
-    "debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
-    "semantic-release": "semantic-release",
-    "clean": "rimraf lib",
-    "test": "npm run lint && npm run cover",
-    "test:prod": "cross-env BABEL_ENV=production npm run test",
-    "test:only": "jest",
-    "test:watch": "npm test -- --watch",
-    "test:examples": "node examples/",
-    "cover": "jest --coverage",
-    "lint": "eslint src test",
-    "build": "cross-env BABEL_ENV=production babel src --out-dir lib --source-maps --copy-files",
-    "postbuild": "npm run build-test",
-    "build-test": "cross-env BABEL_ENV=production babel test --out-dir lib/test --source-maps --copy-files --ignore '**/*.test.js'",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
+  "scripts"         : {
+	"start"           : "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
+	"prebuild"        : "npm run clean",
+	"debug"           : "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
+	"semantic-release": "semantic-release",
+	"clean"           : "rimraf lib",
+	"test"            : "npm run lint && npm run cover",
+	"test:prod"       : "cross-env BABEL_ENV=production npm run test",
+	"test:only"       : "jest",
+	"test:watch"      : "npm test -- --watch",
+	"test:examples"   : "node examples/",
+	"cover"           : "jest --coverage",
+	"lint"            : "eslint src test",
+	"build"           : "cross-env BABEL_ENV=production babel src --out-dir lib --source-maps --copy-files",
+	"postbuild"       : "npm run build-test",
+	"build-test"      : "cross-env BABEL_ENV=production babel test --out-dir lib/test --source-maps --copy-files --ignore '**/*.test.js'",
+	"prepublish"      : "npm run clean && npm run lint && npm run test && npm run build"
   },
-  "files": [
-    "lib",
-    "src"
+  "files"           : [
+	"lib",
+	"src"
   ],
-  "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/node": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-proposal-decorators": "^7.4.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@graphql-modules/core": "^0.7.1",
-    "@graphql-modules/di": "^0.7.1",
-    "apollo-server": "^2.4.8",
-    "apollo-server-testing": "^2.4.8",
-    "babel-eslint": "^10.0.1",
-    "cross-env": "^5.2.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-config-uber-es2015": "^3.1.2",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-prettier": "^3.1.0",
-    "gql-generator-node": "^1.0.10",
-    "graphql-import-node": "0.0.4",
-    "jest": "^24.7.1",
-    "jest-summary-reporter": "0.0.2",
-    "jest-transform-graphql": "^2.1.0",
-    "jsonic": "^0.3.1",
-    "lodash.merge": "^4.6.1",
-    "nodemon": "^1.19.0",
-    "reflect-metadata": "^0.1.13"
+  "devDependencies" : {
+	"@babel/cli"                               : "^7.4.4",
+	"@babel/core"                              : "^7.4.4",
+	"@babel/node"                              : "^7.2.2",
+	"@babel/plugin-proposal-class-properties"  : "^7.4.4",
+	"@babel/plugin-proposal-decorators"        : "^7.4.4",
+	"@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+	"@babel/preset-env"                        : "^7.4.4",
+	"@graphql-modules/core"                    : "^0.7.1",
+	"@graphql-modules/di"                      : "^0.7.1",
+	"apollo-server"                            : "^2.4.8",
+	"apollo-server-testing"                    : "^2.4.8",
+	"babel-eslint"                             : "^10.0.1",
+	"cross-env"                                : "^5.2.0",
+	"eslint"                                   : "^5.16.0",
+	"eslint-config-prettier"                   : "^4.3.0",
+	"eslint-config-uber-es2015"                : "^3.1.2",
+	"eslint-plugin-babel"                      : "^5.3.0",
+	"eslint-plugin-jest"                       : "^22.6.4",
+	"eslint-plugin-prettier"                   : "^3.1.0",
+	"gql-generator-node"                       : "^1.0.10",
+	"graphql-import-node"                      : "0.0.4",
+	"jest"                                     : "^24.7.1",
+	"jest-summary-reporter"                    : "0.0.2",
+	"jest-transform-graphql"                   : "^2.1.0",
+	"jsonic"                                   : "^0.3.1",
+	"lodash.merge"                             : "^4.6.1",
+	"nodemon"                                  : "^1.19.0",
+	"reflect-metadata"                         : "^0.1.13"
   },
-  "dependencies": {
-    "@babel/plugin-proposal-export-default-from": "^7.2.0",
-    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-    "@babel/polyfill": "^7.4.4",
-    "apollo-datasource-rest": "^0.3.2",
-    "auto-bind": "^2.1.0",
-    "dotenv": "^7.0.0",
-    "http-status-codes": "^1.3.2"
+  "dependencies"    : {
+	"@babel/plugin-proposal-export-default-from"  : "^7.2.0",
+	"@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+	"@babel/polyfill"                             : "^7.4.4",
+	"apollo-datasource-rest"                      : "^0.3.2",
+	"auto-bind"                                   : "^2.1.0",
+	"dotenv"                                      : "^7.0.0",
+	"http-status-codes"                           : "^1.3.2"
   },
   "peerDependencies": {
-    "graphql": "^14.2.1"
+	"graphql": "^14.2.1"
   },
-  "jshintConfig": {
-    "node": true,
-    "trailingcomma": false,
-    "esversion": 6
+  "jshintConfig"    : {
+	"node"         : true,
+	"trailingcomma": false,
+	"esversion"    : 6
   },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-object-rest-spread",
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
-      ],
-      [
-        "@babel/plugin-proposal-class-properties",
-        {
-          "loose": true
-        }
-      ],
-      "@babel/plugin-proposal-export-default-from",
-      "@babel/plugin-proposal-export-namespace-from"
-    ]
+  "babel"           : {
+	"presets": [
+	  [
+		"@babel/preset-env",
+		{
+		  "targets": {
+			"node": "current"
+		  }
+		}
+	  ]
+	],
+	"plugins": [
+	  "@babel/plugin-proposal-object-rest-spread",
+	  [
+		"@babel/plugin-proposal-decorators",
+		{
+		  "legacy": true
+		}
+	  ],
+	  [
+		"@babel/plugin-proposal-class-properties",
+		{
+		  "loose": true
+		}
+	  ],
+	  "@babel/plugin-proposal-export-default-from",
+	  "@babel/plugin-proposal-export-namespace-from"
+	]
   },
-  "eslintConfig": {
-    "extends": [
-      "eslint-config-prettier",
-      "eslint-config-uber-es2015",
-      "prettier"
-    ],
-    "env": {
-      "es6": true,
-      "node": true,
-      "jest/globals": true
-    },
-    "parser": "babel-eslint",
-    "plugins": [
-      "babel",
-      "prettier",
-      "jest"
-    ],
-    "rules": {
-      "valid-jsdoc": 0,
-      "no-var": 0,
-      "max-len": 0,
-      "prefer-spread": 1,
-      "prefer-template": 1,
-      "quote-props": 1,
-      "spaced-comment": 1,
-      "max-params": 0,
-      "no-multiple-empty-lines": 1,
-      "no-process-env": 0,
-      "no-inline-comments": 0,
-      "no-invalid-this": 0,
-      "no-unused-expressions": 0,
-      "camelcase": 0,
-      "consistent-return": 0,
-      "comma-dangle": 1,
-      "no-magic-numbers": [
-        "error",
-        {
-          "ignore": [
-            0,
-            1,
-            2,
-            100
-          ],
-          "enforceConst": true
-        }
-      ],
-      "indent": [
-        "error",
-        "tab"
-      ],
-      "func-names": "off"
-    }
+  "eslintConfig"    : {
+	"extends": [
+	  "eslint-config-prettier",
+	  "eslint-config-uber-es2015",
+	  "prettier"
+	],
+	"env"    : {
+	  "es6"         : true,
+	  "node"        : true,
+	  "jest/globals": true
+	},
+	"parser" : "babel-eslint",
+	"plugins": [
+	  "babel",
+	  "prettier",
+	  "jest"
+	],
+	"rules"  : {
+	  "valid-jsdoc"            : 0,
+	  "no-var"                 : 0,
+	  "max-len"                : 0,
+	  "prefer-spread"          : 1,
+	  "prefer-template"        : 1,
+	  "quote-props"            : 1,
+	  "spaced-comment"         : 1,
+	  "max-params"             : 0,
+	  "no-multiple-empty-lines": 1,
+	  "no-process-env"         : 0,
+	  "no-inline-comments"     : 0,
+	  "no-invalid-this"        : 0,
+	  "no-unused-expressions"  : 0,
+	  "camelcase"              : 0,
+	  "consistent-return"      : 0,
+	  "comma-dangle"           : 1,
+	  "no-magic-numbers"       : [
+		"error",
+		{
+		  "ignore"      : [
+			0,
+			1,
+			2,
+			100
+		  ],
+		  "enforceConst": true
+		}
+	  ],
+	  "indent"                 : [
+		"error",
+		"tab"
+	  ],
+	  "func-names"             : "off"
+	}
   },
-  "jest": {
-    "transform": {
-      "\\.(gql|graphql)$": "jest-transform-graphql",
-      ".*": "babel-jest"
-    },
-    "reporters": [
-      "default",
-      [
-        "jest-summary-reporter",
-        {
-          "failuresOnly": false
-        }
-      ]
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "graphql"
-    ]
+  "jest"            : {
+	"transform"           : {
+	  "\\.(gql|graphql)$": "jest-transform-graphql",
+	  ".*"               : "babel-jest"
+	},
+	"reporters"           : [
+	  "default",
+	  [
+		"jest-summary-reporter",
+		{
+		  "failuresOnly": true
+		}
+	  ]
+	],
+	"moduleFileExtensions": [
+	  "js",
+	  "graphql"
+	],
+	"collectCoverageFrom" : [
+	  "src/**/*.{js}"
+	]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Skitionek/alpha-vantage-data-source.git"
+  "repository"      : {
+	"type": "git",
+	"url" : "https://github.com/Skitionek/alpha-vantage-data-source.git"
   }
 }

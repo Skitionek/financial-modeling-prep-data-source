@@ -9,6 +9,8 @@ import AlphaVantageMock from "../mocks/alphaVantageMock";
 
 const checkAPIKey = (frags) => expect(frags[frags.length - 1]).toMatch(/^apikey=.*$/);
 
+jest.setTimeout(30000);
+
 let alpha;
 beforeAll(() => {
 	alpha = new AlphaVantageMock();

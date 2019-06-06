@@ -1,6 +1,8 @@
 
 import AlphaVantage from "../../src";
 
+jest.setTimeout(30000);
+
 const env = process.env;
 // Clear the current environment variables for testing.
 process.env = {};

@@ -15,6 +15,8 @@ import { obtainStructure } from "../../jest.extensions";
 const fs = require('fs');
 const path = require('path');
 
+jest.setTimeout(30000);
+
 let alpha;
 beforeAll(() => {
 	alpha = new AlphaVantageAPI({ key: 'demo' });
