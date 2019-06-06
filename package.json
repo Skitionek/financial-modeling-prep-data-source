@@ -53,7 +53,8 @@
 	},
 	"files": [
 		"lib",
-		"src"
+		"src",
+	  	"test"
 	],
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",
