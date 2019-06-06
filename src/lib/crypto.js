@@ -1,7 +1,7 @@
 module.exports = AlphaVantageAPI => {
 
 	function formatKey(key) {
-		let [f, s, t] = key.split('_');
+		const [f, s] = key.split('_');
 		return `${f === 'a' ? 'from' : f === 'b' ? 'to' : f}${s?`_${s}`:''}`;
 	}
 
