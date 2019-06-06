@@ -42,7 +42,7 @@
 		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
 		"semantic-release": "semantic-release",
 		"clean": "rimraf lib",
-		"test": "npm run lint && npm run cover",
+		"test": "npm run lint && npm run cover unit && npm run cover integration && npm run cover InSync",
 		"test:prod": "cross-env BABEL_ENV=production npm run test",
 		"test:only": "jest",
 		"test:watch": "npm test -- --watch",

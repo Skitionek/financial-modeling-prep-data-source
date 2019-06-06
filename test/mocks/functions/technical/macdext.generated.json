@@ -14,10 +14,10 @@
     "7: Time Zone": null
   },
   "Technical Analysis: MACDEXT": {
-    "2019-06-06 14:35:50": {
+    "2019-06-06 14:59:56": {
       "MACD_Hist": null,
-      "MACD_Signal": null,
-      "MACD": null
+      "MACD": null,
+      "MACD_Signal": null
     }
   }
 }

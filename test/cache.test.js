@@ -20,10 +20,12 @@ describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", gro
 		it.each(varSets)("%j", async varSet => {
 			const alpha = new AlphaVantageAPI({ key: 'demo' });
 			const start = performance.now();
-			await alpha[groupKey][key](varSet);
+			const r1 = await alpha[groupKey][key](varSet);
 			const response1time = performance.now();
-			await alpha[groupKey][key](varSet);
+			const r2 = await alpha[groupKey][key](varSet);
 			const response2time = performance.now();
+			console.log(r1,r2);
+			console.log(response1time - start + 1,'>',response2time - response1time);
 			expect(response1time - start + 1).toBeGreaterThan(response2time - response1time)
 		});
 	})
