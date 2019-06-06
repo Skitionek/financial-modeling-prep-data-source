@@ -1,4 +1,4 @@
-lib/test/**/*
-!lib/test/**/*.js
-!lib/test/**/*.snap
-!lib/test/**/*.json
+test/**/*
+!test/**/*.js
+!test/**/*.snap
+!test/**/*.json
