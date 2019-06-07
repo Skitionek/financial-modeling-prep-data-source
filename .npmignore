@@ -1,4 +1,2 @@
-test/**/*
-!test/**/*.js
-!test/**/*.snap
-!test/**/*.json
+**/*.extensions.js
+**/*.test.js
