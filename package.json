@@ -2,7 +2,7 @@
 	"name": "alpha-vantage-data-source",
 	"version": "0.3.1",
 	"description": "",
-	"main": "lib/index.js",
+	"main": "lib/src/index.js",
 	"keywords": [
 		"alpha vantage",
 		"vantage",
@@ -46,7 +46,7 @@
 		"test:examples": "node examples/",
 		"cover": "jest --coverage",
 		"lint": "eslint src test",
-		"build": "cross-env BABEL_ENV=production babel src --out-dir lib --source-maps --copy-files",
+		"build": "cross-env BABEL_ENV=production babel src --out-dir lib/src --source-maps --copy-files",
 		"postbuild": "npm run build-test",
 		"build-test": "cross-env BABEL_ENV=production babel test --out-dir lib/test --source-maps --copy-files --ignore '**/*.test.js'",
 		"prepublish": "npm run clean && npm run lint && npm run test && npm run build"
@@ -69,6 +69,7 @@
 		"apollo-server": "^2.4.8",
 		"apollo-server-testing": "^2.4.8",
 		"babel-eslint": "^10.0.1",
+		"babel-plugin-module-resolver": "^3.2.0",
 		"cross-env": "^5.2.0",
 		"eslint": "^5.16.0",
 		"eslint-config-prettier": "^4.3.0",
@@ -129,7 +130,15 @@
 				}
 			],
 			"@babel/plugin-proposal-export-default-from",
-			"@babel/plugin-proposal-export-namespace-from"
+			"@babel/plugin-proposal-export-namespace-from",
+			[
+				"module-resolver",
+				{
+					"root": [
+						"./src"
+					]
+				}
+			]
 		]
 	},
 	"eslintConfig": {

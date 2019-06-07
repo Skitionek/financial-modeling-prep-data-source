@@ -4,7 +4,7 @@
 	- Created:  2019-05-24
 */
 
-import AlphaVantageAPI from "../../src";
+import AlphaVantageAPI from "./";
 import functions from "./functions";
 
 export default class AlphaVantageMock extends AlphaVantageAPI {

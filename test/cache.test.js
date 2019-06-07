@@ -6,7 +6,7 @@
 
 /*global performance*/
 
-import AlphaVantageAPI from "../src";
+import AlphaVantageAPI from "index";
 import * as variables from "./mocks/variableMocks";
 
 jest.setTimeout(30000);
