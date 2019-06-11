@@ -60,17 +60,17 @@ function mockStructureData(obj) {
 	}
 	if (typeof obj === 'string') {
 		switch (obj) {
-			case FIELD_TYPES.TIMESTAMP:
-				return formatDateTime(Date.now());
-			case FIELD_TYPES.DATE:
-				return formatDate(Date.now());
-			case FIELD_TYPES.FLOAT:
-				return Math.random();
-			case FIELD_TYPES.INTERVAL:
-				return INTERVALS[Math.floor(Math.random() * INTERVALS.length)];
-			case FIELD_TYPES.STRING:
-			default:
-				return obj
+		case FIELD_TYPES.TIMESTAMP:
+			return formatDateTime(Date.now());
+		case FIELD_TYPES.DATE:
+			return formatDate(Date.now());
+		case FIELD_TYPES.FLOAT:
+			return Math.random();
+		case FIELD_TYPES.INTERVAL:
+			return INTERVALS[Math.floor(Math.random() * INTERVALS.length)];
+		case FIELD_TYPES.STRING:
+		default:
+			return obj
 		}
 	}
 	return null
@@ -82,7 +82,6 @@ describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", gro
 		varSet = Array.isArray(varSet) ? varSet[0] : varSet;
 		const response = await alpha[groupKey][key](varSet);
 		const structure = mockStructureData(obtainStructure(limitArrays(response)));
-
 
 		const json = JSON.stringify(structure, undefined, 2);
 		const relative_path = `./${groupKey}/${key}.generated.json`;

@@ -4,7 +4,7 @@
 	- Created:  23/04/2019
 */
 
-/*global performance*/
+/* global performance*/
 
 import AlphaVantageAPI from "index";
 import * as variables from "./mocks/variableMocks";

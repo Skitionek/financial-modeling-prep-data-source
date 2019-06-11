@@ -647,9 +647,6 @@ it(`the url builder with undefined params yields the base url`, () => {
 // });
 //
 
-
-
-
 // it(`non 200 request responses are thrown to a catch`, () => {
 // 	expect.assertions(1);
 //
