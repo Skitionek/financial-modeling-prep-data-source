@@ -10,7 +10,8 @@
 
 import AlphaVantageAPI from "../../../src";
 import * as variables from "../variableMocks";
-import { obtainStructure } from "../../jest.extensions";
+import { FIELD_TYPES, INTERVALS, obtainStructure } from "../../jest.extensions";
+import { timeFormat } from 'd3-time-format';
 
 const fs = require('fs');
 const path = require('path');
@@ -43,12 +44,45 @@ function limitArrays(obj) {
 
 const alphaStructure = AlphaVantageAPI.prototype;
 
+const formatDate = timeFormat("%Y-%m-%d");
+const formatDateTime = timeFormat("%Y-%m-%d %H:%M:%S");
+
+function mockStructureData(obj) {
+	if (Array.isArray(obj)) {
+		return [mockStructureData(obj[0])]
+	}
+	if (typeof obj === 'object' && obj !== null) {
+		const result = {};
+		Object.entries(obj).forEach(([k, v]) => {
+			result[k] = mockStructureData(v);
+		});
+		return result
+	}
+	if (typeof obj === 'string') {
+		switch (obj) {
+			case FIELD_TYPES.TIMESTAMP:
+				return formatDateTime(Date.now());
+			case FIELD_TYPES.DATE:
+				return formatDate(Date.now());
+			case FIELD_TYPES.FLOAT:
+				return Math.random();
+			case FIELD_TYPES.INTERVAL:
+				return INTERVALS[Math.floor(Math.random() * INTERVALS.length)];
+			case FIELD_TYPES.STRING:
+			default:
+				return obj
+		}
+	}
+	return null
+}
+
 describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", groupKey => {
 	it.each(Object.keys(alphaStructure[groupKey]))("%s", async (key, done) => {
 		let varSet = variables[groupKey][key];
 		varSet = Array.isArray(varSet) ? varSet[0] : varSet;
 		const response = await alpha[groupKey][key](varSet);
-		const structure = obtainStructure(limitArrays(response));
+		const structure = mockStructureData(obtainStructure(limitArrays(response)));
+
 
 		const json = JSON.stringify(structure, undefined, 2);
 		const relative_path = `./${groupKey}/${key}.generated.json`;

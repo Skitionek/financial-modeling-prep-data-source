@@ -1,18 +1,18 @@
 {
   "Meta Data": {
-    "1. Information": null,
-    "2. From Symbol": null,
-    "3. To Symbol": null,
-    "4. Output Size": null,
-    "5. Last Refreshed": null,
-    "6. Time Zone": null
+    "1. Information": "String",
+    "2. From Symbol": "String",
+    "3. To Symbol": "String",
+    "4. Output Size": "String",
+    "5. Last Refreshed": "2019-06-07 15:05:24",
+    "6. Time Zone": "String"
   },
   "Time Series FX (Daily)": {
     "2019-06-07": {
-      "1. open": null,
-      "2. high": null,
-      "3. low": null,
-      "4. close": null
+      "1. open": 0.24042964340888462,
+      "2. high": 0.4837677398086202,
+      "3. low": 0.5680476237308574,
+      "4. close": 0.5308964761698278
     }
   }
 }

@@ -1,15 +1,15 @@
 {
   "Meta Data": {
-    "1: Symbol": null,
-    "2: Indicator": null,
-    "3: Last Refreshed": null,
-    "4: Interval": null,
-    "5: Series Type": null,
-    "6: Time Zone": null
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-07",
+    "4: Interval": "monthly",
+    "5: Series Type": "String",
+    "6: Time Zone": "String"
   },
   "Technical Analysis: HT_TRENDLINE": {
-    "2019-06-06 15:00:53": {
-      "HT_TRENDLINE": null
+    "2019-06-06": {
+      "HT_TRENDLINE": 0.03487397296035333
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "Global Quote": {
-    "01. symbol": null,
-    "02. open": null,
-    "03. high": null,
-    "04. low": null,
-    "05. price": null,
-    "06. volume": null,
-    "07. latest trading day": null,
-    "08. previous close": null,
-    "09. change": null,
-    "10. change percent": null
+    "01. symbol": "String",
+    "02. open": 0.8917280096622309,
+    "03. high": 0.2875308858059964,
+    "04. low": 0.40689131895766084,
+    "05. price": 0.47380225033443124,
+    "06. volume": 0.09639776209328588,
+    "07. latest trading day": "2019-06-07",
+    "08. previous close": 0.0826612062808516,
+    "09. change": 0.6424842672369195,
+    "10. change percent": "String"
   }
 }

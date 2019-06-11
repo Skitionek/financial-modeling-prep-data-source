@@ -1,16 +1,16 @@
 {
   "Meta Data": {
-    "1: Symbol": null,
-    "2: Indicator": null,
-    "3: Last Refreshed": null,
-    "4: Interval": null,
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-07",
+    "4: Interval": "1min",
     "5: Time Period": null,
-    "6: Series Type": null,
-    "7: Time Zone": null
+    "6: Series Type": "String",
+    "7: Time Zone": "String"
   },
   "Technical Analysis: WMA": {
-    "2019-06-06 14:59:46": {
-      "WMA": null
+    "2019-06-06": {
+      "WMA": 0.3773835487667141
     }
   }
 }

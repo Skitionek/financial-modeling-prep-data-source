@@ -1,17 +1,17 @@
 {
   "Meta Data": {
-    "1. Information": null,
-    "2. Symbol": null,
-    "3. Last Refreshed": null,
-    "4. Time Zone": null
+    "1. Information": "String",
+    "2. Symbol": "String",
+    "3. Last Refreshed": "2019-06-07",
+    "4. Time Zone": "String"
   },
   "Monthly Time Series": {
     "2019-06-06": {
-      "1. open": null,
-      "2. high": null,
-      "3. low": null,
-      "4. close": null,
-      "5. volume": null
+      "1. open": 0.2390656600680361,
+      "2. high": 0.8219322842571406,
+      "3. low": 0.7176238712546192,
+      "4. close": 0.05758970015828768,
+      "5. volume": 0.16413480930510893
     }
   }
 }

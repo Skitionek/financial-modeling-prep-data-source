@@ -1,21 +1,21 @@
 {
   "Meta Data": {
-    "1: Symbol": null,
-    "2: Indicator": null,
-    "3: Last Refreshed": null,
-    "4: Interval": null,
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-07",
+    "4: Interval": "weekly",
     "5: Time Period": null,
     "6.1: Deviation multiplier for upper band": null,
     "6.2: Deviation multiplier for lower band": null,
     "6.3: MA Type": null,
-    "7: Series Type": null,
-    "8: Time Zone": null
+    "7: Series Type": "String",
+    "8: Time Zone": "String"
   },
   "Technical Analysis: BBANDS": {
-    "2019-06-06 15:00:39": {
-      "Real Upper Band": null,
-      "Real Middle Band": null,
-      "Real Lower Band": null
+    "2019-06-06": {
+      "Real Lower Band": 0.24430529800630563,
+      "Real Upper Band": 0.12944397503134653,
+      "Real Middle Band": 0.6440069356255826
     }
   }
 }

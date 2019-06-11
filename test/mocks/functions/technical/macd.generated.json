@@ -1,20 +1,20 @@
 {
   "Meta Data": {
-    "1: Symbol": null,
-    "2: Indicator": null,
-    "3: Last Refreshed": null,
-    "4: Interval": null,
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-07",
+    "4: Interval": "60min",
     "5.1: Fast Period": null,
     "5.2: Slow Period": null,
     "5.3: Signal Period": null,
-    "6: Series Type": null,
-    "7: Time Zone": null
+    "6: Series Type": "String",
+    "7: Time Zone": "String"
   },
   "Technical Analysis: MACD": {
-    "2019-06-06 14:59:56": {
-      "MACD_Signal": null,
-      "MACD_Hist": null,
-      "MACD": null
+    "2019-06-06": {
+      "MACD": 0.7882343646736831,
+      "MACD_Hist": 0.20080237920163713,
+      "MACD_Signal": 0.13820050368500048
     }
   }
 }

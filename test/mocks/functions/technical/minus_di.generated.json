@@ -1,15 +1,15 @@
 {
   "Meta Data": {
-    "1: Symbol": null,
-    "2: Indicator": null,
-    "3: Last Refreshed": null,
-    "4: Interval": null,
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-07",
+    "4: Interval": "30min",
     "5: Time Period": null,
-    "6: Time Zone": null
+    "6: Time Zone": "String"
   },
   "Technical Analysis: MINUS_DI": {
-    "2019-06-06 15:00:33": {
-      "MINUS_DI": null
+    "2019-06-06": {
+      "MINUS_DI": 0.5580797413286438
     }
   }
 }

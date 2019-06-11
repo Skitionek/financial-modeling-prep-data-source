@@ -1,16 +1,16 @@
 {
   "Meta Data": {
-    "1: Symbol": null,
-    "2: Indicator": null,
-    "3: Last Refreshed": null,
-    "4: Interval": null,
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-07",
+    "4: Interval": "60min",
     "5: Time Period": null,
-    "6: Time Zone": null
+    "6: Time Zone": "String"
   },
   "Technical Analysis: AROON": {
-    "2019-06-06 15:00:24": {
-      "Aroon Up": null,
-      "Aroon Down": null
+    "2019-06-06": {
+      "Aroon Up": 0.3980005681798091,
+      "Aroon Down": 0.07422791774742299
     }
   }
 }

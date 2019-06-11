@@ -1,25 +1,25 @@
 {
   "Meta Data": {
-    "1. Information": null,
-    "2. Digital Currency Code": null,
-    "3. Digital Currency Name": null,
-    "4. Market Code": null,
-    "5. Market Name": null,
-    "6. Last Refreshed": null,
-    "7. Time Zone": null
+    "1. Information": "String",
+    "2. Digital Currency Code": "String",
+    "3. Digital Currency Name": "String",
+    "4. Market Code": "String",
+    "5. Market Name": "String",
+    "6. Last Refreshed": "2019-06-07",
+    "7. Time Zone": "String"
   },
   "Time Series (Digital Currency Daily)": {
-    "2019-06-05": {
-      "1a. open (CNY)": null,
-      "1b. open (USD)": null,
-      "2a. high (CNY)": null,
-      "2b. high (USD)": null,
-      "3a. low (CNY)": null,
-      "3b. low (USD)": null,
-      "4a. close (CNY)": null,
-      "4b. close (USD)": null,
-      "5. volume": null,
-      "6. market cap (USD)": null
+    "2019-06-06": {
+      "1a. open (CNY)": 0.9491008117929136,
+      "1b. open (USD)": 0.5909634109449744,
+      "2a. high (CNY)": 0.09466642027309713,
+      "2b. high (USD)": 0.3729443326818551,
+      "3a. low (CNY)": 0.36725701077720063,
+      "3b. low (USD)": 0.4700372783292279,
+      "4a. close (CNY)": 0.2974437970943251,
+      "4b. close (USD)": 0.5487171076415043,
+      "5. volume": 0.5363557678993176,
+      "6. market cap (USD)": 0.17223884590566052
     }
   }
 }
