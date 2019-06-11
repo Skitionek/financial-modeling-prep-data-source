@@ -69,18 +69,11 @@ module.exports = {
 
 	exchangeTimeSeries ({ symbol, interval, outputsize }) {
 		const intraday = interval.match(/\d+min/);
-		if (intraday)
-			return this.util.fn('TIME_SERIES_INTRADAY',
-				'time_series'
-			).call(this, { symbol, interval, outputsize });
-		return this.util.fn(`TIME_SERIES_${interval.toUpperCase()}`,
-			'time_series'
-		).call(this, { symbol, outputsize });
+		if (intraday) return this.data.intraday({ symbol, interval, outputsize });
+		return this.data[interval.toLowerCase()]({ symbol, outputsize });
 	},
 
 	exchangeTimeSeries_adjusted ({ symbol, interval, outputsize }) {
-		return this.util.fn(`TIME_SERIES_${interval.toUpperCase()}_ADJUSTED`,
-			'time_series'
-		).call(this, { symbol, outputsize });
+		return this.data[`${interval.toLowerCase()}_adjusted`]({ symbol, outputsize });
 	}
 };

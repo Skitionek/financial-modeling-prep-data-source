@@ -1,8 +1,10 @@
+import mapValues from "lodash.mapvalues"
+
 module.exports = AlphaVantageAPI => {
 
 	function formatKey(key) {
 		const [f, s] = key.split('_');
-		return `${f === 'a' ? 'from' : f === 'b' ? 'to' : f}${s?`_${s}`:''}`;
+		return `${f === 'a' ? 'from' : f === 'b' ? 'to' : f}${s ? `_${s}` : ''}`;
 	}
 
 	/**
@@ -35,7 +37,8 @@ module.exports = AlphaVantageAPI => {
 		})
 	};
 
-	const polish_realtime_currency_exchange_rate = data => data.realtime_currency_exchange_rate;
+	const polish_realtime_currency_exchange_rate = data =>
+		mapValues(data.realtime_currency_exchange_rate, v => v === '-' ? null : v);
 
 	return {
 		exchangeRates({ from_currency, to_currency }) {
@@ -49,9 +52,10 @@ module.exports = AlphaVantageAPI => {
 		monthly: series('DIGITAL_CURRENCY_MONTHLY'),
 
 		exchangeTimeSeries({ symbol, market, interval }) {
-			return this.util.fn(`DIGITAL_CURRENCY_${interval.toUpperCase()}`,
-				'time_series'
-			).call(this, { symbol, market });
+			return this.crypto[interval.toLowerCase()]({
+				symbol,
+				market
+			});
 		}
 	};
 };

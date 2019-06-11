@@ -5,21 +5,21 @@
     "3. Digital Currency Name": "String",
     "4. Market Code": "String",
     "5. Market Name": "String",
-    "6. Last Refreshed": "2019-06-07",
+    "6. Last Refreshed": "2019-06-11",
     "7. Time Zone": "String"
   },
   "Time Series (Digital Currency Daily)": {
-    "2019-06-06": {
-      "1a. open (CNY)": 0.3601993673367887,
-      "1b. open (USD)": 0.0022330225825335503,
-      "2a. high (CNY)": 0.36546480710129803,
-      "2b. high (USD)": 0.24938492606966434,
-      "3a. low (CNY)": 0.37152686587974126,
-      "3b. low (USD)": 0.5926775892482192,
-      "4a. close (CNY)": 0.4453212891915155,
-      "4b. close (USD)": 0.33392938262331895,
-      "5. volume": 0.5200361769492685,
-      "6. market cap (USD)": 0.05997393980107946
+    "2019-06-10": {
+      "1a. open (CNY)": 0.7828225535933495,
+      "1b. open (USD)": 0.25461216990448543,
+      "2a. high (CNY)": 0.44114732446552574,
+      "2b. high (USD)": 0.4353489124666432,
+      "3a. low (CNY)": 0.7047251071577689,
+      "3b. low (USD)": 0.9487832980098581,
+      "4a. close (CNY)": 0.3566576381097253,
+      "4b. close (USD)": 0.28156648656742367,
+      "5. volume": 0.688111262136438,
+      "6. market cap (USD)": 0.6163677451959904
     }
   }
 }

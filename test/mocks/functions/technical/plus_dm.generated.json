@@ -2,14 +2,14 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "60min",
-    "5: Time Period": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "1min",
+    "5: Time Period": 0.9936502508886986,
     "6: Time Zone": "String"
   },
   "Technical Analysis: PLUS_DM": {
-    "2019-06-06": {
-      "PLUS_DM": 0.507869309486138
+    "2019-06-10": {
+      "PLUS_DM": 0.11926150048046913
     }
   }
 }

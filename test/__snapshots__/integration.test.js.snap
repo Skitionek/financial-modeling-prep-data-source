@@ -29,8 +29,8 @@ Object {
 
 exports[`crypto exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
-  "ask_price": "String",
-  "bid_price": "String",
+  "ask_price": null,
+  "bid_price": null,
   "exchange_rate": "Float",
   "from_currency_code": "String",
   "from_currency_name": "String",
@@ -59,16 +59,16 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"da
 Object {
   "data": Array [
     Object {
-      "a_close_cny": "Float",
-      "a_high_cny": "Float",
-      "a_low_cny": "Float",
-      "a_open_cny": "Float",
-      "b_close_usd": "Float",
-      "b_high_usd": "Float",
-      "b_low_usd": "Float",
-      "b_open_usd": "Float",
       "date": "Date",
-      "market_cap_usd": "Float",
+      "from_close": "Float",
+      "from_high": "Float",
+      "from_low": "Float",
+      "from_open": "Float",
+      "market_cap": "Float",
+      "to_close": "Float",
+      "to_high": "Float",
+      "to_low": "Float",
+      "to_open": "Float",
       "volume": "Float",
     },
   ],
@@ -86,16 +86,16 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"da
 Object {
   "data": Array [
     Object {
-      "a_close_cny": "Float",
-      "a_high_cny": "Float",
-      "a_low_cny": "Float",
-      "a_open_cny": "Float",
-      "b_close_usd": "Float",
-      "b_high_usd": "Float",
-      "b_low_usd": "Float",
-      "b_open_usd": "Float",
       "date": "Date",
-      "market_cap_usd": "Float",
+      "from_close": "Float",
+      "from_high": "Float",
+      "from_low": "Float",
+      "from_open": "Float",
+      "market_cap": "Float",
+      "to_close": "Float",
+      "to_high": "Float",
+      "to_low": "Float",
+      "to_open": "Float",
       "volume": "Float",
     },
   ],
@@ -113,16 +113,16 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"mo
 Object {
   "data": Array [
     Object {
-      "a_close_cny": "Float",
-      "a_high_cny": "Float",
-      "a_low_cny": "Float",
-      "a_open_cny": "Float",
-      "b_close_usd": "Float",
-      "b_high_usd": "Float",
-      "b_low_usd": "Float",
-      "b_open_usd": "Float",
       "date": "Date",
-      "market_cap_usd": "Float",
+      "from_close": "Float",
+      "from_high": "Float",
+      "from_low": "Float",
+      "from_open": "Float",
+      "market_cap": "Float",
+      "to_close": "Float",
+      "to_high": "Float",
+      "to_low": "Float",
+      "to_open": "Float",
       "volume": "Float",
     },
   ],
@@ -140,16 +140,16 @@ exports[`crypto exchangeTimeSeries {"symbol":"BTC","market":"CNY","interval":"we
 Object {
   "data": Array [
     Object {
-      "a_close_cny": "Float",
-      "a_high_cny": "Float",
-      "a_low_cny": "Float",
-      "a_open_cny": "Float",
-      "b_close_usd": "Float",
-      "b_high_usd": "Float",
-      "b_low_usd": "Float",
-      "b_open_usd": "Float",
       "date": "Date",
-      "market_cap_usd": "Float",
+      "from_close": "Float",
+      "from_high": "Float",
+      "from_low": "Float",
+      "from_open": "Float",
+      "market_cap": "Float",
+      "to_close": "Float",
+      "to_high": "Float",
+      "to_low": "Float",
+      "to_open": "Float",
       "volume": "Float",
     },
   ],
@@ -771,8 +771,8 @@ Object {
 
 exports[`forex exchangeRates {"from_currency":"BTC","to_currency":"CNY"} 1`] = `
 Object {
-  "ask_price": "String",
-  "bid_price": "String",
+  "ask_price": null,
+  "bid_price": null,
   "exchange_rate": "Float",
   "from_currency_code": "String",
   "from_currency_name": "String",
@@ -1155,11 +1155,11 @@ Object {
       "value": "Float",
     },
   ],
-  "fastk_period": null,
+  "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
-  "slowk_period": null,
+  "slowk_period": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1177,7 +1177,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1194,7 +1194,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1207,13 +1207,13 @@ Object {
       "value": "Float",
     },
   ],
-  "fast_period": null,
+  "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
-  "ma_type": null,
+  "ma_type": "Float",
   "series_type": "String",
-  "slow_period": null,
+  "slow_period": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1232,7 +1232,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1249,7 +1249,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1266,7 +1266,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1281,15 +1281,15 @@ Object {
       "real_upper_band": "Float",
     },
   ],
-  "deviation_multiplier_for_lower_band": null,
-  "deviation_multiplier_for_upper_band": null,
+  "deviation_multiplier_for_lower_band": "Float",
+  "deviation_multiplier_for_upper_band": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
-  "ma_type": null,
+  "ma_type": "Float",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1322,7 +1322,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1340,7 +1340,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1358,7 +1358,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1375,7 +1375,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1393,7 +1393,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1515,7 +1515,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1530,13 +1530,13 @@ Object {
       "macd_signal": "Float",
     },
   ],
-  "fast_period": null,
+  "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
   "series_type": "String",
-  "signal_period": null,
-  "slow_period": null,
+  "signal_period": "Float",
+  "slow_period": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1552,16 +1552,16 @@ Object {
       "macd_signal": "Float",
     },
   ],
-  "fast_ma_type": null,
-  "fast_period": null,
+  "fast_ma_type": "Float",
+  "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
   "series_type": "String",
-  "signal_ma_type": null,
-  "signal_period": null,
-  "slow_ma_type": null,
-  "slow_period": null,
+  "signal_ma_type": "Float",
+  "signal_period": "Float",
+  "slow_ma_type": "Float",
+  "slow_period": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1576,12 +1576,12 @@ Object {
       "mama": "Float",
     },
   ],
-  "fast_limit": null,
+  "fast_limit": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
   "series_type": "String",
-  "slow_limit": null,
+  "slow_limit": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1599,7 +1599,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1617,7 +1617,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1634,7 +1634,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1651,7 +1651,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1668,7 +1668,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1686,7 +1686,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1703,7 +1703,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1736,7 +1736,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1753,7 +1753,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1766,13 +1766,13 @@ Object {
       "value": "Float",
     },
   ],
-  "fast_period": null,
+  "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
-  "ma_type": null,
+  "ma_type": "Float",
   "series_type": "String",
-  "slow_period": null,
+  "slow_period": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1791,7 +1791,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1809,7 +1809,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1827,14 +1827,14 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
 
 exports[`technical sar {"symbol":"MSFT","interval":"weekly","acceleration":0.05,"maximum":0.25} 1`] = `
 Object {
-  "acceleration": null,
+  "acceleration": "Float",
   "data": Array [
     Object {
       "date": "Date",
@@ -1844,7 +1844,7 @@ Object {
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
-  "maximum": null,
+  "maximum": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1863,7 +1863,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1877,14 +1877,14 @@ Object {
       "slowk": "Float",
     },
   ],
-  "fastk_period": null,
+  "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
-  "slowd_ma_type": null,
-  "slowd_period": null,
-  "slowk_ma_type": null,
-  "slowk_period": null,
+  "slowd_ma_type": "Float",
+  "slowd_period": "Float",
+  "slowk_ma_type": "Float",
+  "slowk_period": "Float",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1899,9 +1899,9 @@ Object {
       "fastk": "Float",
     },
   ],
-  "fastd_ma_type": null,
-  "fastd_period": null,
-  "fastk_period": null,
+  "fastd_ma_type": "Float",
+  "fastd_period": "Float",
+  "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
@@ -1919,15 +1919,15 @@ Object {
       "fastk": "Float",
     },
   ],
-  "fastd_ma_type": null,
-  "fastd_period": null,
-  "fastk_period": null,
+  "fastd_ma_type": "Float",
+  "fastd_period": "Float",
+  "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1945,9 +1945,9 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
-  "volume_factor_vfactor": null,
+  "volume_factor_vfactor": "Float",
 }
 `;
 
@@ -1964,7 +1964,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -1998,7 +1998,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -2016,7 +2016,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -2033,7 +2033,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -2066,7 +2066,7 @@ Object {
   "interval": "Interval",
   "last_refreshed": "Date",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;
@@ -2084,7 +2084,7 @@ Object {
   "last_refreshed": "Date",
   "series_type": "String",
   "symbol": "String",
-  "time_period": null,
+  "time_period": "Float",
   "time_zone": "String",
 }
 `;

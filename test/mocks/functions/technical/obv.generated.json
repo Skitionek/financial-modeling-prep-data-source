@@ -2,13 +2,13 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "15min",
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "daily",
     "5: Time Zone": "String"
   },
   "Technical Analysis: OBV": {
-    "2019-06-06": {
-      "OBV": 0.9996800587954535
+    "2019-06-10": {
+      "OBV": 0.3662653096781867
     }
   }
 }

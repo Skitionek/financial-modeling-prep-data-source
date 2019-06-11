@@ -4,10 +4,10 @@
     "2. From_Currency Name": "String",
     "3. To_Currency Code": "String",
     "4. To_Currency Name": "String",
-    "5. Exchange Rate": 0.9685597804684587,
-    "6. Last Refreshed": "2019-06-07 15:05:23",
+    "5. Exchange Rate": 0.07647226660979856,
+    "6. Last Refreshed": "2019-06-11 15:21:09",
     "7. Time Zone": "String",
-    "8. Bid Price": "String",
-    "9. Ask Price": "String"
+    "8. Bid Price": "-",
+    "9. Ask Price": "-"
   }
 }

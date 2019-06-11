@@ -2,17 +2,17 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "1min",
-    "5.1: Fast Limit": null,
-    "5.2: Slow Limit": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "weekly",
+    "5.1: Fast Limit": 0.3202435663567149,
+    "5.2: Slow Limit": 0.8514557247731194,
     "6: Series Type": "String",
     "7: Time Zone": "String"
   },
   "Technical Analysis: MAMA": {
-    "2019-06-06": {
-      "FAMA": 0.06040407870347986,
-      "MAMA": 0.3772522752750016
+    "2019-06-10": {
+      "FAMA": 0.13194664277670043,
+      "MAMA": 0.506532844887482
     }
   }
 }

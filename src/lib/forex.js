@@ -1,8 +1,9 @@
-
 const series = fn => function ({ from_symbol, to_symbol, interval, outputsize }) {
 	return this.util.fn(
 		fn,
-		'time_series'
+		'time_series',
+		'data',
+		'meta_data'
 	).call(this, { from_symbol, to_symbol, interval, outputsize })
 };
 
@@ -13,18 +14,8 @@ module.exports = AlphaVantageAPI => ({
 	weekly: series('FX_WEEKLY'),
 	monthly: series('FX_MONTHLY'),
 
-	exchangeTimeSeries ({ from_symbol, to_symbol, interval, outputsize }) {
-		const intraday = interval.match(/\d+min/);
-		if (intraday)
-			return this.util.fn('FX_INTRADAY',
-				'time_series',
-				'data',
-				'meta_data'
-			).call(this, { from_symbol, to_symbol, interval, outputsize });
-		return this.util.fn(`FX_${interval.toUpperCase()}`,
-			'time_series',
-			'data',
-			'meta_data'
-		).call(this, { from_symbol, to_symbol, outputsize });
+	exchangeTimeSeries({ from_symbol, to_symbol, interval, outputsize }) {
+		if (interval.match(/\d+min/)) return this.forex.intraday({ from_symbol, to_symbol, interval, outputsize });
+		return this.forex[interval.toLowerCase()]({ from_symbol, to_symbol, outputsize });
 	}
 });

@@ -2,16 +2,16 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "15min",
-    "5.1: Time Period 1": null,
-    "5.2: Time Period 2": null,
-    "5.3: Time Period 3": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "60min",
+    "5.1: Time Period 1": 0.9575077241037528,
+    "5.2: Time Period 2": 0.35462930391187797,
+    "5.3: Time Period 3": 0.47094700827513103,
     "6: Time Zone": "String"
   },
   "Technical Analysis: ULTOSC": {
-    "2019-06-06": {
-      "ULTOSC": 0.4763146756976071
+    "2019-06-10": {
+      "ULTOSC": 0.7359678289785005
     }
   }
 }

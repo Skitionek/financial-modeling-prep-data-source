@@ -2,20 +2,20 @@
   "Meta Data": {
     "1. Information": "String",
     "2. Symbol": "String",
-    "3. Last Refreshed": "2019-06-07",
+    "3. Last Refreshed": "2019-06-11",
     "4. Output Size": "String",
     "5. Time Zone": "String"
   },
   "Time Series (Daily)": {
-    "2019-06-06": {
-      "1. open": 0.5109441435491178,
-      "2. high": 0.8381560521529592,
-      "3. low": 0.3998512262493612,
-      "4. close": 0.8379872321598891,
-      "5. adjusted close": 0.9883083467637761,
-      "6. volume": 0.1787904530114135,
-      "7. dividend amount": 0.9087426925102913,
-      "8. split coefficient": 0.2534548665942393
+    "2019-06-10": {
+      "1. open": 0.09053324561361809,
+      "2. high": 0.3792937031401893,
+      "3. low": 0.829511718094309,
+      "4. close": 0.027123654119896035,
+      "5. adjusted close": 0.2438074260739047,
+      "6. volume": 0.45056358527566265,
+      "7. dividend amount": 0.6075695560930425,
+      "8. split coefficient": 0.07530355248113452
     }
   }
 }

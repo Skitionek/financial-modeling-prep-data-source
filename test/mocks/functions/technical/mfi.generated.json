@@ -2,14 +2,14 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "daily",
-    "5: Time Period": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "30min",
+    "5: Time Period": 0.3116500937532354,
     "6: Time Zone": "String"
   },
   "Technical Analysis: MFI": {
-    "2019-06-06": {
-      "MFI": 0.5652184866206467
+    "2019-06-10": {
+      "MFI": 0.8436834787343983
     }
   }
 }

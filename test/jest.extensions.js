@@ -12,8 +12,25 @@ export const FIELD_TYPES = {
 	INTERVAL: "Interval"
 };
 export const INTERVALS = [
-	'1min', '5min', '15min' , '30min', '60min', 'daily', 'weekly', 'monthly'
+	'1min', '5min', '15min', '30min', '60min', 'daily', 'weekly', 'monthly'
 ];
+
+function stringToStructure(obj) {
+	if (obj.match(/\d{4}-\d{2}-\d{2}/)) {
+		if (obj.match(/\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/)) {
+			return FIELD_TYPES.TIMESTAMP
+		}
+		return FIELD_TYPES.DATE
+	}
+	if (!isNaN(obj)) {
+		return FIELD_TYPES.FLOAT
+	}
+	if (INTERVALS.indexOf(obj) !== -1) {
+		return FIELD_TYPES.INTERVAL
+	}
+	if (obj === '-') return obj;
+	return Object.values(FIELD_TYPES).indexOf(obj) === -1 ? FIELD_TYPES.STRING : obj;
+}
 
 export function obtainStructure(obj) {
 	if (Array.isArray(obj)) {
@@ -26,22 +43,11 @@ export function obtainStructure(obj) {
 		});
 		return result
 	}
-	if (typeof obj === 'string') {
-		if (obj.match(/\d{4}-\d{2}-\d{2}/)) {
-			if (obj.match(/\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/)) {
-				return FIELD_TYPES.TIMESTAMP
-			}
-			return FIELD_TYPES.DATE
-		}
-		if (!isNaN(obj)) {
-			return FIELD_TYPES.FLOAT
-		}
-		if(INTERVALS.indexOf(obj)!==-1) {
-			return FIELD_TYPES.INTERVAL
-		}
-		return FIELD_TYPES.STRING
+	if (typeof obj === 'string') return stringToStructure(obj);
+	if (typeof obj === 'number') {
+		return FIELD_TYPES.FLOAT;
 	}
-	return null
+	return null;
 }
 
 export const matchesSnapshot = data => expect(obtainStructure(data)).toMatchSnapshot();

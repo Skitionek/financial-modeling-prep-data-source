@@ -2,22 +2,22 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "5min",
-    "5.1: Fast Period": null,
-    "5.2: Slow Period": null,
-    "5.3: Signal Period": null,
-    "5.4: Fast MA Type": null,
-    "5.5: Slow MA Type": null,
-    "5.6: Signal MA Type": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "60min",
+    "5.1: Fast Period": 0.2128270102761709,
+    "5.2: Slow Period": 0.05523260553600129,
+    "5.3: Signal Period": 0.6741955972982288,
+    "5.4: Fast MA Type": 0.07766362342634903,
+    "5.5: Slow MA Type": 0.31379079035308277,
+    "5.6: Signal MA Type": 0.9147507742026031,
     "6: Series Type": "String",
     "7: Time Zone": "String"
   },
   "Technical Analysis: MACDEXT": {
-    "2019-06-06": {
-      "MACD": 0.98334681757996,
-      "MACD_Signal": 0.6149294698219243,
-      "MACD_Hist": 0.8974698200186082
+    "2019-06-10": {
+      "MACD": 0.6794986834473891,
+      "MACD_Hist": 0.8476961398774101,
+      "MACD_Signal": 0.579009518392813
     }
   }
 }

@@ -2,20 +2,20 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "weekly",
-    "5: Time Period": null,
-    "6.1: Deviation multiplier for upper band": null,
-    "6.2: Deviation multiplier for lower band": null,
-    "6.3: MA Type": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "30min",
+    "5: Time Period": 0.31433251338160617,
+    "6.1: Deviation multiplier for upper band": 0.9032754624483044,
+    "6.2: Deviation multiplier for lower band": 0.9878991002401063,
+    "6.3: MA Type": 0.3285932912354377,
     "7: Series Type": "String",
     "8: Time Zone": "String"
   },
   "Technical Analysis: BBANDS": {
-    "2019-06-06": {
-      "Real Lower Band": 0.24430529800630563,
-      "Real Upper Band": 0.12944397503134653,
-      "Real Middle Band": 0.6440069356255826
+    "2019-06-10": {
+      "Real Middle Band": 0.9930515693280368,
+      "Real Lower Band": 0.7084636834836511,
+      "Real Upper Band": 0.6667604305942716
     }
   }
 }

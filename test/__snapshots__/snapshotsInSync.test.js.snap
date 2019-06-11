@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`crypto daily 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`crypto exchangeRates 1`] = `
+Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+-   "ask_price": null,
+-   "bid_price": null,
++   "ask_price": "Float",
++   "bid_price": "Float",
+    "exchange_rate": "Float",
+    "from_currency_code": "String",
+    "from_currency_name": "String",
+    "last_refreshed": "Timestamp",
+    "time_zone": "String",
+`;
+
+exports[`crypto exchangeTimeSeries 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`crypto monthly 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`crypto weekly 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data daily 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data daily_adjusted 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data exchangeTimeSeries 1`] = `
+Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    "data": Array [
+      Object {
+        "close": "Float",
+-       "date": "Timestamp",
++       "date": "Date",
+        "high": "Float",
+        "low": "Float",
+        "open": "Float",
+        "volume": "Float",
+      },
+    ],
+    "information": "String",
+    "interval": "Interval",
+-   "last_refreshed": "Timestamp",
++   "last_refreshed": "Date",
+    "output_size": "String",
+    "symbol": "String",
+    "time_zone": "String",
+  }
+`;
+
+exports[`data exchangeTimeSeries_adjusted 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data intraday 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data monthly 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data monthly_adjusted 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data quote 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data search 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data weekly 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`data weekly_adjusted 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`forex daily 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`forex exchangeRates 1`] = `
+Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,8 +1,8 @@
+  Object {
+-   "ask_price": null,
+-   "bid_price": null,
++   "ask_price": "Float",
++   "bid_price": "Float",
+    "exchange_rate": "Float",
+    "from_currency_code": "String",
+    "from_currency_name": "String",
+    "last_refreshed": "Timestamp",
+    "time_zone": "String",
+`;
+
+exports[`forex exchangeTimeSeries 1`] = `
+Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,10 +1,10 @@
+  Object {
+    "data": Array [
+      Object {
+        "close": "Float",
+-       "date": "Timestamp",
++       "date": "Date",
+        "high": "Float",
+        "low": "Float",
+        "open": "Float",
+      },
+    ],
+`;
+
+exports[`forex intraday 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`forex monthly 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`forex weekly 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`performance sector 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ad 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical adosc 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical adx 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical adxr 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical apo 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical aroon 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical aroonosc 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical atr 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical bbands 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical bop 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical cci 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical cmo 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical dema 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical dx 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ema 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ht_dcperiod 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ht_dcphase 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ht_phasor 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ht_sine 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ht_trendline 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ht_trendmode 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical kama 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical macd 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical macdext 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical mama 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical mfi 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical midpoint 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical midprice 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical minus_di 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical minus_dm 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical mom 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical natr 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical obv 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical plus_di 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical plus_dm 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ppo 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical roc 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical rocr 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical rsi 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical sar 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical sma 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical stoch 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical stochf 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical stochrsi 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical t3 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical tema 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical trange 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical trima 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical trix 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical ultosc 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical vwap 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical willr 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;
+
+exports[`technical wma 1`] = `
+Snapshot Diff:
+Compared values have no visual difference.
+`;

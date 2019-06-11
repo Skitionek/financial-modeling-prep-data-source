@@ -2,17 +2,17 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "weekly",
-    "5.1: FastK Period": null,
-    "5.2: FastD Period": null,
-    "5.3: FastD MA Type": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "monthly",
+    "5.1: FastK Period": 0.5306569886368078,
+    "5.2: FastD Period": 0.3658937386828598,
+    "5.3: FastD MA Type": 0.8108940226461074,
     "6: Time Zone": "String"
   },
   "Technical Analysis: STOCHF": {
-    "2019-06-06": {
-      "FastK": 0.8327802098927075,
-      "FastD": 0.08454728410294776
+    "2019-06-10": {
+      "FastK": 0.1278965112295236,
+      "FastD": 0.1122283877659469
     }
   }
 }

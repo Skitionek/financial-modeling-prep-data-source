@@ -2,15 +2,15 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "60min",
-    "5: Time Period": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "30min",
+    "5: Time Period": 0.21286785796722163,
     "6: Time Zone": "String"
   },
   "Technical Analysis: AROON": {
-    "2019-06-06": {
-      "Aroon Up": 0.3980005681798091,
-      "Aroon Down": 0.07422791774742299
+    "2019-06-10": {
+      "Aroon Up": 0.8361420059247222,
+      "Aroon Down": 0.9833860526789893
     }
   }
 }

@@ -2,13 +2,13 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "60min",
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "5min",
     "5: Time Zone": "String"
   },
   "Technical Analysis: Chaikin A/D": {
-    "2019-06-06": {
-      "Chaikin A/D": 0.17060246481606423
+    "2019-06-10": {
+      "Chaikin A/D": 0.4293266389524759
     }
   }
 }

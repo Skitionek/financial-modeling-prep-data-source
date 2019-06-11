@@ -4,19 +4,19 @@ exports[`daily data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
     },
   ],
-  "from_symbol": null,
-  "information": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "time_zone": null,
-  "to_symbol": null,
+  "from_symbol": "String",
+  "information": "String",
+  "last_refreshed": "Timestamp",
+  "output_size": "String",
+  "time_zone": "String",
+  "to_symbol": "String",
 }
 `;
 
@@ -24,13 +24,13 @@ exports[`exchangeRates data works 1`] = `
 Object {
   "ask_price": null,
   "bid_price": null,
-  "exchange_rate": null,
-  "from_currency_code": null,
-  "from_currency_name": null,
-  "last_refreshed": null,
-  "time_zone": null,
-  "to_currency_code": null,
-  "to_currency_name": null,
+  "exchange_rate": "Float",
+  "from_currency_code": "String",
+  "from_currency_name": "String",
+  "last_refreshed": "Timestamp",
+  "time_zone": "String",
+  "to_currency_code": "String",
+  "to_currency_name": "String",
 }
 `;
 
@@ -38,20 +38,20 @@ exports[`exchangeTimeSeries data works 5min 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
+      "close": "Float",
+      "date": "Timestamp",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
     },
   ],
-  "from_symbol": null,
-  "information": null,
-  "interval": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "time_zone": null,
-  "to_symbol": null,
+  "from_symbol": "String",
+  "information": "String",
+  "interval": "Interval",
+  "last_refreshed": "Timestamp",
+  "output_size": "String",
+  "time_zone": "String",
+  "to_symbol": "String",
 }
 `;
 
@@ -59,20 +59,20 @@ exports[`intraday data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
+      "close": "Float",
+      "date": "Timestamp",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
     },
   ],
-  "from_symbol": null,
-  "information": null,
-  "interval": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "time_zone": null,
-  "to_symbol": null,
+  "from_symbol": "String",
+  "information": "String",
+  "interval": "Interval",
+  "last_refreshed": "Timestamp",
+  "output_size": "String",
+  "time_zone": "String",
+  "to_symbol": "String",
 }
 `;
 
@@ -80,18 +80,18 @@ exports[`monthly data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
     },
   ],
-  "from_symbol": null,
-  "information": null,
-  "last_refreshed": null,
-  "time_zone": null,
-  "to_symbol": null,
+  "from_symbol": "String",
+  "information": "String",
+  "last_refreshed": "Timestamp",
+  "time_zone": "String",
+  "to_symbol": "String",
 }
 `;
 
@@ -99,17 +99,17 @@ exports[`weekly data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
     },
   ],
-  "from_symbol": null,
-  "information": null,
-  "last_refreshed": null,
-  "time_zone": null,
-  "to_symbol": null,
+  "from_symbol": "String",
+  "information": "String",
+  "last_refreshed": "Timestamp",
+  "time_zone": "String",
+  "to_symbol": "String",
 }
 `;

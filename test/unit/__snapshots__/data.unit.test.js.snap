@@ -4,19 +4,19 @@ exports[`daily data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "output_size": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -24,22 +24,22 @@ exports[`daily_adjusted data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": null,
-      "close": null,
-      "date": null,
-      "dividend_amount": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "split_coefficient": null,
-      "volume": null,
+      "adjusted_close": "Float",
+      "close": "Float",
+      "date": "Date",
+      "dividend_amount": "Float",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "split_coefficient": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "output_size": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -47,20 +47,20 @@ exports[`exchangeTimeSeries data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "close": "Float",
+      "date": "Timestamp",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "interval": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "interval": "Interval",
+  "last_refreshed": "Timestamp",
+  "output_size": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -68,22 +68,22 @@ exports[`exchangeTimeSeries_adjusted data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": null,
-      "close": null,
-      "date": null,
-      "dividend_amount": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "split_coefficient": null,
-      "volume": null,
+      "adjusted_close": "Float",
+      "close": "Float",
+      "date": "Date",
+      "dividend_amount": "Float",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "split_coefficient": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "output_size": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -91,20 +91,20 @@ exports[`intraday data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "close": "Float",
+      "date": "Timestamp",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "interval": null,
-  "last_refreshed": null,
-  "output_size": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "interval": "Interval",
+  "last_refreshed": "Timestamp",
+  "output_size": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -112,18 +112,18 @@ exports[`monthly data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -131,51 +131,51 @@ exports[`monthly_adjusted data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": null,
-      "close": null,
-      "date": null,
-      "dividend_amount": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "adjusted_close": "Float",
+      "close": "Float",
+      "date": "Date",
+      "dividend_amount": "Float",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
 exports[`quote quote data works 1`] = `
 Object {
-  "change": null,
-  "change_percent": null,
+  "change": "Float",
+  "change_percent": "String",
   "close": null,
-  "date": null,
-  "high": null,
-  "low": null,
-  "open": null,
-  "previous_close": null,
-  "price": null,
-  "symbol": null,
-  "volume": null,
+  "date": "Date",
+  "high": "Float",
+  "low": "Float",
+  "open": "Float",
+  "previous_close": "Float",
+  "price": "Float",
+  "symbol": "String",
+  "volume": "Float",
 }
 `;
 
 exports[`search search works 1`] = `
 Array [
   Object {
-    "currency": null,
-    "marketclose": null,
-    "marketopen": null,
-    "matchscore": null,
-    "name": null,
-    "region": null,
-    "symbol": null,
-    "timezone": null,
-    "type": null,
+    "currency": "String",
+    "marketclose": "String",
+    "marketopen": "String",
+    "matchscore": "Float",
+    "name": "String",
+    "region": "String",
+    "symbol": "String",
+    "timezone": "String",
+    "type": "String",
   },
 ]
 `;
@@ -184,18 +184,18 @@ exports[`weekly data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "close": null,
-      "date": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -203,20 +203,20 @@ exports[`weekly_adjusted data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": null,
-      "close": null,
-      "date": null,
-      "dividend_amount": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "adjusted_close": "Float",
+      "close": "Float",
+      "date": "Date",
+      "dividend_amount": "Float",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -224,19 +224,19 @@ exports[`weekly_adjusted data works 2`] = `
 Object {
   "data": Array [
     Object {
-      "adjusted_close": null,
-      "close": null,
-      "date": null,
-      "dividend_amount": null,
-      "high": null,
-      "low": null,
-      "open": null,
-      "volume": null,
+      "adjusted_close": "Float",
+      "close": "Float",
+      "date": "Date",
+      "dividend_amount": "Float",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "volume": "Float",
     },
   ],
-  "information": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "information": "String",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;

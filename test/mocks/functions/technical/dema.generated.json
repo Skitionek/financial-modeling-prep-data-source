@@ -2,15 +2,15 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "daily",
-    "5: Time Period": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "30min",
+    "5: Time Period": 0.7784375934222343,
     "6: Series Type": "String",
     "7: Time Zone": "String"
   },
   "Technical Analysis: DEMA": {
-    "2019-06-06": {
-      "DEMA": 0.9551670812941848
+    "2019-06-10": {
+      "DEMA": 0.10998341243754739
     }
   }
 }

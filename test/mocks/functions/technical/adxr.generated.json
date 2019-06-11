@@ -2,14 +2,14 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "weekly",
-    "5: Time Period": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "15min",
+    "5: Time Period": 0.38351504481209964,
     "6: Time Zone": "String"
   },
   "Technical Analysis: ADXR": {
-    "2019-06-06": {
-      "ADXR": 0.7615177870845085
+    "2019-06-10": {
+      "ADXR": 0.44399705580687376
     }
   }
 }

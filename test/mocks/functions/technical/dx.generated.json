@@ -2,14 +2,14 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
+    "3: Last Refreshed": "2019-06-11",
     "4: Interval": "15min",
-    "5: Time Period": null,
+    "5: Time Period": 0.5706061671580134,
     "6: Time Zone": "String"
   },
   "Technical Analysis: DX": {
-    "2019-06-06": {
-      "DX": 0.7619497640105648
+    "2019-06-10": {
+      "DX": 0.7543208636783403
     }
   }
 }

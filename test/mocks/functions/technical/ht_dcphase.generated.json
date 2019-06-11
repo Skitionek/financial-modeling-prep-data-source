@@ -2,14 +2,14 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "weekly",
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "monthly",
     "5: Series Type": "String",
     "6: Time Zone": "String"
   },
   "Technical Analysis: HT_DCPHASE": {
-    "2019-06-06": {
-      "HT_DCPHASE": 0.5065745814990554
+    "2019-06-10": {
+      "HT_DCPHASE": 0.9310701270129307
     }
   }
 }

@@ -2,13 +2,13 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07 15:05:37",
-    "4: Interval": "1min",
+    "3: Last Refreshed": "2019-06-11 15:21:23",
+    "4: Interval": "5min",
     "5: Time Zone": "String"
   },
   "Technical Analysis: VWAP": {
-    "2019-06-06 16:00": {
-      "VWAP": 0.14504281845785516
+    "2019-06-10 16:00": {
+      "VWAP": 0.7295485821946384
     }
   }
 }

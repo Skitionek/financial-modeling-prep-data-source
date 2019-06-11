@@ -2,15 +2,15 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "30min",
-    "5.1: Acceleration": null,
-    "5.2: Maximum": null,
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "daily",
+    "5.1: Acceleration": 0.3313825576712697,
+    "5.2: Maximum": 0.8772766730026993,
     "6: Time Zone": "String"
   },
   "Technical Analysis: SAR": {
-    "2019-06-06": {
-      "SAR": 0.5305359901789983
+    "2019-06-10": {
+      "SAR": 0.48879287083688205
     }
   }
 }

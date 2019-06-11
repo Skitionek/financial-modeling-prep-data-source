@@ -2,15 +2,15 @@
   "Meta Data": {
     "1: Symbol": "String",
     "2: Indicator": "String",
-    "3: Last Refreshed": "2019-06-07",
-    "4: Interval": "30min",
+    "3: Last Refreshed": "2019-06-11",
+    "4: Interval": "60min",
     "5: Series Type": "String",
     "6: Time Zone": "String"
   },
   "Technical Analysis: HT_PHASOR": {
-    "2019-06-06": {
-      "PHASE": 0.16523429064511497,
-      "QUADRATURE": 0.6692576976200049
+    "2019-06-10": {
+      "PHASE": 0.7760923734550089,
+      "QUADRATURE": 0.2902200321047119
     }
   }
 }

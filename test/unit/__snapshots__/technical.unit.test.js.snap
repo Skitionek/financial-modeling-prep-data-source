@@ -4,15 +4,15 @@ exports[`ad data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -20,17 +20,17 @@ exports[`adosc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "fastk_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "slowk_period": null,
-  "symbol": null,
-  "time_zone": null,
+  "fastk_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "slowk_period": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -38,16 +38,16 @@ exports[`adx data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -55,16 +55,16 @@ exports[`adxr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -72,19 +72,19 @@ exports[`apo data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "fast_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "ma_type": null,
-  "series_type": null,
-  "slow_period": null,
-  "symbol": null,
-  "time_zone": null,
+  "fast_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "ma_type": "Float",
+  "series_type": "String",
+  "slow_period": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -92,17 +92,17 @@ exports[`aroon data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "aroon_down": null,
-      "aroon_up": null,
-      "date": null,
+      "aroon_down": "Float",
+      "aroon_up": "Float",
+      "date": "Date",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -110,16 +110,16 @@ exports[`aroonosc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -127,16 +127,16 @@ exports[`atr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -144,22 +144,22 @@ exports[`bbands data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "real_lower_band": null,
-      "real_middle_band": null,
-      "real_upper_band": null,
+      "date": "Date",
+      "real_lower_band": "Float",
+      "real_middle_band": "Float",
+      "real_upper_band": "Float",
     },
   ],
-  "deviation_multiplier_for_lower_band": null,
-  "deviation_multiplier_for_upper_band": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "ma_type": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "deviation_multiplier_for_lower_band": "Float",
+  "deviation_multiplier_for_upper_band": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "ma_type": "Float",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -167,15 +167,15 @@ exports[`bop data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -183,16 +183,16 @@ exports[`cci data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -200,17 +200,17 @@ exports[`cmo data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -218,17 +218,17 @@ exports[`dema data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -236,16 +236,16 @@ exports[`dx data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -253,17 +253,17 @@ exports[`ema data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -271,16 +271,16 @@ exports[`ht_dcperiod data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -288,16 +288,16 @@ exports[`ht_dcphase data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -305,17 +305,17 @@ exports[`ht_phasor data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "phase": null,
-      "quadrature": null,
+      "date": "Date",
+      "phase": "Float",
+      "quadrature": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -323,17 +323,17 @@ exports[`ht_sine data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "lead_sine": null,
-      "sine": null,
+      "date": "Date",
+      "lead_sine": "Float",
+      "sine": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -341,16 +341,16 @@ exports[`ht_trendline data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -358,16 +358,16 @@ exports[`ht_trendmode data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -375,17 +375,17 @@ exports[`kama data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -393,21 +393,21 @@ exports[`macd data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "macd": null,
-      "macd_hist": null,
-      "macd_signal": null,
+      "date": "Date",
+      "macd": "Float",
+      "macd_hist": "Float",
+      "macd_signal": "Float",
     },
   ],
-  "fast_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "signal_period": null,
-  "slow_period": null,
-  "symbol": null,
-  "time_zone": null,
+  "fast_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "signal_period": "Float",
+  "slow_period": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -415,24 +415,24 @@ exports[`macdext data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "macd": null,
-      "macd_hist": null,
-      "macd_signal": null,
+      "date": "Date",
+      "macd": "Float",
+      "macd_hist": "Float",
+      "macd_signal": "Float",
     },
   ],
-  "fast_ma_type": null,
-  "fast_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "signal_ma_type": null,
-  "signal_period": null,
-  "slow_ma_type": null,
-  "slow_period": null,
-  "symbol": null,
-  "time_zone": null,
+  "fast_ma_type": "Float",
+  "fast_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "signal_ma_type": "Float",
+  "signal_period": "Float",
+  "slow_ma_type": "Float",
+  "slow_period": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -440,19 +440,19 @@ exports[`mama data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "fama": null,
-      "mama": null,
+      "date": "Date",
+      "fama": "Float",
+      "mama": "Float",
     },
   ],
-  "fast_limit": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "slow_limit": null,
-  "symbol": null,
-  "time_zone": null,
+  "fast_limit": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "slow_limit": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -460,16 +460,16 @@ exports[`mfi data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -477,17 +477,17 @@ exports[`midpoint data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -495,16 +495,16 @@ exports[`midprice data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -512,16 +512,16 @@ exports[`minus_di data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -529,16 +529,16 @@ exports[`minus_dm data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -546,17 +546,17 @@ exports[`mom data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -564,16 +564,16 @@ exports[`natr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -581,15 +581,15 @@ exports[`obv data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -597,16 +597,16 @@ exports[`plus_di data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -614,16 +614,16 @@ exports[`plus_dm data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -631,19 +631,19 @@ exports[`ppo data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "fast_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "ma_type": null,
-  "series_type": null,
-  "slow_period": null,
-  "symbol": null,
-  "time_zone": null,
+  "fast_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "ma_type": "Float",
+  "series_type": "String",
+  "slow_period": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -651,17 +651,17 @@ exports[`roc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -669,17 +669,17 @@ exports[`rocr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -687,35 +687,35 @@ exports[`rsi data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
 exports[`sar data works 1`] = `
 Object {
-  "acceleration": null,
+  "acceleration": "Float",
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "maximum": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "maximum": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -723,17 +723,17 @@ exports[`sma data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -741,21 +741,21 @@ exports[`stoch data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "slowd": null,
-      "slowk": null,
+      "date": "Date",
+      "slowd": "Float",
+      "slowk": "Float",
     },
   ],
-  "fastk_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "slowd_ma_type": null,
-  "slowd_period": null,
-  "slowk_ma_type": null,
-  "slowk_period": null,
-  "symbol": null,
-  "time_zone": null,
+  "fastk_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "slowd_ma_type": "Float",
+  "slowd_period": "Float",
+  "slowk_ma_type": "Float",
+  "slowk_period": "Float",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -763,19 +763,19 @@ exports[`stochf data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "fastd": null,
-      "fastk": null,
+      "date": "Date",
+      "fastd": "Float",
+      "fastk": "Float",
     },
   ],
-  "fastd_ma_type": null,
-  "fastd_period": null,
-  "fastk_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "fastd_ma_type": "Float",
+  "fastd_period": "Float",
+  "fastk_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -783,21 +783,21 @@ exports[`stochrsi data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "fastd": null,
-      "fastk": null,
+      "date": "Date",
+      "fastd": "Float",
+      "fastk": "Float",
     },
   ],
-  "fastd_ma_type": null,
-  "fastd_period": null,
-  "fastk_period": null,
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "fastd_ma_type": "Float",
+  "fastd_period": "Float",
+  "fastk_period": "Float",
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -805,18 +805,18 @@ exports[`t3 data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
-  "volume_factor_vfactor": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
+  "volume_factor_vfactor": "Float",
 }
 `;
 
@@ -824,17 +824,17 @@ exports[`tema data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -842,15 +842,15 @@ exports[`trange data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -858,17 +858,17 @@ exports[`trima data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -876,17 +876,17 @@ exports[`trix data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -894,16 +894,16 @@ exports[`ultosc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -911,15 +911,15 @@ exports[`vwap data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Timestamp",
+  "symbol": "String",
+  "time_zone": "String",
 }
 `;
 
@@ -927,16 +927,16 @@ exports[`willr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
 
@@ -944,16 +944,16 @@ exports[`wma data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": null,
-      "value": null,
+      "date": "Date",
+      "value": "Float",
     },
   ],
-  "indicator": null,
-  "interval": null,
-  "last_refreshed": null,
-  "series_type": null,
-  "symbol": null,
-  "time_period": null,
-  "time_zone": null,
+  "indicator": "String",
+  "interval": "Interval",
+  "last_refreshed": "Date",
+  "series_type": "String",
+  "symbol": "String",
+  "time_period": "Float",
+  "time_zone": "String",
 }
 `;
