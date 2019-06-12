@@ -14,7 +14,7 @@ const path = require('path');
  * The Alpha Vantage core module.
  */
 class AlphaVantageAPI extends RESTDataSource {
-	constructor(config) {
+	constructor(config={}) {
 		super();
 		this.initialize(config||{});
 
