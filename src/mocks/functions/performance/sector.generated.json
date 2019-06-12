@@ -1,0 +1,133 @@
+{
+  "Meta Data": {
+    "Information": "String",
+    "Last Refreshed": "String"
+  },
+  "Rank A: Real-Time Performance": {
+    "Utilities": "String",
+    "Health Care": "String",
+    "Materials": "String",
+    "Real Estate": "String",
+    "Consumer Staples": "String",
+    "Industrials": "String",
+    "Consumer Discretionary": "String",
+    "Communication Services": "String",
+    "Information Technology": "String",
+    "Financials": "String",
+    "Energy": "String"
+  },
+  "Rank B: 1 Day Performance": {
+    "Consumer Staples": "String",
+    "Consumer Discretionary": "String",
+    "Communication Services": "String",
+    "Real Estate": "String",
+    "Energy": "String",
+    "Information Technology": "String",
+    "Financials": "String",
+    "Materials": "String",
+    "Health Care": "String",
+    "Utilities": "String",
+    "Industrials": "String"
+  },
+  "Rank C: 5 Day Performance": {
+    "Information Technology": "String",
+    "Consumer Discretionary": "String",
+    "Consumer Staples": "String",
+    "Materials": "String",
+    "Real Estate": "String",
+    "Health Care": "String",
+    "Communication Services": "String",
+    "Financials": "String",
+    "Energy": "String",
+    "Industrials": "String",
+    "Utilities": "String"
+  },
+  "Rank D: 1 Month Performance": {
+    "Materials": "String",
+    "Real Estate": "String",
+    "Health Care": "String",
+    "Consumer Staples": "String",
+    "Utilities": "String",
+    "Information Technology": "String",
+    "Consumer Discretionary": "String",
+    "Financials": "String",
+    "Industrials": "String",
+    "Communication Services": "String",
+    "Energy": "String"
+  },
+  "Rank E: 3 Month Performance": {
+    "Information Technology": "String",
+    "Consumer Discretionary": "String",
+    "Consumer Staples": "String",
+    "Real Estate": "String",
+    "Financials": "String",
+    "Materials": "String",
+    "Utilities": "String",
+    "Communication Services": "String",
+    "Health Care": "String",
+    "Industrials": "String",
+    "Energy": "String"
+  },
+  "Rank F: Year-to-Date (YTD) Performance": {
+    "Information Technology": "String",
+    "Real Estate": "String",
+    "Consumer Discretionary": "String",
+    "Industrials": "String",
+    "Consumer Staples": "String",
+    "Communication Services": "String",
+    "Financials": "String",
+    "Materials": "String",
+    "Utilities": "String",
+    "Energy": "String",
+    "Health Care": "String"
+  },
+  "Rank G: 1 Year Performance": {
+    "Utilities": "String",
+    "Real Estate": "String",
+    "Consumer Staples": "String",
+    "Information Technology": "String",
+    "Health Care": "String",
+    "Communication Services": "String",
+    "Consumer Discretionary": "String",
+    "Industrials": "String",
+    "Financials": "String",
+    "Materials": "String",
+    "Energy": "String"
+  },
+  "Rank H: 3 Year Performance": {
+    "Information Technology": "String",
+    "Consumer Discretionary": "String",
+    "Financials": "String",
+    "Industrials": "String",
+    "Health Care": "String",
+    "Materials": "String",
+    "Utilities": "String",
+    "Consumer Staples": "String",
+    "Communication Services": "String",
+    "Energy": "String"
+  },
+  "Rank I: 5 Year Performance": {
+    "Information Technology": "String",
+    "Consumer Discretionary": "String",
+    "Health Care": "String",
+    "Financials": "String",
+    "Utilities": "String",
+    "Industrials": "String",
+    "Consumer Staples": "String",
+    "Materials": "String",
+    "Communication Services": "String",
+    "Energy": "String"
+  },
+  "Rank J: 10 Year Performance": {
+    "Consumer Discretionary": "String",
+    "Information Technology": "String",
+    "Health Care": "String",
+    "Industrials": "String",
+    "Financials": "String",
+    "Consumer Staples": "String",
+    "Utilities": "String",
+    "Materials": "String",
+    "Communication Services": "String",
+    "Energy": "String"
+  }
+}

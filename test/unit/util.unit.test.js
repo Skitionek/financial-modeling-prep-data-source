@@ -5,7 +5,7 @@
 	- Created:  23/04/2019
 */
 
-import AlphaVantageMock from "../mocks/alphaVantageMock";
+import AlphaVantageAPI from "../../src/mocks/alphaVantageAPI";
 
 const checkAPIKey = (frags) => expect(frags[frags.length - 1]).toMatch(/^apikey=.*$/);
 
@@ -13,7 +13,7 @@ jest.setTimeout(30000);
 
 let alpha;
 beforeAll(() => {
-	alpha = new AlphaVantageMock();
+	alpha = new AlphaVantageAPI();
 });
 const urlConstructToFrags = (type, params) =>
 	alpha.util

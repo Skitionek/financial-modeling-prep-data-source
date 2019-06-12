@@ -4,13 +4,13 @@ exports[`ad data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -20,14 +20,14 @@ exports[`adosc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "slowk_period": "Float",
   "symbol": "String",
   "time_zone": "String",
@@ -38,13 +38,13 @@ exports[`adx data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -55,13 +55,13 @@ exports[`adxr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -72,14 +72,14 @@ exports[`apo data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "ma_type": "Float",
   "series_type": "String",
   "slow_period": "Float",
@@ -94,12 +94,12 @@ Object {
     Object {
       "aroon_down": "Float",
       "aroon_up": "Float",
-      "date": "Date",
+      "date": "Timestamp",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -110,13 +110,13 @@ exports[`aroonosc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -127,13 +127,13 @@ exports[`atr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -144,7 +144,7 @@ exports[`bbands data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "real_lower_band": "Float",
       "real_middle_band": "Float",
       "real_upper_band": "Float",
@@ -154,7 +154,7 @@ Object {
   "deviation_multiplier_for_upper_band": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "ma_type": "Float",
   "series_type": "String",
   "symbol": "String",
@@ -167,13 +167,13 @@ exports[`bop data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -183,13 +183,13 @@ exports[`cci data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -200,13 +200,13 @@ exports[`cmo data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -218,13 +218,13 @@ exports[`dema data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -236,13 +236,13 @@ exports[`dx data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -253,13 +253,13 @@ exports[`ema data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -271,13 +271,13 @@ exports[`ht_dcperiod data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -288,13 +288,13 @@ exports[`ht_dcphase data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -305,14 +305,14 @@ exports[`ht_phasor data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "phase": "Float",
       "quadrature": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -323,14 +323,14 @@ exports[`ht_sine data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "lead_sine": "Float",
       "sine": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -341,13 +341,13 @@ exports[`ht_trendline data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -358,13 +358,13 @@ exports[`ht_trendmode data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -375,13 +375,13 @@ exports[`kama data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -393,7 +393,7 @@ exports[`macd data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "macd": "Float",
       "macd_hist": "Float",
       "macd_signal": "Float",
@@ -402,7 +402,7 @@ Object {
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "signal_period": "Float",
   "slow_period": "Float",
@@ -415,7 +415,7 @@ exports[`macdext data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "macd": "Float",
       "macd_hist": "Float",
       "macd_signal": "Float",
@@ -425,7 +425,7 @@ Object {
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "signal_ma_type": "Float",
   "signal_period": "Float",
@@ -440,7 +440,7 @@ exports[`mama data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "fama": "Float",
       "mama": "Float",
     },
@@ -448,7 +448,7 @@ Object {
   "fast_limit": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "slow_limit": "Float",
   "symbol": "String",
@@ -460,13 +460,13 @@ exports[`mfi data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -477,13 +477,13 @@ exports[`midpoint data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -495,13 +495,13 @@ exports[`midprice data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -512,13 +512,13 @@ exports[`minus_di data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -529,13 +529,13 @@ exports[`minus_dm data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -546,13 +546,13 @@ exports[`mom data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -564,13 +564,13 @@ exports[`natr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -581,13 +581,13 @@ exports[`obv data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -597,13 +597,13 @@ exports[`plus_di data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -614,13 +614,13 @@ exports[`plus_dm data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -631,14 +631,14 @@ exports[`ppo data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "ma_type": "Float",
   "series_type": "String",
   "slow_period": "Float",
@@ -651,13 +651,13 @@ exports[`roc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -669,13 +669,13 @@ exports[`rocr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -687,13 +687,13 @@ exports[`rsi data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -706,13 +706,13 @@ Object {
   "acceleration": "Float",
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "maximum": "Float",
   "symbol": "String",
   "time_zone": "String",
@@ -723,13 +723,13 @@ exports[`sma data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -741,7 +741,7 @@ exports[`stoch data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "slowd": "Float",
       "slowk": "Float",
     },
@@ -749,7 +749,7 @@ Object {
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "slowd_ma_type": "Float",
   "slowd_period": "Float",
   "slowk_ma_type": "Float",
@@ -763,7 +763,7 @@ exports[`stochf data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "fastd": "Float",
       "fastk": "Float",
     },
@@ -773,7 +773,7 @@ Object {
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -783,7 +783,7 @@ exports[`stochrsi data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "fastd": "Float",
       "fastk": "Float",
     },
@@ -793,7 +793,7 @@ Object {
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -805,13 +805,13 @@ exports[`t3 data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -824,13 +824,13 @@ exports[`tema data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -842,13 +842,13 @@ exports[`trange data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -858,13 +858,13 @@ exports[`trima data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -876,13 +876,13 @@ exports[`trix data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -894,13 +894,13 @@ exports[`ultosc data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -927,13 +927,13 @@ exports[`willr data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -944,13 +944,13 @@ exports[`wma data works 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",

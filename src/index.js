@@ -18,20 +18,14 @@ class AlphaVantageAPI extends RESTDataSource {
 		super();
 		this.initialize(config||{});
 
-		config = Object.assign({}, { key: process.env[apiKey] }, config);
+		this.apikey = config.key || process.env[apiKey];
 
 		// Check for config errors.
-		const errors = [];
-		['key'].forEach(prop => {
-			if (config[prop] === undefined) {
-				errors.push(prop);
-			}
-		});
-		if (errors.length) {
-			throw new Error(`Missing Alpha Vantage config settings: ${errors.join(', ')}`);
+		if (!this.apikey) {
+			const errorMessage = `Missing Alpha Vantage API key`;
+			throw new Error(errorMessage);
 		}
 
-		this.apikey = config.key;
 		this.baseURL = `https://www.alphavantage.co/query`;
 
 		// autoBind(this);

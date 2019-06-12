@@ -1,12 +1,12 @@
 
-import AlphaVantageMock from "../mocks/alphaVantageMock";
-import { matchesSnapshot } from "../jest.extensions";
+import AlphaVantageAPI from "../../src/mocks/alphaVantageAPI";
+import { matchesSnapshot } from "../utils";
 
 jest.setTimeout(30000);
 
 let alpha;
 beforeAll(() => {
-	alpha = new AlphaVantageMock();
+	alpha = new AlphaVantageAPI();
 });
 
 test(`sma data works`, () => {

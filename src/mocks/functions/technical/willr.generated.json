@@ -1,0 +1,15 @@
+{
+  "Meta Data": {
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-12 19:23:55",
+    "4: Interval": "1min",
+    "5: Time Period": 0.324701841737034,
+    "6: Time Zone": "String"
+  },
+  "Technical Analysis: WILLR": {
+    "2019-06-12 13:23:52": {
+      "WILLR": 0.26733553749794914
+    }
+  }
+}

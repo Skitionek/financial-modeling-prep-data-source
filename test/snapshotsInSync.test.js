@@ -5,7 +5,7 @@
 */
 
 // import { obtainStructure } from "./jest.extensions";
-import { integrationSnapshots, unitSnapshots } from "./dataStructure";
+import { integrationSnapshots, unitSnapshots } from "./utils/preformatedSnapshots";
 import snapshotDiff from 'snapshot-diff';
 expect.addSnapshotSerializer(snapshotDiff.getSnapshotDiffSerializer());
 

@@ -1,0 +1,19 @@
+{
+  "Meta Data": {
+    "1. Information": "String",
+    "2. Symbol": "String",
+    "3. Last Refreshed": "2019-06-12 19:23:54",
+    "4. Interval": "daily",
+    "5. Output Size": "String",
+    "6. Time Zone": "String"
+  },
+  "Time Series (5min)": {
+    "2019-06-12 13:20:00": {
+      "1. open": 0.5425927720451611,
+      "2. high": 0.6542103893089137,
+      "3. low": 0.11644806727887858,
+      "4. close": 0.7664285295198479,
+      "5. volume": 0.9279775863774249
+    }
+  }
+}

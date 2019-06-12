@@ -1,2 +1,4 @@
-**/*.extensions.js
-**/*.test.js
+test
+generate
+coverage
+.idea

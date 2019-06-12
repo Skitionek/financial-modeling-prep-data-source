@@ -1,6 +1,8 @@
 /node_modules
 /coverage
 /lib
+/mocks
+/index.js*
 
 # Created by .ignore support plugin (hsz.mobi)
 ### JetBrains.gitignore template

@@ -1,0 +1,19 @@
+{
+  "Meta Data": {
+    "1. Information": "String",
+    "2. From Symbol": "String",
+    "3. To Symbol": "String",
+    "4. Last Refreshed": "2019-06-12 19:23:54",
+    "5. Interval": "5min",
+    "6. Output Size": "String",
+    "7. Time Zone": "String"
+  },
+  "Time Series FX (5min)": {
+    "2019-06-12 17:20:00": {
+      "1. open": 0.8299948687213465,
+      "2. high": 0.9515648023746155,
+      "3. low": 0.4465210836723117,
+      "4. close": 0.6366809770319302
+    }
+  }
+}

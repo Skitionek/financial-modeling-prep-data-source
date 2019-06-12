@@ -53,6 +53,7 @@ Snapshot Diff:
 - First value
 + Second value
 
+@@ -1,10 +1,10 @@
   Object {
     "data": Array [
       Object {
@@ -64,15 +65,6 @@ Snapshot Diff:
         "open": "Float",
         "volume": "Float",
       },
-    ],
-    "information": "String",
-    "interval": "Interval",
--   "last_refreshed": "Timestamp",
-+   "last_refreshed": "Date",
-    "output_size": "String",
-    "symbol": "String",
-    "time_zone": "String",
-  }
 `;
 
 exports[`data exchangeTimeSeries_adjusted 1`] = `

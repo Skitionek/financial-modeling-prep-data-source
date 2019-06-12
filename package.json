@@ -2,7 +2,7 @@
 	"name": "alpha-vantage-data-source",
 	"version": "2.0.1",
 	"description": "",
-	"main": "lib/src/index.js",
+	"main": "dist",
 	"keywords": [
 		"alpha vantage",
 		"vantage",
@@ -34,27 +34,24 @@
 		"node": ">=6.0.0"
 	},
 	"scripts": {
-		"start": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
+		"start": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/index.js",
 		"prebuild": "npm run clean",
-		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect ./src/index.js",
+		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/dist/index.js",
 		"semantic-release": "semantic-release",
-		"clean": "rimraf lib",
+		"clean": "rm index.js && rimraf lib && rimraf mocks",
 		"test": "npm run lint && npm run cover unit && npm run cover integration && npm run cover InSync",
 		"test:prod": "cross-env BABEL_ENV=production npm run test",
 		"test:only": "jest",
 		"test:watch": "npm test -- --watch",
 		"test:examples": "node examples/",
 		"cover": "jest --coverage",
-		"lint": "eslint src test",
-		"build": "cross-env BABEL_ENV=production babel src --out-dir lib/src --source-maps --copy-files",
-		"postbuild": "npm run build-test",
-		"build-test": "cross-env BABEL_ENV=production babel test --out-dir lib/test --source-maps --copy-files --ignore '**/*.test.js'",
-		"prepublish": "npm run clean && npm run lint && npm run test && npm run build"
+		"lint": "eslint src test generate",
+		"build": "cross-env BABEL_ENV=production ./build.sh",
+		"prepublish": "npm run lint && npm run test && npm run build"
 	},
 	"files": [
-		"lib",
-		"src",
-		"test"
+		"dist",
+		"src"
 	],
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",
@@ -83,7 +80,6 @@
 		"jest": "^24.7.1",
 		"jest-summary-reporter": "0.0.2",
 		"jest-transform-graphql": "^2.1.0",
-		"lodash.merge": "^4.6.1",
 		"nodemon": "^1.19.0",
 		"reflect-metadata": "^0.1.13",
 		"snapshot-diff": "^0.5.1"
@@ -95,7 +91,8 @@
 		"apollo-datasource-rest": "^0.3.2",
 		"dotenv": "^7.0.0",
 		"jsonic": "^0.3.1",
-		"lodash.mapvalues": "^4.6.0"
+		"lodash.mapvalues": "^4.6.0",
+		"lodash.merge": "^4.6.1"
 	},
 	"peerDependencies": {
 		"graphql": "^14.2.1"

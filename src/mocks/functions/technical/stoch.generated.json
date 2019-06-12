@@ -1,0 +1,20 @@
+{
+  "Meta Data": {
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-12 19:23:58",
+    "4: Interval": "60min",
+    "5.1: FastK Period": 0.05833836449370122,
+    "5.2: SlowK Period": 0.7901742812562516,
+    "5.3: SlowK MA Type": 0.1481443500582913,
+    "5.4: SlowD Period": 0.5345427279601742,
+    "5.5: SlowD MA Type": 0.7043092369400021,
+    "6: Time Zone": "String"
+  },
+  "Technical Analysis: STOCH": {
+    "2019-06-12 13:23:52": {
+      "SlowK": 0.8168066653897004,
+      "SlowD": 0.6738351331294359
+    }
+  }
+}

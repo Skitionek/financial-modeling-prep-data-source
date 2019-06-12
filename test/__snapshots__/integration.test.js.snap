@@ -230,7 +230,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -250,7 +250,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -273,7 +273,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -296,7 +296,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -358,7 +358,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -378,7 +378,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -397,7 +397,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -416,7 +416,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -439,7 +439,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -461,7 +461,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -482,7 +482,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -504,7 +504,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "output_size": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -566,7 +566,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -587,7 +587,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -702,7 +702,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -723,7 +723,7 @@ Object {
     },
   ],
   "information": "String",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1135,13 +1135,13 @@ exports[`technical ad {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1151,14 +1151,14 @@ exports[`technical adosc {"symbol":"MSFT","interval":"daily","fastperiod":5} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "slowk_period": "Float",
   "symbol": "String",
   "time_zone": "String",
@@ -1169,13 +1169,13 @@ exports[`technical adx {"symbol":"MSFT","interval":"daily","time_period":10} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1186,13 +1186,13 @@ exports[`technical adxr {"symbol":"MSFT","interval":"daily","time_period":10} 1`
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1203,14 +1203,14 @@ exports[`technical apo {"symbol":"MSFT","interval":"daily","series_type":"close"
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "ma_type": "Float",
   "series_type": "String",
   "slow_period": "Float",
@@ -1225,12 +1225,12 @@ Object {
     Object {
       "aroon_down": "Float",
       "aroon_up": "Float",
-      "date": "Date",
+      "date": "Timestamp",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1241,13 +1241,13 @@ exports[`technical aroonosc {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1258,13 +1258,13 @@ exports[`technical atr {"symbol":"MSFT","interval":"daily","time_period":14} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1275,7 +1275,7 @@ exports[`technical bbands {"symbol":"MSFT","interval":"weekly","time_period":5,"
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "real_lower_band": "Float",
       "real_middle_band": "Float",
       "real_upper_band": "Float",
@@ -1285,7 +1285,7 @@ Object {
   "deviation_multiplier_for_upper_band": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "ma_type": "Float",
   "series_type": "String",
   "symbol": "String",
@@ -1298,13 +1298,13 @@ exports[`technical bop {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1314,13 +1314,13 @@ exports[`technical cci {"symbol":"MSFT","interval":"daily","time_period":10} 1`]
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1331,13 +1331,13 @@ exports[`technical cmo {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1349,13 +1349,13 @@ exports[`technical dema {"symbol":"MSFT","interval":"weekly","time_period":10,"s
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1367,13 +1367,13 @@ exports[`technical dx {"symbol":"MSFT","interval":"daily","time_period":10} 1`] 
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1384,13 +1384,13 @@ exports[`technical ema {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1402,13 +1402,13 @@ exports[`technical ht_dcperiod {"symbol":"MSFT","interval":"daily","series_type"
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -1419,13 +1419,13 @@ exports[`technical ht_dcphase {"symbol":"MSFT","interval":"daily","series_type":
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -1436,14 +1436,14 @@ exports[`technical ht_phasor {"symbol":"MSFT","interval":"weekly","series_type":
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "phase": "Float",
       "quadrature": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -1454,14 +1454,14 @@ exports[`technical ht_sine {"symbol":"MSFT","interval":"daily","series_type":"cl
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "lead_sine": "Float",
       "sine": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -1472,13 +1472,13 @@ exports[`technical ht_trendline {"symbol":"MSFT","interval":"daily","series_type
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -1489,13 +1489,13 @@ exports[`technical ht_trendmode {"symbol":"MSFT","interval":"weekly","series_typ
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_zone": "String",
@@ -1506,13 +1506,13 @@ exports[`technical kama {"symbol":"MSFT","interval":"weekly","time_period":10,"s
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1524,7 +1524,7 @@ exports[`technical macd {"symbol":"MSFT","interval":"daily","series_type":"open"
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "macd": "Float",
       "macd_hist": "Float",
       "macd_signal": "Float",
@@ -1533,7 +1533,7 @@ Object {
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "signal_period": "Float",
   "slow_period": "Float",
@@ -1546,7 +1546,7 @@ exports[`technical macdext {"symbol":"MSFT","interval":"daily","series_type":"op
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "macd": "Float",
       "macd_hist": "Float",
       "macd_signal": "Float",
@@ -1556,7 +1556,7 @@ Object {
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "signal_ma_type": "Float",
   "signal_period": "Float",
@@ -1571,7 +1571,7 @@ exports[`technical mama {"symbol":"MSFT","interval":"daily","series_type":"close
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "fama": "Float",
       "mama": "Float",
     },
@@ -1579,7 +1579,7 @@ Object {
   "fast_limit": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "slow_limit": "Float",
   "symbol": "String",
@@ -1591,13 +1591,13 @@ exports[`technical mfi {"symbol":"MSFT","interval":"weekly","time_period":10} 1`
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1608,13 +1608,13 @@ exports[`technical midpoint {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1626,13 +1626,13 @@ exports[`technical midprice {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1643,13 +1643,13 @@ exports[`technical minus_di {"symbol":"MSFT","interval":"weekly","time_period":1
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1660,13 +1660,13 @@ exports[`technical minus_dm {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1677,13 +1677,13 @@ exports[`technical mom {"symbol":"MSFT","interval":"daily","time_period":10,"ser
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1695,13 +1695,13 @@ exports[`technical natr {"symbol":"MSFT","interval":"weekly","time_period":14} 1
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1712,13 +1712,13 @@ exports[`technical obv {"symbol":"MSFT","interval":"weekly"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1728,13 +1728,13 @@ exports[`technical plus_di {"symbol":"MSFT","interval":"daily","time_period":10}
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1745,13 +1745,13 @@ exports[`technical plus_dm {"symbol":"MSFT","interval":"daily","time_period":10}
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -1762,14 +1762,14 @@ exports[`technical ppo {"symbol":"MSFT","interval":"daily","series_type":"close"
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "fast_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "ma_type": "Float",
   "series_type": "String",
   "slow_period": "Float",
@@ -1782,13 +1782,13 @@ exports[`technical roc {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1800,13 +1800,13 @@ exports[`technical rocr {"symbol":"MSFT","interval":"daily","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1818,13 +1818,13 @@ exports[`technical rsi {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1837,13 +1837,13 @@ Object {
   "acceleration": "Float",
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "maximum": "Float",
   "symbol": "String",
   "time_zone": "String",
@@ -1854,13 +1854,13 @@ exports[`technical sma {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1872,7 +1872,7 @@ exports[`technical stoch {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "slowd": "Float",
       "slowk": "Float",
     },
@@ -1880,7 +1880,7 @@ Object {
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "slowd_ma_type": "Float",
   "slowd_period": "Float",
   "slowk_ma_type": "Float",
@@ -1894,7 +1894,7 @@ exports[`technical stochf {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "fastd": "Float",
       "fastk": "Float",
     },
@@ -1904,7 +1904,7 @@ Object {
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1914,7 +1914,7 @@ exports[`technical stochrsi {"symbol":"MSFT","interval":"daily","time_period":10
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "fastd": "Float",
       "fastk": "Float",
     },
@@ -1924,7 +1924,7 @@ Object {
   "fastk_period": "Float",
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1936,13 +1936,13 @@ exports[`technical t3 {"symbol":"MSFT","interval":"weekly","time_period":10,"ser
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1955,13 +1955,13 @@ exports[`technical tema {"symbol":"MSFT","interval":"weekly","time_period":10,"s
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -1973,13 +1973,13 @@ exports[`technical trange {"symbol":"MSFT","interval":"daily"} 1`] = `
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_zone": "String",
 }
@@ -1989,13 +1989,13 @@ exports[`technical trima {"symbol":"MSFT","interval":"weekly","time_period":10,"
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -2007,13 +2007,13 @@ exports[`technical trix {"symbol":"MSFT","interval":"daily","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",
@@ -2025,13 +2025,13 @@ exports[`technical ultosc {"symbol":"MSFT","interval":"daily","timeperiod":8} 1`
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -2058,13 +2058,13 @@ exports[`technical willr {"symbol":"MSFT","interval":"daily","time_period":10} 1
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "symbol": "String",
   "time_period": "Float",
   "time_zone": "String",
@@ -2075,13 +2075,13 @@ exports[`technical wma {"symbol":"MSFT","interval":"weekly","time_period":10,"se
 Object {
   "data": Array [
     Object {
-      "date": "Date",
+      "date": "Timestamp",
       "value": "Float",
     },
   ],
   "indicator": "String",
   "interval": "Interval",
-  "last_refreshed": "Date",
+  "last_refreshed": "Timestamp",
   "series_type": "String",
   "symbol": "String",
   "time_period": "Float",

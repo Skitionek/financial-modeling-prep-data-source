@@ -7,7 +7,7 @@
 /* global performance*/
 
 import AlphaVantageAPI from "../src";
-import * as variables from "./mocks/variableMocks";
+import * as variables from "../src/mocks/demoVariableSets";
 
 jest.setTimeout(30000);
 
@@ -20,11 +20,10 @@ describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", gro
 		it.each(varSets)("%j", async varSet => {
 			const alpha = new AlphaVantageAPI({ key: 'demo' });
 			const start = performance.now();
-			const r1 = await alpha[groupKey][key](varSet);
+			await alpha[groupKey][key](varSet);
 			const response1time = performance.now();
-			const r2 = await alpha[groupKey][key](varSet);
+			await alpha[groupKey][key](varSet);
 			const response2time = performance.now();
-			console.log(r1,r2);
 			console.log(response1time - start + 1,'>',response2time - response1time);
 			expect(response1time - start + 1).toBeGreaterThan(response2time - response1time)
 		});

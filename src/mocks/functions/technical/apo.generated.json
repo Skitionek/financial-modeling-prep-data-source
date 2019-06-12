@@ -1,0 +1,18 @@
+{
+  "Meta Data": {
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-12 19:23:57",
+    "4: Interval": "monthly",
+    "5.1: Fast Period": 0.49603123693383955,
+    "5.2: Slow Period": 0.5853860447415997,
+    "5.3: MA Type": 0.345659577923328,
+    "6: Series Type": "String",
+    "7: Time Zone": "String"
+  },
+  "Technical Analysis: APO": {
+    "2019-06-12 13:23:52": {
+      "APO": 0.27250904235865403
+    }
+  }
+}

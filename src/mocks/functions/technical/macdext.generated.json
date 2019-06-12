@@ -1,0 +1,23 @@
+{
+  "Meta Data": {
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-12 19:23:59",
+    "4: Interval": "5min",
+    "5.1: Fast Period": 0.5792144224384548,
+    "5.2: Slow Period": 0.834901739415431,
+    "5.3: Signal Period": 0.34143472769050676,
+    "5.4: Fast MA Type": 0.5860515929878265,
+    "5.5: Slow MA Type": 0.5582529676738945,
+    "5.6: Signal MA Type": 0.3736727569627789,
+    "6: Series Type": "String",
+    "7: Time Zone": "String"
+  },
+  "Technical Analysis: MACDEXT": {
+    "2019-06-12 13:23:52": {
+      "MACD": 0.22432540737944917,
+      "MACD_Hist": 0.6072393645015224,
+      "MACD_Signal": 0.803562335523522
+    }
+  }
+}

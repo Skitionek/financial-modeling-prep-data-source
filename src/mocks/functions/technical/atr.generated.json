@@ -1,0 +1,15 @@
+{
+  "Meta Data": {
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-12 19:23:55",
+    "4: Interval": "daily",
+    "5: Time Period": 0.6632609466769122,
+    "6: Time Zone": "String"
+  },
+  "Technical Analysis: ATR": {
+    "2019-06-12 13:23:49": {
+      "ATR": 0.4032404956405311
+    }
+  }
+}

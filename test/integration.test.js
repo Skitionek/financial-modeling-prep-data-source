@@ -5,8 +5,8 @@
 */
 
 import AlphaVantageAPI from "../src";
-import * as variables from "./mocks/variableMocks";
-import { obtainStructure } from "./jest.extensions";
+import * as variables from "../src/mocks/demoVariableSets";
+import { obtainStructure } from "./utils";
 
 jest.setTimeout(30000);
 

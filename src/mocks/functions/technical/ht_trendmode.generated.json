@@ -1,0 +1,15 @@
+{
+  "Meta Data": {
+    "1: Symbol": "String",
+    "2: Indicator": "String",
+    "3: Last Refreshed": "2019-06-12 19:23:56",
+    "4: Interval": "5min",
+    "5: Series Type": "String",
+    "6: Time Zone": "String"
+  },
+  "Technical Analysis: HT_TRENDMODE": {
+    "2019-06-12 13:23:52": {
+      "TRENDMODE": 0.9077316266359952
+    }
+  }
+}
