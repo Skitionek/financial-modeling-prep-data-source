@@ -1,12 +1,12 @@
 
-import AlphaVantageAPI from "../../src/mocks/alphaVantageAPI";
+import FinancialModelingPrepAPI from "../../src/mocks/financialModelingPrepAPI";
 import { matchesSnapshot } from "../utils";
 
 jest.setTimeout(30000);
 
 let alpha;
 beforeAll(() => {
-	alpha = new AlphaVantageAPI();
+	alpha = new FinancialModelingPrepAPI();
 });
 
 it(`daily data works`, () => {

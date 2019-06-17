@@ -17,7 +17,7 @@ describe.each(Object.keys(integrationSnapshots))("%s", groupKey => {
 			.toEqual(Object.keys(integrationSnapshot)));
 	Object.keys(integrationSnapshot).forEach(key =>
 		it(key, () =>
-			expect(snapshotDiff(unitSnapshot[key], integrationSnapshot[key])).toMatchSnapshot() //exceptions has difference yet diff should remain const
+			expect(snapshotDiff(unitSnapshot[key], integrationSnapshot[key])).toMatchSnapshot() // exceptions has difference yet diff should remain const
 		)
 	)
 });

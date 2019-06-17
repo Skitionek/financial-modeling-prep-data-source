@@ -1,11 +1,11 @@
-# AlphaVantage
+# financialModelingPrep
 
 ## Outdated readme
-[![Build Status](https://travis-ci.org/zackurben/alphavantage.svg?branch=master)](https://travis-ci.org/zackurben/alphavantage)
-[![Coverage Status](https://coveralls.io/repos/github/zackurben/alphavantage/badge.svg?branch=master)](https://coveralls.io/github/zackurben/alphavantage?branch=master)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zackurben/alphavantage.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/zackurben/financialModelingPrep.svg?branch=master)](https://travis-ci.org/zackurben/financialModelingPrep)
+[![Coverage Status](https://coveralls.io/repos/github/zackurben/financialModelingPrep/badge.svg?branch=master)](https://coveralls.io/github/zackurben/financialModelingPrep?branch=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/zackurben/financialModelingPrep.svg)](https://greenkeeper.io/)
 
-This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/alphavantage). I have no affiliation with AlphaVantage.
+This is a simple wrapper around the [Alpha Vantage API](https://www.financialModelingPrep.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/financialModelingPrep). I have no affiliation with financialModelingPrep.
 
 All contributions are welcome! This is an open source project under the MIT license, see [LICENSE.md](LICENSE.md) for additional information.
 
@@ -13,7 +13,7 @@ All contributions are welcome! This is an open source project under the MIT lice
 
 ## Installation
 ```bash
-npm i alphavantage
+npm i financialModelingPrep
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm i alphavantage
  * @param {String} key
  *   Your Alpha Vantage API key.
  */
-const alpha = require('alphavantage')({ key: 'qweqweqwe' });
+const alpha = require('financialModelingPrep')({ key: 'qweqweqwe' });
 
 // Simple examples
 alpha.data.intraday(`msft`).then(data => {
@@ -64,7 +64,7 @@ const polished = alpha.util.polish(data);
 
 ## Data
 
-See [Alpha Vantage](https://www.alphavantage.co/documentation/#time-series-data) for the parameters.
+See [Alpha Vantage](https://www.financialModelingPrep.co/documentation/#time-series-data) for the parameters.
 ```javascript
 alpha.data.intraday(symbol, outputsize, datatype, interval)
 alpha.data.daily(symbol, outputsize, datatype, interval)
@@ -80,14 +80,14 @@ alpha.data.batch([symbol1, symbol2..])
 
 ## Forex
 
-See [Alpha Vantage](https://www.alphavantage.co/documentation/#fx) for the parameters.
+See [Alpha Vantage](https://www.financialModelingPrep.co/documentation/#fx) for the parameters.
 ```javascript
 alpha.forex.rate(from_currency, to_currency)
 ```
 
 ## Crypto
 
-See [Alpha Vantage](https://www.alphavantage.co/documentation/#digital-currency) for the parameters.
+See [Alpha Vantage](https://www.financialModelingPrep.co/documentation/#digital-currency) for the parameters.
 ```javascript
 alpha.crypto.daily(symbol, market)
 alpha.crypto.weekly(symbol, market)
@@ -96,7 +96,7 @@ alpha.crypto.monthly(symbol, market)
 
 ## Technicals
 
-See [Alpha Vantage](https://www.alphavantage.co/documentation/#technical-indicators) for the parameters.
+See [Alpha Vantage](https://www.financialModelingPrep.co/documentation/#technical-indicators) for the parameters.
 ```javascript
 alpha.technical.sma(symbol, interval, time_period, series_type)
 alpha.technical.ema(symbol, interval, time_period, series_type)
@@ -154,7 +154,7 @@ alpha.technical.ht_dcphasor(symbol, interval, series_type)
 
 ## Performance
 
-See [Alpha Vantage](https://www.alphavantage.co/documentation/#sector-information) for the parameters.
+See [Alpha Vantage](https://www.financialModelingPrep.co/documentation/#sector-information) for the parameters.
 ```javascript
 alpha.performance.sector()
 ```

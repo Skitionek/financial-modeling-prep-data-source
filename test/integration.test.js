@@ -4,7 +4,7 @@
 	- Created:  23/04/2019
 */
 
-import AlphaVantageAPI from "../src";
+import FinancialModelingPrepAPI from "../src";
 import * as variables from "../src/mocks/demoVariableSets";
 import { obtainStructure } from "./utils";
 
@@ -12,10 +12,10 @@ jest.setTimeout(30000);
 
 let alpha;
 beforeAll(() => {
-	alpha = new AlphaVantageAPI({ key: 'demo' })
+	alpha = new FinancialModelingPrepAPI({ key: 'demo' })
 });
 
-const alphaStructure = AlphaVantageAPI.prototype;
+const alphaStructure = FinancialModelingPrepAPI.prototype;
 
 describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", groupKey => {
 	describe.each(Object.keys(alphaStructure[groupKey]))("%s", key => {

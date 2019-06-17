@@ -4,6 +4,6 @@
 	- Created:  2019-06-12
 */
 
-export AlphaVantageAPIMock from "./alphaVantageAPI";
+export financialModelingPrepAPIMock from "./financialModelingPrepAPI";
 
 export * as demoVariableSets from "./demoVariableSets";

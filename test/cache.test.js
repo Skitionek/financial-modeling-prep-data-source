@@ -6,19 +6,19 @@
 
 /* global performance*/
 
-import AlphaVantageAPI from "../src";
+import FinancialModelingPrepAPI from "../src";
 import * as variables from "../src/mocks/demoVariableSets";
 
 jest.setTimeout(30000);
 
-const alphaStructure = AlphaVantageAPI.prototype;
+const alphaStructure = FinancialModelingPrepAPI.prototype;
 
 describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", groupKey => {
 	describe.each(Object.keys(alphaStructure[groupKey]))("%s", key => {
 		let varSets = variables[groupKey][key];
 		varSets = Array.isArray(varSets) ? varSets : [varSets];
 		it.each(varSets)("%j", async varSet => {
-			const alpha = new AlphaVantageAPI({ key: 'demo' });
+			const alpha = new FinancialModelingPrepAPI({ key: 'demo' });
 			const start = performance.now();
 			await alpha[groupKey][key](varSet);
 			const response1time = performance.now();

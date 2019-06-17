@@ -5,7 +5,7 @@
 	- Created:  23/04/2019
 */
 
-import AlphaVantageAPI from "../../src/mocks/alphaVantageAPI";
+import FinancialModelingPrepAPI from "../../src/mocks/financialModelingPrepAPI";
 
 const checkAPIKey = (frags) => expect(frags[frags.length - 1]).toMatch(/^apikey=.*$/);
 
@@ -13,7 +13,7 @@ jest.setTimeout(30000);
 
 let alpha;
 beforeAll(() => {
-	alpha = new AlphaVantageAPI();
+	alpha = new FinancialModelingPrepAPI();
 });
 const urlConstructToFrags = (type, params) =>
 	alpha.util

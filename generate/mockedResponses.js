@@ -8,14 +8,14 @@
 	- Created:  23/04/2019
 */
 
-import AlphaVantageAPI from "../src";
+import FinancialModelingPrepAPI from "../src";
 import * as variables from "../src/mocks/demoVariableSets";
 import { FIELD_TYPES, INTERVALS, obtainStructure } from "../test/utils";
 import { timeFormat } from 'd3-time-format';
 
 const fs = require('fs');
 
-const alpha = new AlphaVantageAPI({ key: 'demo' });
+const alpha = new FinancialModelingPrepAPI({ key: 'demo' });
 alpha.getRaw = true;
 
 function limitArrays(obj) {
@@ -36,7 +36,7 @@ function limitArrays(obj) {
 	return obj;
 }
 
-const alphaStructure = AlphaVantageAPI.prototype;
+const alphaStructure = FinancialModelingPrepAPI.prototype;
 
 const formatDate = timeFormat("%Y-%m-%d");
 const formatDateTime = timeFormat("%Y-%m-%d %H:%M:%S");

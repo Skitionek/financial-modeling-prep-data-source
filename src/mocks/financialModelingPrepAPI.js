@@ -4,10 +4,10 @@
 	- Created:  2019-05-24
 */
 
-import AlphaVantageAPI from "../index";
+import financialModelingPrepAPI from "../index";
 import functions from "./functions";
 
-export default class AlphaVantageAPIMock extends AlphaVantageAPI {
+export default class financialModelingPrepAPIMock extends financialModelingPrepAPI {
 	constructor() {
 		super({key:'demo'});
 	}
