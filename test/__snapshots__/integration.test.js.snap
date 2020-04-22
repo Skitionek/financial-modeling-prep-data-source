@@ -1,0 +1,1568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`company_discounted_cash_flow {"arg":"AAPL"} 1`] = `
+Object {
+  "Stock Price": "Float",
+  "date": "Date",
+  "dcf": "Float",
+  "symbol": "String",
+}
+`;
+
+exports[`company_historical_discounted_cash_flow {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "historicalDCF": Array [
+    Object {
+      "DCF": "Float",
+      "Stock Price": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`company_historical_discounted_cash_flow {"arg":"AAPL"} 1`] = `
+Object {
+  "historicalDCF": Array [
+    Object {
+      "DCF": "Float",
+      "Stock Price": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`company_key_metrics {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "metrics": Array [
+    Object {
+      "Average Inventory": "Float",
+      "Average Payables": "Float",
+      "Average Receivables": "Float",
+      "Book Value per Share": "Float",
+      "Capex per Share": "Float",
+      "Capex to Depreciation": "Float",
+      "Capex to Operating Cash Flow": "Float",
+      "Capex to Revenue": "Float",
+      "Cash per Share": "Float",
+      "Current ratio": "Float",
+      "Debt to Assets": "Float",
+      "Debt to Equity": "Float",
+      "Dividend Yield": "Float",
+      "EV to Free cash flow": "Float",
+      "EV to Operating cash flow": "Float",
+      "EV to Sales": "Float",
+      "Earnings Yield": "Float",
+      "Enterprise Value": "Float",
+      "Enterprise Value over EBITDA": "Float",
+      "Free Cash Flow Yield": "Float",
+      "Free Cash Flow per Share": "Float",
+      "Graham Net-Net": "Float",
+      "Graham Number": "Float",
+      "Income Quality": "Float",
+      "Intangibles to Total Assets": "Float",
+      "Interest Coverage": "Float",
+      "Interest Debt per Share": "Float",
+      "Invested Capital": "Float",
+      "Market Cap": "Float",
+      "Net Current Asset Value": "Float",
+      "Net Debt to EBITDA": "Float",
+      "Net Income per Share": "Float",
+      "Operating Cash Flow per Share": "Float",
+      "PB ratio": "Float",
+      "PE ratio": "Float",
+      "PFCF ratio": "Float",
+      "POCF ratio": "Float",
+      "PTB ratio": "Float",
+      "Payout Ratio": "Float",
+      "Price to Sales Ratio": "Float",
+      "R&D to Revenue": "Float",
+      "Revenue per Share": "Float",
+      "SG&A to Revenue": "Float",
+      "Shareholders Equity per Share": "Float",
+      "Stock-based compensation to Revenue": "Float",
+      "Tangible Asset Value": "Float",
+      "Tangible Book Value per Share": "Float",
+      "Working Capital": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`company_key_metrics {"arg":"AAPL"} 1`] = `
+Object {
+  "metrics": Array [
+    Object {
+      "Average Inventory": "Float",
+      "Average Payables": "Float",
+      "Average Receivables": "Float",
+      "Book Value per Share": "Float",
+      "Capex per Share": "Float",
+      "Capex to Depreciation": "Float",
+      "Capex to Operating Cash Flow": "Float",
+      "Capex to Revenue": "Float",
+      "Cash per Share": "Float",
+      "Current ratio": "Float",
+      "Days Payables Outstanding": "Float",
+      "Days Sales Outstanding": "Float",
+      "Days of Inventory on Hand": "Float",
+      "Debt to Assets": "Float",
+      "Debt to Equity": "Float",
+      "Dividend Yield": "Float",
+      "EV to Free cash flow": "Float",
+      "EV to Operating cash flow": "Float",
+      "EV to Sales": "Float",
+      "Earnings Yield": "Float",
+      "Enterprise Value": "Float",
+      "Enterprise Value over EBITDA": "Float",
+      "Free Cash Flow Yield": "Float",
+      "Free Cash Flow per Share": "Float",
+      "Graham Net-Net": "Float",
+      "Graham Number": "Float",
+      "Income Quality": "Float",
+      "Intangibles to Total Assets": "Float",
+      "Interest Coverage": "Float",
+      "Interest Debt per Share": "Float",
+      "Inventory Turnover": "Float",
+      "Invested Capital": "Float",
+      "Market Cap": "Float",
+      "Net Current Asset Value": "Float",
+      "Net Debt to EBITDA": "Float",
+      "Net Income per Share": "Float",
+      "Operating Cash Flow per Share": "Float",
+      "PB ratio": "Float",
+      "PE ratio": "Float",
+      "PFCF ratio": "Float",
+      "POCF ratio": "Float",
+      "PTB ratio": "Float",
+      "Payables Turnover": "Float",
+      "Payout Ratio": "Float",
+      "Price to Sales Ratio": "Float",
+      "R&D to Revenue": "Float",
+      "ROE": "Float",
+      "ROIC": "Float",
+      "Receivables Turnover": "Float",
+      "Return on Tangible Assets": "Float",
+      "Revenue per Share": "Float",
+      "SG&A to Revenue": "Float",
+      "Shareholders Equity per Share": "Float",
+      "Stock-based compensation to Revenue": "Float",
+      "Tangible Asset Value": "Float",
+      "Tangible Book Value per Share": "Float",
+      "Working Capital": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`company_profile {"arg":"AAPL"} 1`] = `
+Object {
+  "profile": Object {
+    "beta": "Float",
+    "ceo": "String",
+    "changes": "Float",
+    "changesPercentage": "String",
+    "companyName": "String",
+    "description": "String",
+    "exchange": "String",
+    "image": "String",
+    "industry": "String",
+    "lastDiv": "Float",
+    "mktCap": "Float",
+    "price": "Float",
+    "range": "String",
+    "sector": "String",
+    "volAvg": "Float",
+    "website": "String",
+  },
+  "symbol": "String",
+}
+`;
+
+exports[`company_rating {"arg":"AAPL"} 1`] = `
+Object {
+  "rating": Object {
+    "rating": "String",
+    "recommendation": "String",
+    "score": "Float",
+  },
+  "ratingDetails": Object {
+    "D/E": Object {
+      "recommendation": "String",
+      "score": "Float",
+    },
+    "DCF": Object {
+      "recommendation": "String",
+      "score": "Float",
+    },
+    "P/B": Object {
+      "recommendation": "String",
+      "score": "Float",
+    },
+    "P/E": Object {
+      "recommendation": "String",
+      "score": "Float",
+    },
+    "ROA": Object {
+      "recommendation": "String",
+      "score": "Float",
+    },
+    "ROE": Object {
+      "recommendation": "String",
+      "score": "Float",
+    },
+  },
+  "symbol": "String",
+}
+`;
+
+exports[`company_stock_list {} 1`] = `
+Object {
+  "symbolsList": Array [
+    Object {
+      "exchange": "String",
+      "name": "String",
+      "price": "Float",
+      "symbol": "String",
+    },
+  ],
+}
+`;
+
+exports[`cryptocurrencies {} 1`] = `
+Object {
+  "cryptocurrenciesList": Array [
+    Object {
+      "changes": "Float",
+      "marketCapitalization": "Float",
+      "name": "String",
+      "price": "Float",
+      "ticker": "String",
+    },
+  ],
+}
+`;
+
+exports[`cryptocurrency {"arg":"BTC"} 1`] = `
+Object {
+  "changes": "Float",
+  "marketCapitalization": "Float",
+  "name": "String",
+  "price": "Float",
+  "ticker": "String",
+}
+`;
+
+exports[`enterprise_value {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "enterpriseValues": Array [
+    Object {
+      "+ Total Debt": "Float",
+      "- Cash & Cash Equivalents": "Float",
+      "Enterprise Value": "Float",
+      "Market Capitalization": "Float",
+      "Number of Shares": "Float",
+      "Stock Price": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`enterprise_value {"arg":"AAPL"} 1`] = `
+Object {
+  "enterpriseValues": Array [
+    Object {
+      "+ Total Debt": "Float",
+      "- Cash & Cash Equivalents": "Float",
+      "Enterprise Value": "Float",
+      "Market Capitalization": "Float",
+      "Number of Shares": "Float",
+      "Stock Price": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financial_ratios {"arg":"AAPL"} 1`] = `
+Object {
+  "ratios": Array [
+    Object {
+      "cashFlowIndicatorRatios": Object {
+        "capitalExpenditureCoverageRatios": "Float",
+        "cashFlowCoverageRatios": "Float",
+        "cashPerShare": "Float",
+        "dividendPayoutRatio": "Float",
+        "dividendpaidAndCapexCoverageRatios": "Float",
+        "freeCashFlowOperatingCashFlowRatio": "Float",
+        "freeCashFlowPerShare": "Float",
+        "operatingCashFlowPerShare": "Float",
+        "operatingCashFlowSalesRatio": "Float",
+        "payoutRatio": "Float",
+        "receivablesTurnover": "Float",
+        "shortTermCoverageRatios": "Float",
+      },
+      "date": "Date",
+      "debtRatios": Object {
+        "cashFlowToDebtRatio": "Float",
+        "companyEquityMultiplier": "Float",
+        "debtEquityRatio": "Float",
+        "debtRatio": "Float",
+        "interestCoverage": "Float",
+        "longtermDebtToCapitalization": "Float",
+        "totalDebtToCapitalization": "Float",
+      },
+      "investmentValuationRatios": Object {
+        "dividendYield": "Float",
+        "enterpriseValueMultiple": "Float",
+        "priceBookValueRatio": "Float",
+        "priceCashFlowRatio": "Float",
+        "priceEarningsRatio": "Float",
+        "priceEarningsToGrowthRatio": "Float",
+        "priceFairValue": "Float",
+        "priceSalesRatio": "Float",
+        "priceToBookRatio": "Float",
+        "priceToFreeCashFlowsRatio": "Float",
+        "priceToOperatingCashFlowsRatio": "Float",
+        "priceToSalesRatio": "Float",
+        "receivablesTurnover": "Float",
+      },
+      "liquidityMeasurementRatios": Object {
+        "cashConversionCycle": "Float",
+        "cashRatio": "Float",
+        "currentRatio": "Float",
+        "daysOfInventoryOutstanding": "Float",
+        "daysOfPayablesOutstanding": "Float",
+        "daysOfSalesOutstanding": "Float",
+        "operatingCycle": "Float",
+        "quickRatio": "Float",
+      },
+      "operatingPerformanceRatios": Object {
+        "assetTurnover": "Float",
+        "fixedAssetTurnover": "Float",
+        "inventoryTurnover": "Float",
+        "payablesTurnover": "Float",
+        "receivablesTurnover": "Float",
+      },
+      "profitabilityIndicatorRatios": Object {
+        "eBITperRevenue": "Float",
+        "eBTperEBIT": "Float",
+        "ebitperRevenue": "Float",
+        "ebtperEBIT": "Float",
+        "effectiveTaxRate": "Float",
+        "grossProfitMargin": "Float",
+        "nIperEBT": "Float",
+        "netProfitMargin": "Float",
+        "niperEBT": "Float",
+        "operatingProfitMargin": "Float",
+        "pretaxProfitMargin": "Float",
+        "returnOnAssets": "Float",
+        "returnOnCapitalEmployed": "Float",
+        "returnOnEquity": "Float",
+      },
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financial_statement_growth {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "growth": Array [
+    Object {
+      "Asset Growth": "Float",
+      "Book Value per Share Growth": "Float",
+      "Debt Growth": "Float",
+      "Dividends per Share Growth": "Float",
+      "EBIT Growth": "Float",
+      "EPS Diluted Growth": "Float",
+      "EPS Growth": "Float",
+      "Free Cash Flow growth": "Float",
+      "Gross Profit Growth": "Float",
+      "Inventory Growth": "Float",
+      "Net Income Growth": "Float",
+      "Operating Cash Flow growth": "Float",
+      "Operating Income Growth": "Float",
+      "R&D Expense Growth": "Float",
+      "Receivables growth": "Float",
+      "SG&A Expenses Growth": "Float",
+      "Weighted Average Shares Diluted Growth": "Float",
+      "Weighted Average Shares Growth": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financial_statement_growth {"arg":"AAPL"} 1`] = `
+Object {
+  "growth": Array [
+    Object {
+      "10Y Dividend per Share Growth (per Share)": "Float",
+      "10Y Net Income Growth (per Share)": "Float",
+      "10Y Operating CF Growth (per Share)": "Float",
+      "10Y Revenue Growth (per Share)": "Float",
+      "10Y Shareholders Equity Growth (per Share)": "Float",
+      "3Y Dividend per Share Growth (per Share)": "Float",
+      "3Y Net Income Growth (per Share)": "Float",
+      "3Y Operating CF Growth (per Share)": "Float",
+      "3Y Revenue Growth (per Share)": "Float",
+      "3Y Shareholders Equity Growth (per Share)": "Float",
+      "5Y Dividend per Share Growth (per Share)": "Float",
+      "5Y Net Income Growth (per Share)": "Float",
+      "5Y Operating CF Growth (per Share)": "Float",
+      "5Y Revenue Growth (per Share)": "Float",
+      "5Y Shareholders Equity Growth (per Share)": "Float",
+      "Asset Growth": "Float",
+      "Book Value per Share Growth": "Float",
+      "Debt Growth": "Float",
+      "Dividends per Share Growth": "Float",
+      "EBIT Growth": "Float",
+      "EPS Diluted Growth": "Float",
+      "EPS Growth": "Float",
+      "Free Cash Flow growth": "Float",
+      "Gross Profit Growth": "Float",
+      "Inventory Growth": "Float",
+      "Net Income Growth": "Float",
+      "Operating Cash Flow growth": "Float",
+      "Operating Income Growth": "Float",
+      "R&D Expense Growth": "Float",
+      "Receivables growth": "Float",
+      "SG&A Expenses Growth": "Float",
+      "Weighted Average Shares Diluted Growth": "Float",
+      "Weighted Average Shares Growth": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_balance_sheet_statement {"arg":"AAPL","datatype":"csv"} 1`] = `"Date"`;
+
+exports[`financials_balance_sheet_statement {"arg":"AAPL","period":"quater"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Cash and cash equivalents": "Float",
+      "Cash and short-term investments": "Float",
+      "Deferred revenue": "Float",
+      "Deposit Liabilities": "Float",
+      "Goodwill and Intangible Assets": "Float",
+      "Inventories": "Float",
+      "Investments": "Float",
+      "Long-term debt": "Float",
+      "Long-term investments": "Float",
+      "Net Debt": "Float",
+      "Other Assets": "Float",
+      "Other Liabilities": "Float",
+      "Other comprehensive income": "Float",
+      "Payables": "Float",
+      "Property, Plant & Equipment Net": "Float",
+      "Receivables": "Float",
+      "Retained earnings (deficit)": "Float",
+      "Short-term debt": "Float",
+      "Short-term investments": "Float",
+      "Tax Liabilities": "Float",
+      "Tax assets": "Float",
+      "Total assets": "Float",
+      "Total current assets": "Float",
+      "Total current liabilities": "Float",
+      "Total debt": "Float",
+      "Total liabilities": "Float",
+      "Total non-current assets": "Float",
+      "Total non-current liabilities": "Float",
+      "Total shareholders equity": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_balance_sheet_statement {"arg":"AAPL"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Cash and cash equivalents": "Float",
+      "Cash and short-term investments": "Float",
+      "Deferred revenue": "Float",
+      "Deposit Liabilities": "Float",
+      "Goodwill and Intangible Assets": "Float",
+      "Inventories": "Float",
+      "Investments": "Float",
+      "Long-term debt": "Float",
+      "Long-term investments": "Float",
+      "Net Debt": "Float",
+      "Other Assets": "Float",
+      "Other Liabilities": "Float",
+      "Other comprehensive income": "Float",
+      "Payables": "Float",
+      "Property, Plant & Equipment Net": "Float",
+      "Receivables": "Float",
+      "Retained earnings (deficit)": "Float",
+      "Short-term debt": "Float",
+      "Short-term investments": "Float",
+      "Tax Liabilities": "Float",
+      "Tax assets": "Float",
+      "Total assets": "Float",
+      "Total current assets": "Float",
+      "Total current liabilities": "Float",
+      "Total debt": "Float",
+      "Total liabilities": "Float",
+      "Total non-current assets": "Float",
+      "Total non-current liabilities": "Float",
+      "Total shareholders equity": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_cash_flow_statement {"arg":"AAPL","datatype":"csv"} 1`] = `"Date"`;
+
+exports[`financials_cash_flow_statement {"arg":"AAPL","period":"quater"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Acquisitions and disposals": "Float",
+      "Capital Expenditure": "Float",
+      "Depreciation & Amortization": "Float",
+      "Dividend payments": "Float",
+      "Effect of forex changes on cash": "Float",
+      "Financing Cash Flow": "Float",
+      "Free Cash Flow": "Float",
+      "Investing Cash flow": "Float",
+      "Investment purchases and sales": "Float",
+      "Issuance (buybacks) of shares": "Float",
+      "Issuance (repayment) of debt": "Float",
+      "Net Cash/Marketcap": "Float",
+      "Net cash flow / Change in cash": "Float",
+      "Operating Cash Flow": "Float",
+      "Stock-based compensation": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_cash_flow_statement {"arg":"AAPL"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Acquisitions and disposals": "Float",
+      "Capital Expenditure": "Float",
+      "Depreciation & Amortization": "Float",
+      "Dividend payments": "Float",
+      "Effect of forex changes on cash": "Float",
+      "Financing Cash Flow": "Float",
+      "Free Cash Flow": "Float",
+      "Investing Cash flow": "Float",
+      "Investment purchases and sales": "Float",
+      "Issuance (buybacks) of shares": "Float",
+      "Issuance (repayment) of debt": "Float",
+      "Net Cash/Marketcap": "Float",
+      "Net cash flow / Change in cash": "Float",
+      "Operating Cash Flow": "Float",
+      "Stock-based compensation": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_income_statement {"arg":"AAPL","datatype":"csv"} 1`] = `"Date"`;
+
+exports[`financials_income_statement {"arg":"AAPL","period":"quater"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Consolidated Income": "Float",
+      "Cost of Revenue": "Float",
+      "Dividend per Share": "Float",
+      "EBIT": "Float",
+      "EBIT Margin": "Float",
+      "EBITDA": "Float",
+      "EBITDA Margin": "Float",
+      "EPS": "Float",
+      "EPS Diluted": "Float",
+      "Earnings Before Tax Margin": "Float",
+      "Earnings before Tax": "Float",
+      "Free Cash Flow margin": "Float",
+      "Gross Margin": "Float",
+      "Gross Profit": "Float",
+      "Income Tax Expense": "Float",
+      "Interest Expense": "Float",
+      "Net Income": "Float",
+      "Net Income - Discontinued ops": "Float",
+      "Net Income - Non-Controlling int": "Float",
+      "Net Income Com": "Float",
+      "Net Profit Margin": "Float",
+      "Operating Expenses": "Float",
+      "Operating Income": "Float",
+      "Preferred Dividends": "Float",
+      "Profit Margin": "Float",
+      "R&D Expenses": "Float",
+      "Revenue": "Float",
+      "Revenue Growth": "Float",
+      "SG&A Expense": "Float",
+      "Weighted Average Shs Out": "Float",
+      "Weighted Average Shs Out (Dil)": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_income_statement {"arg":"AAPL"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Consolidated Income": "Float",
+      "Cost of Revenue": "Float",
+      "Dividend per Share": "Float",
+      "EBIT": "Float",
+      "EBIT Margin": "Float",
+      "EBITDA": "Float",
+      "EBITDA Margin": "Float",
+      "EPS": "Float",
+      "EPS Diluted": "Float",
+      "Earnings Before Tax Margin": "Float",
+      "Earnings before Tax": "Float",
+      "Free Cash Flow margin": "Float",
+      "Gross Margin": "Float",
+      "Gross Profit": "Float",
+      "Income Tax Expense": "Float",
+      "Interest Expense": "Float",
+      "Net Income": "Float",
+      "Net Income - Discontinued ops": "Float",
+      "Net Income - Non-Controlling int": "Float",
+      "Net Income Com": "Float",
+      "Net Profit Margin": "Float",
+      "Operating Expenses": "Float",
+      "Operating Income": "Float",
+      "Preferred Dividends": "Float",
+      "Profit Margin": "Float",
+      "R&D Expenses": "Float",
+      "Revenue": "Float",
+      "Revenue Growth": "Float",
+      "SG&A Expense": "Float",
+      "Weighted Average Shs Out": "Float",
+      "Weighted Average Shs Out (Dil)": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`financials_income_statement {"arg":["FB","GOOG"]} 1`] = `
+Object {
+  "financialStatementList": Array [
+    Object {
+      "financials": Array [
+        Object {
+          "Consolidated Income": "Float",
+          "Cost of Revenue": "Float",
+          "Dividend per Share": "Float",
+          "EBIT": "Float",
+          "EBIT Margin": "Float",
+          "EBITDA": "Float",
+          "EBITDA Margin": "Float",
+          "EPS": "Float",
+          "EPS Diluted": "Float",
+          "Earnings Before Tax Margin": "Float",
+          "Earnings before Tax": "Float",
+          "Free Cash Flow margin": "Float",
+          "Gross Margin": "Float",
+          "Gross Profit": "Float",
+          "Income Tax Expense": "Float",
+          "Interest Expense": "Float",
+          "Net Income": "Float",
+          "Net Income - Discontinued ops": "Float",
+          "Net Income - Non-Controlling int": "Float",
+          "Net Income Com": "Float",
+          "Net Profit Margin": "Float",
+          "Operating Expenses": "Float",
+          "Operating Income": "Float",
+          "Preferred Dividends": "Float",
+          "Profit Margin": "Float",
+          "R&D Expenses": "Float",
+          "Revenue": "Float",
+          "Revenue Growth": "Float",
+          "SG&A Expense": "Float",
+          "Weighted Average Shs Out": "Float",
+          "Weighted Average Shs Out (Dil)": "Float",
+          "date": "Date",
+        },
+      ],
+      "symbol": "String",
+    },
+  ],
+}
+`;
+
+exports[`forex {"arg":"EURUSD"} 1`] = `
+Object {
+  "ask": "Float",
+  "bid": "Float",
+  "changes": "Float",
+  "date": "Timestamp",
+  "high": "Float",
+  "low": "Float",
+  "open": "Float",
+  "ticker": "String",
+}
+`;
+
+exports[`forex {} 1`] = `
+Object {
+  "forexList": Array [
+    Object {
+      "ask": "Float",
+      "bid": "Float",
+      "changes": "Float",
+      "date": "Timestamp",
+      "high": "Float",
+      "low": "Float",
+      "open": "Float",
+      "ticker": "String",
+    },
+  ],
+}
+`;
+
+exports[`historical_chart {"arg":"%5EGSPC","interval":"5min"} 1`] = `
+Array [
+  Object {
+    "close": "Float",
+    "date": "Timestamp",
+    "high": "Float",
+    "low": "Float",
+    "open": "Float",
+    "volume": "Float",
+  },
+]
+`;
+
+exports[`historical_chart {"arg":"AAPL","interval":"1min"} 1`] = `
+Array [
+  Object {
+    "close": "Float",
+    "date": "Timestamp",
+    "high": "Float",
+    "low": "Float",
+    "open": "Float",
+    "volume": "Float",
+  },
+]
+`;
+
+exports[`historical_chart {"arg":"PRNT","interval":"30min"} 1`] = `
+Array [
+  Object {
+    "close": "Float",
+    "date": "Timestamp",
+    "high": "Float",
+    "low": "Float",
+    "open": "Float",
+    "volume": "Float",
+  },
+]
+`;
+
+exports[`historical_chart {"arg":"ZGUSD","interval":"15min"} 1`] = `
+Array [
+  Object {
+    "close": "Float",
+    "date": "Timestamp",
+    "high": "Float",
+    "low": "Float",
+    "open": "Float",
+    "volume": "Float",
+  },
+]
+`;
+
+exports[`historical_price_full {"arg":"%5EGSPC","group":"index"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"%5EGSPC","group":"index"} 2`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","from":"2018-03-12","to":"2019-03-12"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","serietype":"line"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "close": "Float",
+      "date": "Date",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","timeseries":5} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"BTCUSD","group":"crypto"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"EDF.PA","group":"euronext"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"EDF.PA","group":"euronext"} 2`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"FNV.TO","group":"tsx"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+      "unadjustedVolume": "Float",
+      "volume": "Float",
+      "vwap": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"JMCRX","group":"stock_split"} 1`] = `Object {}`;
+
+exports[`historical_price_full {"arg":"JPYUSD","group":"forex"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": "Float",
+      "change": "Float",
+      "changeOverTime": "Float",
+      "changePercent": "Float",
+      "close": "Float",
+      "date": "Date",
+      "high": "Float",
+      "label": "String",
+      "low": "Float",
+      "open": "Float",
+    },
+  ],
+  "symbol": "String",
+}
+`;
+
+exports[`historical_price_full {"arg":"PRNT","group":"stock_split"} 1`] = `Object {}`;
+
+exports[`historical_price_full {"arg":["FB","GOOG"]} 1`] = `
+Object {
+  "historicalStockList": Array [
+    Object {
+      "historical": Array [
+        Object {
+          "adjClose": "Float",
+          "change": "Float",
+          "changeOverTime": "Float",
+          "changePercent": "Float",
+          "close": "Float",
+          "date": "Date",
+          "high": "Float",
+          "label": "String",
+          "low": "Float",
+          "open": "Float",
+          "unadjustedVolume": "Float",
+          "volume": "Float",
+          "vwap": "Float",
+        },
+      ],
+      "symbol": "String",
+    },
+  ],
+}
+`;
+
+exports[`is_the_market_open {} 1`] = `
+Object {
+  "isTheStockMarketOpen": null,
+  "stockExchangeName": "String",
+  "stockMarketHolidays": Array [
+    Object {
+      "Christmas": "Date",
+      "Good Friday": "Date",
+      "Independence Day": "Date",
+      "Labor Day": "Date",
+      "Martin Luther King, Jr. Day": "Date",
+      "Memorial Day": "Date",
+      "New Years Day": "Date",
+      "Thanksgiving Day": "Date",
+      "Washington's Birthday": "Date",
+      "year": "Float",
+    },
+  ],
+  "stockMarketHours": Object {
+    "closingHour": "String",
+    "openingHour": "String",
+  },
+}
+`;
+
+exports[`majors_indexes {"arg":".DJI"} 1`] = `
+Object {
+  "changes": "Float",
+  "indexName": "String",
+  "price": "Float",
+  "ticker": "String",
+}
+`;
+
+exports[`majors_indexes {} 1`] = `
+Object {
+  "majorIndexesList": Array [
+    Object {
+      "changes": "Float",
+      "indexName": "String",
+      "price": "Float",
+      "ticker": "String",
+    },
+  ],
+}
+`;
+
+exports[`quote {"arg":"HGUSD"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quote {"arg":["PRNT","DFVS","VQT"]} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"commodity"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"crypto"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": "Float",
+    "name": null,
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"etf"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"forex"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"index"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"mutual_fund"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": null,
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": null,
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`quotes {"arg":"tsx"} 1`] = `
+Array [
+  Object {
+    "avgVolume": "Float",
+    "change": "Float",
+    "changesPercentage": "Float",
+    "dayHigh": "Float",
+    "dayLow": "Float",
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": "String",
+    "marketCap": null,
+    "name": "String",
+    "open": "Float",
+    "pe": null,
+    "previousClose": "Float",
+    "price": "Float",
+    "priceAvg200": "Float",
+    "priceAvg50": "Float",
+    "sharesOutstanding": null,
+    "symbol": "String",
+    "timestamp": "Float",
+    "volume": "Float",
+    "yearHigh": "Float",
+    "yearLow": "Float",
+  },
+]
+`;
+
+exports[`search {"arg":"AA","limit":10,"exchange":"NASDAQ"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`stock {"arg":"actives"} 1`] = `
+Object {
+  "mostActiveStock": Array [
+    Object {
+      "changes": "Float",
+      "changesPercentage": "String",
+      "companyName": null,
+      "price": "Float",
+      "ticker": "String",
+    },
+  ],
+}
+`;
+
+exports[`stock {"arg":"gainers"} 1`] = `
+Object {
+  "mostGainerStock": Array [
+    Object {
+      "changes": "Float",
+      "changesPercentage": "String",
+      "companyName": null,
+      "price": "Float",
+      "ticker": "String",
+    },
+  ],
+}
+`;
+
+exports[`stock {"arg":"losers"} 1`] = `
+Object {
+  "mostLoserStock": Array [
+    Object {
+      "changes": "Float",
+      "changesPercentage": "String",
+      "companyName": "Float",
+      "price": "Float",
+      "ticker": "String",
+    },
+  ],
+}
+`;
+
+exports[`stock {"arg":"sectors-performance"} 1`] = `
+Object {
+  "sectorPerformance": Array [
+    Object {
+      "changesPercentage": "String",
+      "sector": "String",
+    },
+  ],
+}
+`;
+
+exports[`stock_real_time_price {"arg":"AAPL"} 1`] = `
+Object {
+  "price": "Float",
+  "symbol": "String",
+}
+`;
+
+exports[`stock_real_time_price {"arg":["FB","GOOG"]} 1`] = `
+Object {
+  "companiesPriceList": Array [
+    Object {
+      "price": "Float",
+      "symbol": "String",
+    },
+  ],
+}
+`;
+
+exports[`stock_real_time_price {} 1`] = `
+Object {
+  "stockList": Array [
+    Object {
+      "price": "Float",
+      "symbol": "String",
+    },
+  ],
+}
+`;
+
+exports[`symbol {"arg":"available-commodities"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-cryptocurrencies"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-etfs"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-euronext"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-forex-currency-pairs"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-indexes"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-mutual-funds"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-tsx"} 1`] = `
+Array [
+  Object {
+    "currency": "String",
+    "exchangeShortName": "String",
+    "name": "String",
+    "stockExchange": "String",
+    "symbol": "String",
+  },
+]
+`;

@@ -10,24 +10,20 @@ import { obtainStructure } from "./utils";
 
 jest.setTimeout(30000);
 
-let alpha;
+let fmpAPI;
 beforeAll(() => {
-	alpha = new FinancialModelingPrepAPI({ key: 'demo' })
+	fmpAPI = new FinancialModelingPrepAPI()
 });
 
-const alphaStructure = FinancialModelingPrepAPI.prototype;
-
-describe.each(['data', 'crypto', 'forex', 'performance', 'technical'])("%s", groupKey => {
-	describe.each(Object.keys(alphaStructure[groupKey]))("%s", key => {
-		let varSets = variables[groupKey][key];
-		varSets = Array.isArray(varSets) ? varSets : [varSets];
-		it.each(varSets)("%j", async varSet => {
-			expect.assertions(2);
-			const response = await alpha[groupKey][key](varSet);
-			const structure = obtainStructure(response);
-			expect(structure).toMatchSnapshot();
-			expect(JSON.stringify(response).length).toBeGreaterThan(150);
-		});
-	})
+describe.each(Object.keys(variables))("%s", key => {
+	let varSets = variables[key];
+	varSets = Array.isArray(varSets) ? varSets : [varSets];
+	it.each(varSets)("%j", async ({arg, ...varSet}) => {
+		expect.assertions(2);
+		const response = await fmpAPI[key](arg,varSet);
+		const structure = obtainStructure(response);
+		expect(structure).toMatchSnapshot();
+		expect(JSON.stringify(response).length).toBeGreaterThan(20);
+	});
 });
 

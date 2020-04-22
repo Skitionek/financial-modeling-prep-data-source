@@ -4,7 +4,6 @@
 	"description": "",
 	"main": "dist",
 	"keywords": [
-		"alpha vantage",
 		"vantage",
 		"alpha",
 		"financialModelingPrep",
@@ -35,7 +34,7 @@
 		"prebuild": "npm run clean",
 		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/index.js",
 		"semantic-release": "semantic-release",
-		"clean": "rm index.js && rimraf lib && rimraf mocks",
+		"clean": "rm src/index.js & rimraf lib & rimraf mocks || echo 'finished'",
 		"test": "npm run lint && npm run cover unit && npm run cover integration && npm run cover InSync",
 		"test:prod": "cross-env BABEL_ENV=production npm run test",
 		"test:only": "jest",
