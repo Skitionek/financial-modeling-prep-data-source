@@ -13,21 +13,9 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 	constructor(config) {
 		super();
 		this.baseURL = `https://financialmodelingprep.com/api/v3/`;
-		// this.autobind(this)
-		this.parse = this.parse.bind(this)
+		this.parse = this.parse.bind(this);
 		this.initialize(config || {});
 	}
-
-	// autobind(obj) {
-	// 	if (typeof obj === 'object' && obj !== null) {
-	// 		for (const k in obj) {
-	// 			if (obj.hasOwnProperty(k) && isFunction(obj[k])) {
-	// 				obj[k] = obj[k].bind(this);
-	// 			}
-	// 			this.autobind(obj[k])
-	// 		}
-	// 	}
-	// }
 
 	async gep(...url) {
 		return this.get(...url).then(this.parse)
@@ -42,9 +30,11 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 			return data.map(this.parse)
 		}
 		if (typeof data === 'object' && data !== null) {
-			const mapped_data = {}
+			const mapped_data = {};
 			for (const d in data) {
-				mapped_data[d] = this.parse(data[d])
+				if (data.hasOwnProperty(d)) {
+					mapped_data[d] = this.parse(data[d])
+				}
 			}
 			return mapped_data
 		}
@@ -63,7 +53,7 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 	}
 
 	async search(query, searchParams) {
-		return this.gep(`search`, {query, ...searchParams})
+		return this.gep(`search`, { query, ...searchParams })
 	}
 
 	async financials_income_statement(symbol, searchParams) {
@@ -133,7 +123,7 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		}
 	}
 
-	async historical_chart(id, {interval} ) {
+	async historical_chart(id, { interval }) {
 		this.validate_historical_chart_interval(interval);
 		return this.gep(`historical-chart/${interval}/${id}`)
 	}
@@ -142,7 +132,7 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		'line'
 	];
 
-	async validate_historical_price_full_serietype({serietype}) {
+	async validate_historical_price_full_serietype({ serietype }) {
 		if (serietype && !this.historical_price_full_serietypes.includes(serietype)) {
 			throw ReferenceError(`${serietype} is not valid, please select one of the following ${this.historical_price_full_serietypes}`)
 		}
@@ -154,9 +144,9 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		'etf',
 		'tsx',
 		'euronext',
-		'mutual_found',
+		'mutual_fund',
 		'etf',
-		'stock_divided',
+		'stock_dividend',
 		'stock_split',
 		'crypto',
 		'forex'
@@ -168,10 +158,10 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		}
 	}
 
-	async historical_price_full(id, {group,...searchParams}) {
+	async historical_price_full(id, { group, ...searchParams }) {
 		this.validate_historical_price_full_serietype(searchParams);
 		this.validate_historical_price_full_group(group);
-		const group_path = group?group+'/':'';
+		const group_path = group ? group + '/' : '';
 		return this.gep(`historical-price-full/${group_path}${id}`, searchParams)
 	}
 
@@ -307,4 +297,6 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 	// }
 }
 
-module.exports = FinancialModelingPrepAPI
+console.log(new FinancialModelingPrepAPI().quotes_commodity())
+
+module.exports = FinancialModelingPrepAPI;
