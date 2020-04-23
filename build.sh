@@ -4,9 +4,4 @@
 #email      :Skitionek@gmail.com
 #==============================================================================
 
-babel-node generate/mockedResponses &&
-cross-env BABEL_ENV=production babel src --out-dir ./ --source-maps --ignore "*.json" &&
-rm -r mocks/functions &&
-babel-node generate/buildMockedResponses &&
-babel-node generate/ApiTree &&
-(echo "Build successful")
+cross-env BABEL_ENV=production babel src --out-dir ./ --source-maps --ignore "*.json" && (echo "Build successful")

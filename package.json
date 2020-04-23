@@ -1,212 +1,171 @@
 {
-	"name": "financial-modeling-prep-data-source",
-	"version": "0.0.0",
-	"description": "",
-	"main": "dist",
-	"keywords": [
-		"alpha vantage",
-		"vantage",
-		"alpha",
-		"financialModelingPrep",
-		"stocks",
-		"stock market",
-		"api"
-	],
-	"author": {
-		"name": "Dominik Maszczyk",
-		"email": "Skitionek@gmail.com",
-		"web": "https://www.linkedin.com/in/dominik-maszczyk/"
+  "name"            : "financial-modeling-prep-data-source",
+  "version"         : "0.0.0",
+  "description"     : "",
+  "main"            : "src",
+
+	"publishConfig": {
+		"access": "public"
 	},
-	"maintainers": [
-		{
-			"name": "Dominik Maszczyk <Skitionek@gmail.com> (https://www.linkedin.com/in/dominik-maszczyk/)"
-		}
-	],
-	"license": "MIT",
-	"homepage": "https://github.com/biosustain-gem/financial-modeling-prep-data-source",
-	"bugs": {
-		"web": "https://github.com/biosustain-gem/financial-modeling-prep-data-source/issues"
-	},
-	"engines": {
-		"node": ">=6.0.0"
-	},
-	"scripts": {
-		"start": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/index.js",
-		"prebuild": "npm run clean",
-		"debug": "nodemon -e js,graphql -r node_modules/dotenv/config --exec babel-node --inspect src/index.js",
-		"semantic-release": "semantic-release",
-		"clean": "rm index.js && rimraf lib && rimraf mocks",
-		"test": "npm run lint && npm run cover unit && npm run cover integration && npm run cover InSync",
-		"test:prod": "cross-env BABEL_ENV=production npm run test",
-		"test:only": "jest",
-		"test:watch": "npm test -- --watch",
-		"test:examples": "node examples/",
-		"cover": "jest --coverage",
-		"lint": "eslint src test generate",
-		"build": "cross-env BABEL_ENV=production ./build.sh",
-		"prepublish": "npm run lint && npm run test && npm run build"
-	},
-	"files": [
-		"dist",
-		"src"
-	],
-	"devDependencies": {
-		"@babel/cli": "^7.4.4",
-		"@babel/core": "^7.4.4",
-		"@babel/node": "^7.2.2",
-		"@babel/plugin-proposal-class-properties": "^7.4.4",
-		"@babel/plugin-proposal-decorators": "^7.4.4",
-		"@babel/plugin-proposal-object-rest-spread": "^7.4.4",
-		"@babel/preset-env": "^7.4.4",
-		"@graphql-modules/core": "^0.7.1",
-		"@graphql-modules/di": "^0.7.1",
-		"apollo-server": "^2.4.8",
-		"apollo-server-testing": "^2.4.8",
-		"babel-eslint": "^10.0.1",
-		"babel-plugin-module-resolver": "^3.2.0",
-		"cross-env": "^5.2.0",
-		"d3-time-format": "^2.1.3",
-		"eslint": "^6.1.0",
-		"eslint-config-prettier": "^6.0.0",
-		"eslint-config-uber-es2015": "^3.1.2",
-		"eslint-plugin-babel": "^5.3.0",
-		"eslint-plugin-jest": "^22.6.4",
-		"eslint-plugin-prettier": "^3.1.0",
-		"gql-generator-node": "^2.1.4",
-		"graphql-import-node": "0.0.4",
-		"jest": "^24.7.1",
-		"jest-summary-reporter": "0.0.2",
-		"jest-transform-graphql": "^2.1.0",
-		"nodemon": "^1.19.0",
-		"reflect-metadata": "^0.1.13",
-		"snapshot-diff": "^0.5.1"
-	},
-	"dependencies": {
-		"@babel/plugin-proposal-export-default-from": "^7.2.0",
-		"@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-		"@babel/polyfill": "^7.4.4",
-		"apollo-datasource-rest": "^0.6.1",
-		"dotenv": "^8.0.0",
-		"http-status-codes": "^1.3.2",
-		"jsonic": "^0.3.1",
-		"lodash.mapvalues": "^4.6.0",
-		"lodash.merge": "^4.6.1",
-		"request-promise-native": "latest"
-	},
-	"peerDependencies": {
-		"graphql": "^14.2.1"
-	},
-	"jshintConfig": {
-		"node": true,
-		"trailingcomma": false,
-		"esversion": 6
-	},
-	"babel": {
-		"presets": [
-			[
-				"@babel/preset-env",
-				{
-					"targets": {
-						"node": "current"
-					}
-				}
-			]
-		],
+	"release": {
 		"plugins": [
-			"@babel/plugin-proposal-object-rest-spread",
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
 			[
-				"@babel/plugin-proposal-decorators",
+				"@semantic-release/npm",
 				{
-					"legacy": true
+					"npmPublish": true
 				}
 			],
-			[
-				"@babel/plugin-proposal-class-properties",
-				{
-					"loose": true
-				}
-			],
-			"@babel/plugin-proposal-export-default-from",
-			"@babel/plugin-proposal-export-namespace-from"
-		]
+			"@semantic-release/changelog",
+			"@semantic-release/git"
+		],
+		"branch": "master"
 	},
-	"eslintConfig": {
-		"extends": [
-			"eslint-config-prettier",
-			"eslint-config-uber-es2015",
-			"prettier"
-		],
-		"env": {
-			"es6": true,
-			"node": true,
-			"jest/globals": true
-		},
-		"parser": "babel-eslint",
-		"plugins": [
-			"babel",
-			"prettier",
-			"jest"
-		],
-		"rules": {
-			"valid-jsdoc": 0,
-			"no-var": 0,
-			"max-len": 0,
-			"prefer-spread": 1,
-			"prefer-template": 1,
-			"quote-props": 1,
-			"spaced-comment": 1,
-			"max-params": 0,
-			"no-multiple-empty-lines": 1,
-			"no-process-env": 0,
-			"no-inline-comments": 0,
-			"no-invalid-this": 0,
-			"no-unused-expressions": 0,
-			"camelcase": 0,
-			"consistent-return": 0,
-			"comma-dangle": 1,
-			"no-magic-numbers": [
-				"error",
-				{
-					"ignore": [
-						0,
-						1,
-						2,
-						100
-					],
-					"enforceConst": true
-				}
-			],
-			"indent": [
-				"error",
-				"tab"
-			],
-			"func-names": "off"
-		}
-	},
-	"jest": {
-		"transform": {
-			"\\.(gql|graphql)$": "jest-transform-graphql",
-			".*": "babel-jest"
-		},
-		"reporters": [
-			"default",
-			[
-				"jest-summary-reporter",
-				{
-					"failuresOnly": true
-				}
-			]
-		],
-		"moduleFileExtensions": [
-			"js",
-			"graphql"
-		],
-		"collectCoverageFrom": [
-			"src/**/*.{js}"
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Skitionek/financial-modeling-prep-data-source.git"
+  "keywords"        : [
+	"financialModelingPrep",
+	"stocks",
+	"stock market",
+	"api",
+	"apollo",
+	"DataSource"
+  ],
+  "author"          : {
+	"name" : "Dominik Maszczyk",
+	"email": "Skitionek@gmail.com",
+	"web"  : "https://www.linkedin.com/in/dominik-maszczyk/"
+  },
+  "maintainers"     : [
+	{
+	  "name": "Dominik Maszczyk <Skitionek@gmail.com> (https://www.linkedin.com/in/dominik-maszczyk/)"
 	}
+  ],
+  "license"         : "MIT",
+  "homepage"        : "https://github.com/biosustain-gem/financial-modeling-prep-data-source",
+  "bugs"            : {
+	"web": "https://github.com/biosustain-gem/financial-modeling-prep-data-source/issues"
+  },
+  "engines"         : {
+	"node": ">=6.0.0"
+  },
+  "scripts"         : {
+	"start"           : "nodemon -e js --exec node --inspect src/index.js",
+	"prebuild"        : "npm run clean",
+	"clean"           : "rm src/index.js & rimraf lib & rimraf mocks || echo 'finished'",
+	"test"            : "jest",
+	"test:integration": "npm test -- -i integration",
+	"test:cache"      : "npm test -- -i cache",
+	"test:watch"      : "npm test -- --watch",
+	"cover"           : "jest --coverage",
+	"lint"            : "eslint src test",
+	"build"           : "cross-env BABEL_ENV=production babel src --out-dir ./ --source-maps --ignore \"*.json\""
+  },
+  "files"           : [
+	"dist",
+	"src"
+  ],
+  "devDependencies" : {
+	"@babel/core"                            : "^7.9.0",
+	"@babel/plugin-proposal-class-properties": "^7.8.3",
+	"@babel/preset-env"                      : "^7.9.5",
+	"babel-jest"                             : "^25.4.0",
+	"cross-env"                              : "^5.2.0",
+	"jest"                                   : "^24.7.1",
+	"jsonic"                                 : "^0.3.1",
+	"lodash.merge"                           : "^4.6.1",
+		"nodemon": "^1.19.0",
+		"semantic-release": "^17.0.7"
+  },
+  "dependencies"    : {
+	"apollo-datasource-rest": "^0.6.1",
+	"graphql"               : "^15.0.0"
+  },
+  "peerDependencies": {
+	"graphql": "^14.2.1"
+  },
+  "jshintConfig"    : {
+	"node"         : true,
+	"trailingcomma": false,
+	"esversion"    : 6
+  },
+  "eslintConfig"    : {
+	"extends": [
+	  "eslint-config-prettier",
+	  "eslint-config-uber-es2015",
+	  "prettier"
+	],
+	"env"    : {
+	  "es6"         : true,
+	  "node"        : true,
+	  "jest/globals": true
+	},
+	"parser" : "babel-eslint",
+	"plugins": [
+	  "babel",
+	  "prettier",
+	  "jest"
+	],
+	"rules"  : {
+	  "valid-jsdoc"            : 0,
+	  "no-var"                 : 0,
+	  "max-len"                : 0,
+	  "prefer-spread"          : 1,
+	  "prefer-template"        : 1,
+	  "quote-props"            : 1,
+	  "spaced-comment"         : 1,
+	  "max-params"             : 0,
+	  "no-multiple-empty-lines": 1,
+	  "no-process-env"         : 0,
+	  "no-inline-comments"     : 0,
+	  "no-invalid-this"        : 0,
+	  "no-unused-expressions"  : 0,
+	  "camelcase"              : 0,
+	  "consistent-return"      : 0,
+	  "comma-dangle"           : 1,
+	  "no-magic-numbers"       : [
+		"error",
+		{
+		  "ignore"      : [
+			0,
+			1,
+			2,
+			100
+		  ],
+		  "enforceConst": true
+		}
+	  ],
+	  "indent"                 : [
+		"error",
+		"tab"
+	  ],
+	  "func-names"             : "off"
+	}
+  },
+  "babel"           : {
+	"presets": [
+	  [
+		"@babel/preset-env",
+		{
+		  "targets": {
+			"node": "current"
+		  }
+		}
+	  ]
+	],
+	"plugins": [
+	  "@babel/plugin-proposal-class-properties"
+	]
+  },
+  "jest"            : {
+	"moduleFileExtensions": [
+	  "js"
+	],
+	"collectCoverageFrom" : [
+	  "src/**/*.{js}"
+	]
+  },
+  "repository"      : {
+	"type": "git",
+	"url" : "https://github.com/Skitionek/financial-modeling-prep-data-source.git"
+  }
 }
