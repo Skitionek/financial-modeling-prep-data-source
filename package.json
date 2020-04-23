@@ -12,7 +12,7 @@
 			[
 				"@semantic-release/exec",
 				{
-					"analyzeCommitsCmd": "git diff-index --quiet ${lastRelease.tag} test/__snapshots__/integration.test.js.snap || echo minor && echo patch"
+					"analyzeCommitsCmd": "(git diff-index --quiet ${lastRelease.gitTag} test/__snapshots__/integration.test.js.snap > /dev/null) && echo '' || echo minor"
 				}
 			],
 			"@semantic-release/release-notes-generator",
