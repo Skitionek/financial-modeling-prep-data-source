@@ -1,0 +1,1555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`company_discounted_cash_flow {"arg":"AAPL"} 1`] = `
+Object {
+  "Stock Price": null,
+  "date": null,
+  "dcf": null,
+  "symbol": null,
+}
+`;
+
+exports[`company_historical_discounted_cash_flow {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "historicalDCF": Array [
+    Object {
+      "DCF": null,
+      "Stock Price": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`company_historical_discounted_cash_flow {"arg":"AAPL"} 1`] = `
+Object {
+  "historicalDCF": Array [
+    Object {
+      "DCF": null,
+      "Stock Price": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`company_key_metrics {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "metrics": Array [
+    Object {
+      "Average Inventory": null,
+      "Average Payables": null,
+      "Average Receivables": null,
+      "Book Value per Share": null,
+      "Capex per Share": null,
+      "Capex to Depreciation": null,
+      "Capex to Operating Cash Flow": null,
+      "Capex to Revenue": null,
+      "Cash per Share": null,
+      "Current ratio": null,
+      "Debt to Assets": null,
+      "Debt to Equity": null,
+      "Dividend Yield": null,
+      "EV to Free cash flow": null,
+      "EV to Operating cash flow": null,
+      "EV to Sales": null,
+      "Earnings Yield": null,
+      "Enterprise Value": null,
+      "Enterprise Value over EBITDA": null,
+      "Free Cash Flow Yield": null,
+      "Free Cash Flow per Share": null,
+      "Graham Net-Net": null,
+      "Graham Number": null,
+      "Income Quality": null,
+      "Intangibles to Total Assets": null,
+      "Interest Coverage": null,
+      "Interest Debt per Share": null,
+      "Invested Capital": null,
+      "Market Cap": null,
+      "Net Current Asset Value": null,
+      "Net Debt to EBITDA": null,
+      "Net Income per Share": null,
+      "Operating Cash Flow per Share": null,
+      "PB ratio": null,
+      "PE ratio": null,
+      "PFCF ratio": null,
+      "POCF ratio": null,
+      "PTB ratio": null,
+      "Payout Ratio": null,
+      "Price to Sales Ratio": null,
+      "R&D to Revenue": null,
+      "Revenue per Share": null,
+      "SG&A to Revenue": null,
+      "Shareholders Equity per Share": null,
+      "Stock-based compensation to Revenue": null,
+      "Tangible Asset Value": null,
+      "Tangible Book Value per Share": null,
+      "Working Capital": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`company_key_metrics {"arg":"AAPL"} 1`] = `
+Object {
+  "metrics": Array [
+    Object {
+      "Average Inventory": null,
+      "Average Payables": null,
+      "Average Receivables": null,
+      "Book Value per Share": null,
+      "Capex per Share": null,
+      "Capex to Depreciation": null,
+      "Capex to Operating Cash Flow": null,
+      "Capex to Revenue": null,
+      "Cash per Share": null,
+      "Current ratio": null,
+      "Days Payables Outstanding": null,
+      "Days Sales Outstanding": null,
+      "Days of Inventory on Hand": null,
+      "Debt to Assets": null,
+      "Debt to Equity": null,
+      "Dividend Yield": null,
+      "EV to Free cash flow": null,
+      "EV to Operating cash flow": null,
+      "EV to Sales": null,
+      "Earnings Yield": null,
+      "Enterprise Value": null,
+      "Enterprise Value over EBITDA": null,
+      "Free Cash Flow Yield": null,
+      "Free Cash Flow per Share": null,
+      "Graham Net-Net": null,
+      "Graham Number": null,
+      "Income Quality": null,
+      "Intangibles to Total Assets": null,
+      "Interest Coverage": null,
+      "Interest Debt per Share": null,
+      "Inventory Turnover": null,
+      "Invested Capital": null,
+      "Market Cap": null,
+      "Net Current Asset Value": null,
+      "Net Debt to EBITDA": null,
+      "Net Income per Share": null,
+      "Operating Cash Flow per Share": null,
+      "PB ratio": null,
+      "PE ratio": null,
+      "PFCF ratio": null,
+      "POCF ratio": null,
+      "PTB ratio": null,
+      "Payables Turnover": null,
+      "Payout Ratio": null,
+      "Price to Sales Ratio": null,
+      "R&D to Revenue": null,
+      "ROE": null,
+      "ROIC": null,
+      "Receivables Turnover": null,
+      "Return on Tangible Assets": null,
+      "Revenue per Share": null,
+      "SG&A to Revenue": null,
+      "Shareholders Equity per Share": null,
+      "Stock-based compensation to Revenue": null,
+      "Tangible Asset Value": null,
+      "Tangible Book Value per Share": null,
+      "Working Capital": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`company_profile {"arg":"AAPL"} 1`] = `
+Object {
+  "profile": Object {
+    "beta": null,
+    "ceo": null,
+    "changes": null,
+    "changesPercentage": null,
+    "companyName": null,
+    "description": null,
+    "exchange": null,
+    "image": null,
+    "industry": null,
+    "lastDiv": null,
+    "mktCap": null,
+    "price": null,
+    "range": null,
+    "sector": null,
+    "volAvg": null,
+    "website": null,
+  },
+  "symbol": null,
+}
+`;
+
+exports[`company_rating {"arg":"AAPL"} 1`] = `
+Object {
+  "rating": Object {
+    "rating": null,
+    "recommendation": null,
+    "score": null,
+  },
+  "ratingDetails": Object {
+    "D/E": Object {
+      "recommendation": null,
+      "score": null,
+    },
+    "DCF": Object {
+      "recommendation": null,
+      "score": null,
+    },
+    "P/B": Object {
+      "recommendation": null,
+      "score": null,
+    },
+    "P/E": Object {
+      "recommendation": null,
+      "score": null,
+    },
+    "ROA": Object {
+      "recommendation": null,
+      "score": null,
+    },
+    "ROE": Object {
+      "recommendation": null,
+      "score": null,
+    },
+  },
+  "symbol": null,
+}
+`;
+
+exports[`company_stock_list {} 1`] = `
+Object {
+  "symbolsList": Array [
+    Object {
+      "exchange": null,
+      "name": null,
+      "price": null,
+      "symbol": null,
+    },
+  ],
+}
+`;
+
+exports[`cryptocurrencies {} 1`] = `
+Object {
+  "cryptocurrenciesList": Array [
+    Object {
+      "changes": null,
+      "marketCapitalization": null,
+      "name": null,
+      "price": null,
+      "ticker": null,
+    },
+  ],
+}
+`;
+
+exports[`cryptocurrency {"arg":"BTC"} 1`] = `
+Object {
+  "changes": null,
+  "marketCapitalization": null,
+  "name": null,
+  "price": null,
+  "ticker": null,
+}
+`;
+
+exports[`enterprise_value {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "enterpriseValues": Array [
+    Object {
+      "+ Total Debt": null,
+      "- Cash & Cash Equivalents": null,
+      "Enterprise Value": null,
+      "Market Capitalization": null,
+      "Number of Shares": null,
+      "Stock Price": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`enterprise_value {"arg":"AAPL"} 1`] = `
+Object {
+  "enterpriseValues": Array [
+    Object {
+      "+ Total Debt": null,
+      "- Cash & Cash Equivalents": null,
+      "Enterprise Value": null,
+      "Market Capitalization": null,
+      "Number of Shares": null,
+      "Stock Price": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financial_ratios {"arg":"AAPL"} 1`] = `
+Object {
+  "ratios": Array [
+    Object {
+      "cashFlowIndicatorRatios": Object {
+        "capitalExpenditureCoverageRatios": null,
+        "cashFlowCoverageRatios": null,
+        "cashPerShare": null,
+        "dividendPayoutRatio": null,
+        "dividendpaidAndCapexCoverageRatios": null,
+        "freeCashFlowOperatingCashFlowRatio": null,
+        "freeCashFlowPerShare": null,
+        "operatingCashFlowPerShare": null,
+        "operatingCashFlowSalesRatio": null,
+        "payoutRatio": null,
+        "receivablesTurnover": null,
+        "shortTermCoverageRatios": null,
+      },
+      "date": null,
+      "debtRatios": Object {
+        "cashFlowToDebtRatio": null,
+        "companyEquityMultiplier": null,
+        "debtEquityRatio": null,
+        "debtRatio": null,
+        "interestCoverage": null,
+        "longtermDebtToCapitalization": null,
+        "totalDebtToCapitalization": null,
+      },
+      "investmentValuationRatios": Object {
+        "dividendYield": null,
+        "enterpriseValueMultiple": null,
+        "priceBookValueRatio": null,
+        "priceCashFlowRatio": null,
+        "priceEarningsRatio": null,
+        "priceEarningsToGrowthRatio": null,
+        "priceFairValue": null,
+        "priceSalesRatio": null,
+        "priceToBookRatio": null,
+        "priceToFreeCashFlowsRatio": null,
+        "priceToOperatingCashFlowsRatio": null,
+        "priceToSalesRatio": null,
+        "receivablesTurnover": null,
+      },
+      "liquidityMeasurementRatios": Object {
+        "cashConversionCycle": null,
+        "cashRatio": null,
+        "currentRatio": null,
+        "daysOfInventoryOutstanding": null,
+        "daysOfPayablesOutstanding": null,
+        "daysOfSalesOutstanding": null,
+        "operatingCycle": null,
+        "quickRatio": null,
+      },
+      "operatingPerformanceRatios": Object {
+        "assetTurnover": null,
+        "fixedAssetTurnover": null,
+        "inventoryTurnover": null,
+        "payablesTurnover": null,
+        "receivablesTurnover": null,
+      },
+      "profitabilityIndicatorRatios": Object {
+        "eBITperRevenue": null,
+        "eBTperEBIT": null,
+        "ebitperRevenue": null,
+        "ebtperEBIT": null,
+        "effectiveTaxRate": null,
+        "grossProfitMargin": null,
+        "nIperEBT": null,
+        "netProfitMargin": null,
+        "niperEBT": null,
+        "operatingProfitMargin": null,
+        "pretaxProfitMargin": null,
+        "returnOnAssets": null,
+        "returnOnCapitalEmployed": null,
+        "returnOnEquity": null,
+      },
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financial_statement_growth {"arg":"AAPL","period":"quarter"} 1`] = `
+Object {
+  "growth": Array [
+    Object {
+      "Asset Growth": null,
+      "Book Value per Share Growth": null,
+      "Debt Growth": null,
+      "Dividends per Share Growth": null,
+      "EBIT Growth": null,
+      "EPS Diluted Growth": null,
+      "EPS Growth": null,
+      "Free Cash Flow growth": null,
+      "Gross Profit Growth": null,
+      "Inventory Growth": null,
+      "Net Income Growth": null,
+      "Operating Cash Flow growth": null,
+      "Operating Income Growth": null,
+      "R&D Expense Growth": null,
+      "Receivables growth": null,
+      "SG&A Expenses Growth": null,
+      "Weighted Average Shares Diluted Growth": null,
+      "Weighted Average Shares Growth": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financial_statement_growth {"arg":"AAPL"} 1`] = `
+Object {
+  "growth": Array [
+    Object {
+      "10Y Dividend per Share Growth (per Share)": null,
+      "10Y Net Income Growth (per Share)": null,
+      "10Y Operating CF Growth (per Share)": null,
+      "10Y Revenue Growth (per Share)": null,
+      "10Y Shareholders Equity Growth (per Share)": null,
+      "3Y Dividend per Share Growth (per Share)": null,
+      "3Y Net Income Growth (per Share)": null,
+      "3Y Operating CF Growth (per Share)": null,
+      "3Y Revenue Growth (per Share)": null,
+      "3Y Shareholders Equity Growth (per Share)": null,
+      "5Y Dividend per Share Growth (per Share)": null,
+      "5Y Net Income Growth (per Share)": null,
+      "5Y Operating CF Growth (per Share)": null,
+      "5Y Revenue Growth (per Share)": null,
+      "5Y Shareholders Equity Growth (per Share)": null,
+      "Asset Growth": null,
+      "Book Value per Share Growth": null,
+      "Debt Growth": null,
+      "Dividends per Share Growth": null,
+      "EBIT Growth": null,
+      "EPS Diluted Growth": null,
+      "EPS Growth": null,
+      "Free Cash Flow growth": null,
+      "Gross Profit Growth": null,
+      "Inventory Growth": null,
+      "Net Income Growth": null,
+      "Operating Cash Flow growth": null,
+      "Operating Income Growth": null,
+      "R&D Expense Growth": null,
+      "Receivables growth": null,
+      "SG&A Expenses Growth": null,
+      "Weighted Average Shares Diluted Growth": null,
+      "Weighted Average Shares Growth": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_balance_sheet_statement {"arg":"AAPL","datatype":"csv"} 1`] = `null`;
+
+exports[`financials_balance_sheet_statement {"arg":"AAPL","period":"quater"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Cash and cash equivalents": null,
+      "Cash and short-term investments": null,
+      "Deferred revenue": null,
+      "Deposit Liabilities": null,
+      "Goodwill and Intangible Assets": null,
+      "Inventories": null,
+      "Investments": null,
+      "Long-term debt": null,
+      "Long-term investments": null,
+      "Net Debt": null,
+      "Other Assets": null,
+      "Other Liabilities": null,
+      "Other comprehensive income": null,
+      "Payables": null,
+      "Property, Plant & Equipment Net": null,
+      "Receivables": null,
+      "Retained earnings (deficit)": null,
+      "Short-term debt": null,
+      "Short-term investments": null,
+      "Tax Liabilities": null,
+      "Tax assets": null,
+      "Total assets": null,
+      "Total current assets": null,
+      "Total current liabilities": null,
+      "Total debt": null,
+      "Total liabilities": null,
+      "Total non-current assets": null,
+      "Total non-current liabilities": null,
+      "Total shareholders equity": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_balance_sheet_statement {"arg":"AAPL"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Cash and cash equivalents": null,
+      "Cash and short-term investments": null,
+      "Deferred revenue": null,
+      "Deposit Liabilities": null,
+      "Goodwill and Intangible Assets": null,
+      "Inventories": null,
+      "Investments": null,
+      "Long-term debt": null,
+      "Long-term investments": null,
+      "Net Debt": null,
+      "Other Assets": null,
+      "Other Liabilities": null,
+      "Other comprehensive income": null,
+      "Payables": null,
+      "Property, Plant & Equipment Net": null,
+      "Receivables": null,
+      "Retained earnings (deficit)": null,
+      "Short-term debt": null,
+      "Short-term investments": null,
+      "Tax Liabilities": null,
+      "Tax assets": null,
+      "Total assets": null,
+      "Total current assets": null,
+      "Total current liabilities": null,
+      "Total debt": null,
+      "Total liabilities": null,
+      "Total non-current assets": null,
+      "Total non-current liabilities": null,
+      "Total shareholders equity": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_cash_flow_statement {"arg":"AAPL","datatype":"csv"} 1`] = `null`;
+
+exports[`financials_cash_flow_statement {"arg":"AAPL","period":"quater"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Acquisitions and disposals": null,
+      "Capital Expenditure": null,
+      "Depreciation & Amortization": null,
+      "Dividend payments": null,
+      "Effect of forex changes on cash": null,
+      "Financing Cash Flow": null,
+      "Free Cash Flow": null,
+      "Investing Cash flow": null,
+      "Investment purchases and sales": null,
+      "Issuance (buybacks) of shares": null,
+      "Issuance (repayment) of debt": null,
+      "Net Cash/Marketcap": null,
+      "Net cash flow / Change in cash": null,
+      "Operating Cash Flow": null,
+      "Stock-based compensation": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_cash_flow_statement {"arg":"AAPL"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Acquisitions and disposals": null,
+      "Capital Expenditure": null,
+      "Depreciation & Amortization": null,
+      "Dividend payments": null,
+      "Effect of forex changes on cash": null,
+      "Financing Cash Flow": null,
+      "Free Cash Flow": null,
+      "Investing Cash flow": null,
+      "Investment purchases and sales": null,
+      "Issuance (buybacks) of shares": null,
+      "Issuance (repayment) of debt": null,
+      "Net Cash/Marketcap": null,
+      "Net cash flow / Change in cash": null,
+      "Operating Cash Flow": null,
+      "Stock-based compensation": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_income_statement {"arg":"AAPL","datatype":"csv"} 1`] = `null`;
+
+exports[`financials_income_statement {"arg":"AAPL","period":"quater"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Consolidated Income": null,
+      "Cost of Revenue": null,
+      "Dividend per Share": null,
+      "EBIT": null,
+      "EBIT Margin": null,
+      "EBITDA": null,
+      "EBITDA Margin": null,
+      "EPS": null,
+      "EPS Diluted": null,
+      "Earnings Before Tax Margin": null,
+      "Earnings before Tax": null,
+      "Free Cash Flow margin": null,
+      "Gross Margin": null,
+      "Gross Profit": null,
+      "Income Tax Expense": null,
+      "Interest Expense": null,
+      "Net Income": null,
+      "Net Income - Discontinued ops": null,
+      "Net Income - Non-Controlling int": null,
+      "Net Income Com": null,
+      "Net Profit Margin": null,
+      "Operating Expenses": null,
+      "Operating Income": null,
+      "Preferred Dividends": null,
+      "Profit Margin": null,
+      "R&D Expenses": null,
+      "Revenue": null,
+      "Revenue Growth": null,
+      "SG&A Expense": null,
+      "Weighted Average Shs Out": null,
+      "Weighted Average Shs Out (Dil)": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_income_statement {"arg":"AAPL"} 1`] = `
+Object {
+  "financials": Array [
+    Object {
+      "Consolidated Income": null,
+      "Cost of Revenue": null,
+      "Dividend per Share": null,
+      "EBIT": null,
+      "EBIT Margin": null,
+      "EBITDA": null,
+      "EBITDA Margin": null,
+      "EPS": null,
+      "EPS Diluted": null,
+      "Earnings Before Tax Margin": null,
+      "Earnings before Tax": null,
+      "Free Cash Flow margin": null,
+      "Gross Margin": null,
+      "Gross Profit": null,
+      "Income Tax Expense": null,
+      "Interest Expense": null,
+      "Net Income": null,
+      "Net Income - Discontinued ops": null,
+      "Net Income - Non-Controlling int": null,
+      "Net Income Com": null,
+      "Net Profit Margin": null,
+      "Operating Expenses": null,
+      "Operating Income": null,
+      "Preferred Dividends": null,
+      "Profit Margin": null,
+      "R&D Expenses": null,
+      "Revenue": null,
+      "Revenue Growth": null,
+      "SG&A Expense": null,
+      "Weighted Average Shs Out": null,
+      "Weighted Average Shs Out (Dil)": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`financials_income_statement {"arg":["FB","GOOG"]} 1`] = `
+Object {
+  "financialStatementList": Array [
+    Object {
+      "financials": Array [
+        Object {
+          "Consolidated Income": null,
+          "Cost of Revenue": null,
+          "Dividend per Share": null,
+          "EBIT": null,
+          "EBIT Margin": null,
+          "EBITDA": null,
+          "EBITDA Margin": null,
+          "EPS": null,
+          "EPS Diluted": null,
+          "Earnings Before Tax Margin": null,
+          "Earnings before Tax": null,
+          "Free Cash Flow margin": null,
+          "Gross Margin": null,
+          "Gross Profit": null,
+          "Income Tax Expense": null,
+          "Interest Expense": null,
+          "Net Income": null,
+          "Net Income - Discontinued ops": null,
+          "Net Income - Non-Controlling int": null,
+          "Net Income Com": null,
+          "Net Profit Margin": null,
+          "Operating Expenses": null,
+          "Operating Income": null,
+          "Preferred Dividends": null,
+          "Profit Margin": null,
+          "R&D Expenses": null,
+          "Revenue": null,
+          "Revenue Growth": null,
+          "SG&A Expense": null,
+          "Weighted Average Shs Out": null,
+          "Weighted Average Shs Out (Dil)": null,
+          "date": null,
+        },
+      ],
+      "symbol": null,
+    },
+  ],
+}
+`;
+
+exports[`forex {"arg":"EURUSD"} 1`] = `
+Object {
+  "ask": null,
+  "bid": null,
+  "changes": null,
+  "date": null,
+  "high": null,
+  "low": null,
+  "open": null,
+  "ticker": null,
+}
+`;
+
+exports[`forex {} 1`] = `
+Object {
+  "forexList": Array [
+    Object {
+      "ask": null,
+      "bid": null,
+      "changes": null,
+      "date": null,
+      "high": null,
+      "low": null,
+      "open": null,
+      "ticker": null,
+    },
+  ],
+}
+`;
+
+exports[`historical_chart {"arg":"%5EGSPC","interval":"5min"} 1`] = `
+Array [
+  Object {
+    "close": null,
+    "date": null,
+    "high": null,
+    "low": null,
+    "open": null,
+    "volume": null,
+  },
+]
+`;
+
+exports[`historical_chart {"arg":"AAPL","interval":"1min"} 1`] = `
+Array [
+  Object {
+    "close": null,
+    "date": null,
+    "high": null,
+    "low": null,
+    "open": null,
+    "volume": null,
+  },
+]
+`;
+
+exports[`historical_chart {"arg":"PRNT","interval":"30min"} 1`] = `
+Array [
+  Object {
+    "close": null,
+    "date": null,
+    "high": null,
+    "low": null,
+    "open": null,
+    "volume": null,
+  },
+]
+`;
+
+exports[`historical_chart {"arg":"ZGUSD","interval":"15min"} 1`] = `
+Array [
+  Object {
+    "close": null,
+    "date": null,
+    "high": null,
+    "low": null,
+    "open": null,
+    "volume": null,
+  },
+]
+`;
+
+exports[`historical_price_full {"arg":"%5EGSPC","group":"index"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","from":"2018-03-12","to":"2019-03-12"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","group":"stock_dividend"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjDividend": null,
+      "date": null,
+      "label": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","serietype":"line"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "close": null,
+      "date": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL","timeseries":5} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"AAPL"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"BTCUSD","group":"crypto"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"EDF.PA","group":"euronext"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"FNV.TO","group":"tsx"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+      "unadjustedVolume": null,
+      "volume": null,
+      "vwap": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"JMCRX","group":"mutual_fund"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"JMCRX","group":"stock_split"} 1`] = `Object {}`;
+
+exports[`historical_price_full {"arg":"JPYUSD","group":"forex"} 1`] = `
+Object {
+  "historical": Array [
+    Object {
+      "adjClose": null,
+      "change": null,
+      "changeOverTime": null,
+      "changePercent": null,
+      "close": null,
+      "date": null,
+      "high": null,
+      "label": null,
+      "low": null,
+      "open": null,
+    },
+  ],
+  "symbol": null,
+}
+`;
+
+exports[`historical_price_full {"arg":"PRNT","group":"stock_split"} 1`] = `Object {}`;
+
+exports[`historical_price_full {"arg":["FB","GOOG"]} 1`] = `
+Object {
+  "historicalStockList": Array [
+    Object {
+      "historical": Array [
+        Object {
+          "adjClose": null,
+          "change": null,
+          "changeOverTime": null,
+          "changePercent": null,
+          "close": null,
+          "date": null,
+          "high": null,
+          "label": null,
+          "low": null,
+          "open": null,
+          "unadjustedVolume": null,
+          "volume": null,
+          "vwap": null,
+        },
+      ],
+      "symbol": null,
+    },
+  ],
+}
+`;
+
+exports[`is_the_market_open {} 1`] = `
+Object {
+  "isTheStockMarketOpen": null,
+  "stockExchangeName": null,
+  "stockMarketHolidays": Array [
+    Object {
+      "Christmas": null,
+      "Good Friday": null,
+      "Independence Day": null,
+      "Labor Day": null,
+      "Martin Luther King, Jr. Day": null,
+      "Memorial Day": null,
+      "New Years Day": null,
+      "Thanksgiving Day": null,
+      "Washington's Birthday": null,
+      "year": null,
+    },
+  ],
+  "stockMarketHours": Object {
+    "closingHour": null,
+    "openingHour": null,
+  },
+}
+`;
+
+exports[`majors_indexes {"arg":".DJI"} 1`] = `
+Object {
+  "changes": null,
+  "indexName": null,
+  "price": null,
+  "ticker": null,
+}
+`;
+
+exports[`majors_indexes {} 1`] = `
+Object {
+  "majorIndexesList": Array [
+    Object {
+      "changes": null,
+      "indexName": null,
+      "price": null,
+      "ticker": null,
+    },
+  ],
+}
+`;
+
+exports[`quote {"arg":"HGUSD"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quote {"arg":["PRNT","DFVS","VQT"]} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"commodity"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"crypto"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"etf"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"forex"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"index"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"mutual_fund"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`quotes {"arg":"tsx"} 1`] = `
+Array [
+  Object {
+    "avgVolume": null,
+    "change": null,
+    "changesPercentage": null,
+    "dayHigh": null,
+    "dayLow": null,
+    "earningsAnnouncement": null,
+    "eps": null,
+    "exhange": null,
+    "marketCap": null,
+    "name": null,
+    "open": null,
+    "pe": null,
+    "previousClose": null,
+    "price": null,
+    "priceAvg200": null,
+    "priceAvg50": null,
+    "sharesOutstanding": null,
+    "symbol": null,
+    "timestamp": null,
+    "volume": null,
+    "yearHigh": null,
+    "yearLow": null,
+  },
+]
+`;
+
+exports[`search {"arg":"AA","limit":10,"exchange":"NASDAQ"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`stock {"arg":"actives"} 1`] = `
+Object {
+  "mostActiveStock": Array [
+    Object {
+      "changes": null,
+      "changesPercentage": null,
+      "companyName": null,
+      "price": null,
+      "ticker": null,
+    },
+  ],
+}
+`;
+
+exports[`stock {"arg":"gainers"} 1`] = `
+Object {
+  "mostGainerStock": Array [
+    Object {
+      "changes": null,
+      "changesPercentage": null,
+      "companyName": null,
+      "price": null,
+      "ticker": null,
+    },
+  ],
+}
+`;
+
+exports[`stock {"arg":"losers"} 1`] = `
+Object {
+  "mostLoserStock": Array [
+    Object {
+      "changes": null,
+      "changesPercentage": null,
+      "companyName": null,
+      "price": null,
+      "ticker": null,
+    },
+  ],
+}
+`;
+
+exports[`stock {"arg":"sectors-performance"} 1`] = `
+Object {
+  "sectorPerformance": Array [
+    Object {
+      "changesPercentage": null,
+      "sector": null,
+    },
+  ],
+}
+`;
+
+exports[`stock_real_time_price {"arg":"AAPL"} 1`] = `
+Object {
+  "price": null,
+  "symbol": null,
+}
+`;
+
+exports[`stock_real_time_price {"arg":["FB","GOOG"]} 1`] = `
+Object {
+  "companiesPriceList": Array [
+    Object {
+      "price": null,
+      "symbol": null,
+    },
+  ],
+}
+`;
+
+exports[`stock_real_time_price {} 1`] = `
+Object {
+  "stockList": Array [
+    Object {
+      "price": null,
+      "symbol": null,
+    },
+  ],
+}
+`;
+
+exports[`symbol {"arg":"available-commodities"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-cryptocurrencies"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-etfs"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-euronext"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-forex-currency-pairs"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-indexes"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-mutual-funds"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
+
+exports[`symbol {"arg":"available-tsx"} 1`] = `
+Array [
+  Object {
+    "currency": null,
+    "exchangeShortName": null,
+    "name": null,
+    "stockExchange": null,
+    "symbol": null,
+  },
+]
+`;
