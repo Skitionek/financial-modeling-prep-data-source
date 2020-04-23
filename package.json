@@ -1,6 +1,6 @@
 {
 	"name": "financial-modeling-prep-data-source",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "",
 	"main": "src",
 	"publishConfig": {
@@ -8,13 +8,13 @@
 	},
 	"release": {
 		"plugins": [
-			"@semantic-release/commit-analyzer",
 			[
 				"@semantic-release/exec",
 				{
 					"analyzeCommitsCmd": "(git diff-index --quiet ${lastRelease.gitTag} test/__snapshots__/integration.test.js.snap > /dev/null) && echo '' || echo minor"
 				}
 			],
+			"@semantic-release/commit-analyzer",
 			"@semantic-release/release-notes-generator",
 			[
 				"@semantic-release/npm",
