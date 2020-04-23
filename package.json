@@ -1,6 +1,6 @@
 {
 	"name": "financial-modeling-prep-data-source",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "src",
 	"publishConfig": {
@@ -26,15 +26,15 @@
 				"@semantic-release/exec",
 				{
 					"prepare": "echo 'registry=https://npm.pkg.github.com/skitionek' > .npmrc",
-				  "publish": "echo 'registry=https://npm.pkg.github.com/skitionek' > .npmrc"
+					"publish": "echo 'registry=https://npm.pkg.github.com/skitionek' > .npmrc"
 				}
 			],
-		  "@semantic-release/github",
+			"@semantic-release/github",
 			[
 				"@semantic-release/exec",
 				{
-				  "prepare": "rm .npmrc",
-				  "publish": "rm .npmrc"
+					"prepare": "rm .npmrc",
+					"publish": "rm .npmrc"
 				}
 			],
 			"@semantic-release/changelog",
