@@ -84,11 +84,7 @@
 		"semantic-release": "^17.0.7"
 	},
 	"dependencies": {
-		"apollo-datasource-rest": "^0.6.1",
-		"graphql": "^15.0.0"
-	},
-	"peerDependencies": {
-		"graphql": "^14.2.1"
+		"apollo-datasource-rest": "^0.6.1"
 	},
 	"jshintConfig": {
 		"node": true,
