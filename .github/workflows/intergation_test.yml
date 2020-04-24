@@ -16,7 +16,12 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm run test:integration
-      - uses: dhollerbach/github-action-send-message-to-ms-teams@1.0.10
+
+      - name: Notify Microsoft Teams
+        uses: Skitionek/notify-microsoft-teams@master
+        if: failure()
         with:
-          webhook: ${{ secrets.TEAMS_WEBHOOK }}
-          message: ${{ toJSON(job) }}
+          webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
+          needs: ${{ toJson(needs) }}
+          job: ${{ toJson(job) }}
+          steps: ${{ toJson(steps) }}
