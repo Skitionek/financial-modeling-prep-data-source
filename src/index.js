@@ -299,6 +299,4 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 	// }
 }
 
-console.log(new FinancialModelingPrepAPI().quotes_commodity())
-
 module.exports = FinancialModelingPrepAPI;
