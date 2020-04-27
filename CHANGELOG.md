@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.1...v1.0.2) (2020-04-27)
+
+
+### Bug Fixes
+
+* force bind this ([f144c2c](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/f144c2c89bc05e21af02d2e97e37bd16573a3c59))
+
 ## [1.0.1](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.0...v1.0.1) (2020-04-23)
 
 
