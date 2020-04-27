@@ -5,6 +5,7 @@
 */
 
 const { RESTDataSource } = require("apollo-datasource-rest");
+const autoBind = require('auto-bind');
 
 /**
  * The FinancialModelingPrep core module.
@@ -15,6 +16,7 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		this.baseURL = `https://financialmodelingprep.com/api/v3/`;
 		this.parse = this.parse.bind(this);
 		this.initialize(config || {});
+		autoBind(this);
 	}
 
 	async gep(...url) {
