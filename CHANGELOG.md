@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.2...v1.0.3) (2020-04-27)
+
+
+### Bug Fixes
+
+* always notify about new release ([21f76e2](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/21f76e22c920490860814c3a757a524479dcf638))
+
 ## [1.0.2](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.1...v1.0.2) (2020-04-27)
 
 
