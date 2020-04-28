@@ -1,4 +1,6 @@
 # financialModelingPrep
+![CI](https://github.com/Skitionek/financial-modeling-prep-data-source/workflows/CI/badge.svg)
+![Intergation test](https://github.com/Skitionek/financial-modeling-prep-data-source/workflows/Intergation%20test/badge.svg)
 
 This is a simple wrapper around the [financialModelingPrep API](https://www.financialModelingPrep.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/financialModelingPrep). I have no affiliation with financialModelingPrep.
 
