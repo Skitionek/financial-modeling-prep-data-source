@@ -11,7 +11,7 @@ const autoBind = require('auto-bind');
  * The FinancialModelingPrep core module.
  */
 class FinancialModelingPrepAPI extends RESTDataSource {
-	constructor(config) {
+	constructor(config) {//
 		super();
 		this.baseURL = `https://financialmodelingprep.com/api/v3/`;
 		this.parse = this.parse.bind(this);
