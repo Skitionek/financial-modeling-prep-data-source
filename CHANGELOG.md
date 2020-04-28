@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.4...v1.1.0) (2020-04-28)
+
+
+### Features
+
+* forcing major in CI cause in prev commit used wrong keyword ([1a50fa2](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/1a50fa2606a23010a7439cbdad26ee527468904c))
+
 ## [1.0.4](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.3...v1.0.4) (2020-04-27)
 
 
