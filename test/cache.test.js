@@ -7,7 +7,7 @@
 /* global performance*/
 
 import FinancialModelingPrepAPI from "../src";
-import * as variables from "./variable_sets";
+import * as variables from "../src/test-variable-sets";
 
 jest.setTimeout(30000);
 
