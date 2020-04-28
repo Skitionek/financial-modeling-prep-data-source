@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.3...v1.0.4) (2020-04-27)
+
+
+### Bug Fixes
+
+* get rid of forgotten console log ([11089ef](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/11089ef4bb55e3df9660a3f2b2f6b80cc2276e58))
+
 ## [1.0.3](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.2...v1.0.3) (2020-04-27)
 
 
