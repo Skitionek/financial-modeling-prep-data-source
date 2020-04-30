@@ -54,8 +54,16 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		return this.gep(`quote/${id}`)
 	}
 
-	async search(query, searchParams) {
-		return this.gep(`search`, { query, ...searchParams })
+	exchange_parameters = ["ETF" , "MUTUAL_FUND" , "COMMODITY" , "INDEX" , "CRYPTO" , "FOREX" , "TSX" , "AMEX" , "NASDAQ" , "NYSE" , "EURONEXT"];
+	async validate_search_exchange_parameter(exchange) {
+		if (!this.exchange_parameters.includes(exchange)) {
+			throw ReferenceError(`${exchange} is not valid, please select one of the following ${this.exchange_parameters}`)
+		}
+	}
+
+	async search(query, {exchange,...searchParams}) {
+		if (exchange) this.validate_search_exchange_parameter(exchange);
+		return this.gep(`search`, { query,exchange, ...searchParams })
 	}
 
 	async financials_income_statement(symbol, searchParams) {
