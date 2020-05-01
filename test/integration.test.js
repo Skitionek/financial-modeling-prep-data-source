@@ -21,7 +21,6 @@ describe.each(Object.keys(variables))("%s", key => {
 	it.each(varSets)("%j", async ({arg, ...varSet}) => {
 		const response = await fmpAPI[key](arg,varSet);
 		matchesSnapshot(response);
-		console.log(response)
 	});
 });
 

@@ -14,13 +14,25 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 	constructor(config) {//
 		super();
 		this.baseURL = `https://financialmodelingprep.com/api/v3/`;
-		this.parse = this.parse.bind(this);
 		this.initialize(config || {});
 		autoBind(this);
 	}
 
-	async gep(...url) {
-		return this.get(...url).then(this.parse)
+	encode_argument(arg) {
+		if (Array.isArray(arg)) {
+			return arg.length ? arg.map(encodeURI).join(',') : '';
+		}
+		return encodeURI(arg || '')
+	}
+
+	get(strings, ...params) {
+		const path = strings.reduce((o, n, i) => o + n + this.encode_argument(params[i]), '');
+		return (...rest) => super.get(path, ...rest)
+	}
+
+	async parseBody(response) {
+		const data = await super.parseBody(response);
+		return this.parse(data);
 	}
 
 	parse(data) {
@@ -44,83 +56,72 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 	}
 
 	async company_profile(symbol) {
-		return this.gep(`company/profile/${symbol}`)
+		return this.get`company/profile/${symbol}`()
 	}
 
 	async quote(id) {
-		if (Array.isArray(id)) {
-			id = id.join(',')
-		}
-		return this.gep(`quote/${id}`)
+		return this.get`quote/${id}`()
 	}
 
-	exchange_parameters = ["ETF" , "MUTUAL_FUND" , "COMMODITY" , "INDEX" , "CRYPTO" , "FOREX" , "TSX" , "AMEX" , "NASDAQ" , "NYSE" , "EURONEXT"];
+	exchange_parameters = ["ETF", "MUTUAL_FUND", "COMMODITY", "INDEX", "CRYPTO", "FOREX", "TSX", "AMEX", "NASDAQ", "NYSE", "EURONEXT"];
+
 	async validate_search_exchange_parameter(exchange) {
 		if (!this.exchange_parameters.includes(exchange)) {
-			throw ReferenceError(`${exchange} is not valid, please select one of the following ${this.exchange_parameters}`)
+			throw ReferenceError(URI`${exchange} is not valid, please select one of the following ${this.exchange_parameters}`)
 		}
 	}
 
-	async search(query, {exchange,...searchParams}) {
+	async search(query, { exchange, ...searchParams }) {
 		if (exchange) this.validate_search_exchange_parameter(exchange);
-		return this.gep(`search`, { query,exchange, ...searchParams })
+		return this.get`search`({ query, exchange, ...searchParams })
 	}
 
 	async financials_income_statement(symbol, searchParams) {
-		if (Array.isArray(symbol)) {
-			symbol = symbol.join(',')
-		}
-		return this.gep(`financials/income-statement/${symbol}`, searchParams)
+		return this.get`financials/income-statement/${symbol}`(searchParams)
 	}
 
 	async financials_balance_sheet_statement(symbol, searchParams) {
-		return this.gep(`financials/balance-sheet-statement/${symbol}`, searchParams)
+		return this.get`financials/balance-sheet-statement/${symbol}`(searchParams)
 	}
 
 	async financials_cash_flow_statement(symbol, searchParams) {
-		return this.gep(`financials/cash-flow-statement/${symbol}`, searchParams)
+		return this.get`financials/cash-flow-statement/${symbol}`(searchParams)
 	}
 
 	async financial_ratios(symbol) {
-		return this.gep(`financial-ratios/${symbol}`)
+		return this.get`financial-ratios/${symbol}`()
 	}
 
 	async enterprise_value(symbol, searchParams) {
-		return this.gep(`enterprise-value/${symbol}`, searchParams)
+		return this.get`enterprise-value/${symbol}`(searchParams)
 	}
 
 	async company_key_metrics(symbol, searchParams) {
-		if (Array.isArray(symbol)) {
-			symbol = symbol.join(',')
-		}
-		return this.gep(`company-key-metrics/${symbol}`, searchParams)
+		return this.get`company-key-metrics/${symbol}`(searchParams)
 	}
 
 	async financial_statement_growth(symbol, searchParams) {
-		return this.gep(`financial-statement-growth/${symbol}`, searchParams)
+		return this.get`financial-statement-growth/${symbol}`(searchParams)
 	}
 
 	async company_rating(symbol) {
-		return this.gep(`company/rating/${symbol}`)
+		return this.get`company/rating/${symbol}`()
 	}
 
 	async company_discounted_cash_flow(symbol) {
-		return this.gep(`company/discounted-cash-flow/${symbol}`)
+		return this.get`company/discounted-cash-flow/${symbol}`()
 	}
 
 	async company_historical_discounted_cash_flow(symbol, searchParams) {
-		return this.gep(`company/historical-discounted-cash-flow/${symbol}`, searchParams)
+		return this.get`company/historical-discounted-cash-flow/${symbol}`(searchParams)
 	}
 
 	async company_stock_list() {
-		return this.gep(`company/stock/list`)
+		return this.get`company/stock/list`()
 	}
 
 	async stock_real_time_price(symbol = '') {
-		if (Array.isArray(symbol)) {
-			symbol = symbol.join(',')
-		}
-		return this.gep(`stock/real-time-price/${symbol}`)
+		return this.get`stock/real-time-price/${symbol}`()
 	}
 
 	historical_chart_intervals = [
@@ -135,7 +136,7 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 
 	async historical_chart(id, { interval }) {
 		this.validate_historical_chart_interval(interval);
-		return this.gep(`historical-chart/${interval}/${id}`)
+		return this.get`historical-chart/${interval}/${id}`()
 	}
 
 	historical_price_full_serietypes = [
@@ -172,30 +173,30 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 		this.validate_historical_price_full_serietype(searchParams);
 		this.validate_historical_price_full_group(group);
 		const group_path = group ? group + '/' : '';
-		return this.gep(`historical-price-full/${group_path}${id}`, searchParams)
+		return this.get`historical-price-full/${group_path}${id}`(searchParams)
 	}
 
 	async majors_indexes(symbol = '') {
-		return this.gep(`majors-indexes/${symbol}`)
+		return this.get`majors-indexes/${symbol}`()
 	}
 
 	async quotes(id) {
-		return this.gep(`quotes/${id}`)
+		return this.get`quotes/${id}`()
 	}
 
 	async symbol_available_indexes() {
-		return this.gep(`symbol/available-indexes`)
+		return this.get`symbol/available-indexes`()
 	}
 
 
 	async quotes_commodity(commodity) {
-		return this.gep(`quotes/${commodity}`)
+		return this.get`quotes/${commodity}`()
 	}
 
 
 	async historical_chart_PRNT({ interval, PRNT }) {
 		this.validate_historical_chart_interval(interval);
-		return this.gep(`historical-chart/${interval}/${PRNT}`)
+		return this.get`historical-chart/${interval}/${PRNT}`()
 	}
 
 
@@ -211,19 +212,19 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 
 	async stock(group) {
 		this.validate_stock_groups(group);
-		return this.gep(`stock/${group}`)
+		return this.get`stock/${group}`()
 	}
 
 	async is_the_market_open() {
-		return this.gep(`is-the-market-open`)
+		return this.get`is-the-market-open`()
 	}
 
 	async cryptocurrencies() {
-		return this.gep(`cryptocurrencies`)
+		return this.get`cryptocurrencies`()
 	}
 
 	async cryptocurrency(symbol) {
-		return this.gep(`cryptocurrency/${symbol}`)
+		return this.get`cryptocurrency/${symbol}`()
 	}
 
 	symbol_groups = [
@@ -245,11 +246,11 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 
 	async symbol(group) {
 		this.validate_symbol_group(group);
-		return this.gep(`symbol/${group}`)
+		return this.get`symbol/${group}`()
 	}
 
 	async forex(currency_pair = '') {
-		return this.gep(`forex/${currency_pair}`)
+		return this.get`forex/${currency_pair}`()
 	}
 
 	// CompanySummary = {
