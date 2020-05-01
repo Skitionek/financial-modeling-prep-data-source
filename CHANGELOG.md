@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.1.0...v1.1.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* validate exchange params ([7a2954a](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/7a2954a618cc73feace1cacf7c49462a8d45f0bf))
+
 # [1.1.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.0.4...v1.1.0) (2020-04-28)
 
 
