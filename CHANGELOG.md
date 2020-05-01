@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.1.1...v1.2.0) (2020-05-01)
+
+
+### Bug Fixes
+
+* encode params in path (ex. '^' -> '%5E') ([7cdd1fc](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/7cdd1fca8a4fbb313c2c699cbd1232e577d7251f))
+* snapshots ([bd8238e](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/bd8238e67f1eca8295ffdbadb631a057faca0218))
+
 ## [1.1.1](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.1.0...v1.1.1) (2020-04-30)
 
 
