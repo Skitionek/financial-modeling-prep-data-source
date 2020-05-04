@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.2.0...v1.3.0) (2020-05-04)
+
+
+### Bug Fixes
+
+* compile to node 8 instead ([1631e25](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/1631e2542bc98fd574872752f1770c4dde7ff582))
+
 # [1.2.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.1.1...v1.2.0) (2020-05-01)
 
 
