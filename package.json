@@ -2,7 +2,10 @@
 	"name": "financial-modeling-prep-data-source",
 	"version": "1.2.0",
 	"description": "",
-	"main": "src",
+	"main": "lib",
+	"files": [
+		"lib"
+	],
 	"publishConfig": {
 		"access": "public"
 	},
@@ -71,33 +74,31 @@
 	"scripts": {
 		"start": "nodemon -e js --exec node --inspect src/index.js",
 		"prebuild": "npm run clean",
-		"clean": "rm src/index.js & rimraf lib & rimraf mocks || echo 'finished'",
+		"clean": "rimraf lib || echo 'finished'",
 		"test": "jest",
 		"test:integration": "npm test -- -i integration",
 		"test:cache": "npm test -- -i cache",
 		"test:watch": "npm test -- --watch",
 		"cover": "jest --coverage",
 		"lint": "eslint src test",
-		"build": "cross-env BABEL_ENV=production babel src --out-dir ./ --source-maps --ignore \"*.json\""
+		"build": "cross-env BABEL_ENV=production babel src --out-dir lib --source-maps"
 	},
-	"files": [
-		"src"
-	],
 	"devDependencies": {
-		"@babel/core": "^7.9.0",
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.6",
 		"@babel/plugin-proposal-class-properties": "^7.8.3",
 		"@babel/preset-env": "^7.9.5",
 		"@semantic-release/changelog": "^5.0.1",
-		"@semantic-release/git": "^9.0.0",
 		"@semantic-release/exec": "^5.0.0",
+		"@semantic-release/git": "^9.0.0",
 		"babel-jest": "^25.4.0",
 		"cross-env": "^6.0.0",
+		"graphql": "^15.0.0",
 		"jest": "^24.7.1",
 		"jsonic": "^0.3.1",
 		"lodash.merge": "^4.6.1",
 		"nodemon": "^2.0.0",
-		"semantic-release": "^17.0.7",
-		"graphql": "^15.0.0"
+		"semantic-release": "^17.0.7"
 	},
 	"dependencies": {
 		"apollo-datasource-rest": "^0.6.1",
@@ -167,7 +168,7 @@
 				"@babel/preset-env",
 				{
 					"targets": {
-						"node": "current"
+						"node": "8"
 					}
 				}
 			]
