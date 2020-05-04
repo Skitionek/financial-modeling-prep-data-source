@@ -1022,8 +1022,19 @@ Object {
     Object {
       "historical": Array [
         Object {
+          "adjClose": null,
+          "change": null,
+          "changeOverTime": null,
+          "changePercent": null,
           "close": null,
           "date": null,
+          "high": null,
+          "label": null,
+          "low": null,
+          "open": null,
+          "unadjustedVolume": null,
+          "volume": null,
+          "vwap": null,
         },
       ],
       "symbol": null,
