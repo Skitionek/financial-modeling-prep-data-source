@@ -42,7 +42,7 @@ export const company_historical_discounted_cash_flow = [
 	{ arg: 'AAPL' },
 	{ arg: 'AAPL', period: 'quarter' }
 ];
-export const company_stock_list = {};
+// export const company_stock_list = {};
 
 export const stock_real_time_price = [
 	{},
