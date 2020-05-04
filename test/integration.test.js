@@ -5,7 +5,7 @@
 */
 
 import FinancialModelingPrepAPI from "../src";
-import * as variables from "../src/test-variable-sets";
+import * as variables from "./test-variable-sets";
 import { matchesSnapshot } from "./utils";
 
 jest.setTimeout(30000);
