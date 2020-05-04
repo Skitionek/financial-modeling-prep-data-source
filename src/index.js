@@ -37,6 +37,7 @@ class FinancialModelingPrepAPI extends RESTDataSource {
 
 	parse(data) {
 		if (typeof data === 'string' || data instanceof String) {
+			if (data === '') return undefined;
 			const number_cast = Number(data);
 			return Number.isNaN(number_cast) ? data : number_cast
 		}
