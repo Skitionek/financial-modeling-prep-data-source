@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.3.0...v1.4.0) (2020-05-04)
+
+
+### Bug Fixes
+
+* do not return 0 for empty string ([458f795](https://github.com/Skitionek/financial-modeling-prep-data-source/commit/458f795365c90512f78ac65d4a84d2aaea830f63))
+
 # [1.3.0](https://github.com/Skitionek/financial-modeling-prep-data-source/compare/v1.2.0...v1.3.0) (2020-05-04)
 
 
