@@ -101,7 +101,7 @@
 		"semantic-release": "^17.0.7"
 	},
 	"dependencies": {
-		"apollo-datasource-rest": "^0.6.1",
+		"apollo-datasource-rest": "^0.9.2",
 		"auto-bind": "^4.0.0"
 	},
 	"jshintConfig": {
